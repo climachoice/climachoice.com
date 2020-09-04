@@ -56,7 +56,7 @@ but for border around the box, an :after pseudo-element has to be created */
 .head-list .bx-controls-direction {
 	bottom: 0; right: 0; 
 
-}
+} 
 
 
 /* -----------------------------------------------------------------

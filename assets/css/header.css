@@ -98,8 +98,12 @@
 	text-align: center; 
 } 
 
+.sell-points .text-content .heading { 
+	font-size: var( --sell-points-heading-font-size ); 
+}
+
 /* Sets site-header font size, spreading over site-title and open-nav-button */
-.site-header { 
+.header.site-header { 
 	font-size: var( --site-header-font-size ); 
 }
 

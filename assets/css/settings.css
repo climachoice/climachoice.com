@@ -1,6 +1,6 @@
 :root {
 	/* Font size in pixels to serve as the rem-units base  */
-	--base-font-size: 14px;
+	--base-font-size: 14px; 
 
 
 	/**
@@ -47,9 +47,11 @@
 	 */
 	
 	--text-font-family: Arial; 
+
+	--sell-points-heading-font-size: 2rem; 
 	
 	--heading-font-family: "Times New Roman"; 
-	--heading-font-size: 1.85rem; 
+	--heading-font-size: 1.8rem; 
 	--heading-line-height: 1.25; 
 
 	/* Points to the font, used by icons */

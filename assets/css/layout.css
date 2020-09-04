@@ -82,7 +82,7 @@ leaving some distance from window edges, achieving that by using transparent bor
 .details-link {
 	display: inline-block; 
 	padding: var( --button-padding-y) var( --button-padding-x ); 
-	border: 1px solid; 
+	border: 1px solid;  
 }
 
 /* Buttons are displayed as inline-block to adapt sizewise to their label */ 

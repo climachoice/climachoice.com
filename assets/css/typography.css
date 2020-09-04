@@ -43,7 +43,7 @@ body {
 /* Paragraph style */
 .text-entry {
 	font-family: Arial;
-	font-size: 1.2rem; 
+	font-size: 1rem; 
 	line-height: 1.4; 
 }
 
@@ -80,8 +80,13 @@ body {
 } */
 
 .button {
-	/* font-size: 1.85rem;  */
+	/* font-size: 3.85rem;  */
 	text-transform: uppercase; 
+} 
+
+.details-link { 
+	font-size: 1rem; 
+
 }
 
 
