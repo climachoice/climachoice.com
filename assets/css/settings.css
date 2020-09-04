@@ -26,7 +26,7 @@
 
 
 	/**
-	 * "Read More" Button 
+	 * General heading and text distance 
 	 */
 
 	--heading-margin-bottom: 1.5rem; 
@@ -34,11 +34,12 @@
 
 
 	/**
-	 * "Read More" Button 
+	 * Header vertical distances 
 	 */
 
-	--header-head-list-padding-top: 4rem; 
-	--header-head-list-padding-bottom: calc( var( --header-head-list-padding-top ) + 1.25rem ); 
+	--head-list-padding-y: 8rem;
+	--head-list-text-padding-top: 4rem; 
+	--head-list-text-padding-bottom: calc( var( --head-list-text-padding-top ) + 1.25rem ); 
 
 
 	/**
