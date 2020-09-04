@@ -29,6 +29,15 @@ body {
 	font-weight: bold; 
 	line-height: var( --heading-line-height ); 
 	text-transform: uppercase; 
+} 
+
+.section-heading:before { 
+	display: block; 
+	width: 7rem; height: 2px; 
+	margin-left: auto; margin-right: auto; margin-bottom: 2.5rem; 
+	background-color: #444; 
+	content: ""; 
+
 }
 
 /* Paragraph style */

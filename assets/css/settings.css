@@ -92,7 +92,7 @@
 
 	/* Offer list text box width, taken out of scope to be available to other sections */
 	--text-box-width: 40rem; 
-	--text-box-border-right: calc( var( --max-content-width ) - var( --text-box-width ) ); 
+	--text-box-border-right: 0; 
 	--text-box-color: darkgoldenrod; 
 
 

@@ -6,35 +6,46 @@
 	{% if data.head %}	
 		{% assign head = data.head %} 
 
-		{% if head.heading %}
-			{% include heading.html 
-				className = "section-heading" 
-				level = 2 
-				text = head.heading.text 
-			%} 
-		{% endif %} 
+		<section class= "head"> 
+			{% capture text-content %}
+				{% if head.heading %}
+					{% include heading.html 
+						className = "section-heading" 
+						level = 2 
+						text = head.heading.text 
+					%} 
+				{% endif %} 
 
-		{% if head.text %}
-			{% include text.html 
-				className = "section-text-entry" 
-				data = head.text 
-			%} 
-		{% endif %} 
+				{% if head.text %}
+					{% include text.html 
+						className = "section-text-entry" 
+						data = head.text 
+					%} 
+				{% endif %} 
 
-		{% if head.image %} 
-			{% include cover-image.html 
-				className = "section-image" 
-				data = head.image 
-			%} 
-		{% endif %} 
+				{% if head.link %} 
+					{% include link.html 
+						className = "details-link" 
+						text = "Read More" 
+					%} 
+				{% endif %} 
+			{% endcapture %} 
 
-		{% if head.link %} 
-			{% include link.html 
-				className = "details-link" 
-				text = "Read More" 
-			%} 
-		{% endif %}
-	{% endif %}
+			{% if head.image %} 
+				<section class= "text-content">
+					{{ text-content }}
+				</section>
+
+				{% include cover-image.html 
+					className = "section-image" 
+					data = head.image 
+				%} 
+			{% else %} 
+				{{ text-content }}
+			{% endif %} 
+
+		</section>
+	{% endif %} 
 
 	{% if data.body %} 
 		{% assign body = data.body %}

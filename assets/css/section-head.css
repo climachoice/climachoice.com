@@ -3,8 +3,12 @@
 ----------------------------------------------------------------- */
 
 .head {
+	width: var( --max-content-width ); 
+	margin-left: auto; margin-right: auto; 
 	/* Giving space around the text content */
-	padding-top: 7.5rem; padding-bottom: 0rem; 
+	padding-top: 2.5rem; padding-bottom: 2.5rem; 
+	padding-left: 4rem; padding-right: 4rem; 
+	position: relative; 
 }
 
 /* Text content is pulled to the right */
@@ -18,21 +22,22 @@
 
 
 .head .text-content {
-	box-sizing: border-box; 
+	box-sizing: border-box;  
 
 	/* Text content is centered */
 	max-width: var( --max-content-width ); margin-left: auto; margin-right: auto; 
 	
 	/* When text content has a box around */ 
-	padding: 5rem; 
+	/* padding: 5rem;  */
+	padding-top: 5rem; padding-bottom: 5rem; 
 	/* padding-top: 5rem; 
 	padding-bottom: 5rem; 
 	padding-left: 8.5rem;
 	padding-right: 8.5rem;  */
 	/* When the box is not as wide as the content area and on the left */
-	border-style: solid; border-color: transparent; 
+	/* border-style: solid; border-color: transparent; 
 	border-right-width: var( --text-box-border-right );  
-	background-clip: padding-box; 
+	background-clip: padding-box;  */ 
 
 	position: relative; top: 0rem; 
 	z-index: 1; 
@@ -45,39 +50,30 @@
 
 /* A background is possible to be set on the text content box itself, 
 but for border around the box, an :after pseudo-element has to be created */
-.head .text-content:after {
+/* .head .text-content:after {
 	box-sizing: border-box; 
 	display: block; 
 	width: 100%; height: 100%; 
 	position: absolute; left: 0; top: 0;
 	z-index: -1; 
-	/* border-style: solid; border-width: 1px;  */
 	content: "";
-}
+} */
 
 /* Images are absolutely positioned for easier change of position */
-.head > .image, .head > .image-set {
-	width: 100%; height: 80%; 
-	position: absolute; left: 0; top: 0; 
+.head > .cover-image { 
+	width: 100%; height: 100%; height: 20rem; 
+	/* position: absolute; left: 0; top: 0;  */
 	background-size: cover; 
-}
-
-/* Lays out images in image sets */
-.head > .image-set {
-	display: flex; flex-direction: row; 
-}
-
-/* Gives size to images in image sets */
-.head > .image-set .image {
-	width: calc( ( 100% - 0.4rem ) / 2 ); height: 100%; 
-	margin-right: 0.75rem; 
-	position: relative;
-}
+} 
 
 
 /* -----------------------------------------------------------------
 	Typography
------------------------------------------------------------------ */
+----------------------------------------------------------------- */ 
+
+.head { 
+	text-align: center; 
+}
 
 
 
