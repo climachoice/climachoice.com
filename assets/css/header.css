@@ -65,16 +65,21 @@
  * Navigation visibility control buttons 
  */ 
 
+ .main-nav .nav { 
+	width: 0; height: 0; overflow: hidden; 
+ }
+
 .main-nav .button {
-	display: none;  
+	/* display: none;   */ 
 	width: var( --header-height ); height: var( --header-height ); 	
 	position: relative; 
 	border: none; 
 }
 
-/* .close-nav-button {
+.close-nav-button { 
+	/* display: none;  */ 
 	position: fixed; 
-} */
+}
 
 /* Navigation link clickable sizing */
 .main-nav .nav-link {
@@ -138,7 +143,7 @@
 
 .open-nav-button, 
 .close-nav-button { 
-	color: var( --text-color ); 
+	/* color: var( --text-color );  */
 	background-color: transparent; 
 }
 
