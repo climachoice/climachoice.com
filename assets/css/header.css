@@ -96,15 +96,27 @@
 .header { 
 	text-align: center; 
 
+} 
+
+/* Sets site-header font size, spreading over site-title and open-nav-button */
+.site-header { 
+	font-size: 1.2rem; 
+}
+
+/* Ensures overriding the default heading and button styles of site-title and open-nav-button */
+.site-title, 
+.site-header .button { 
+	font-size: inherit; 
+} 
+
+/* Sets a multiplier for inherited open-nav-button font size to give it about the same size as site title size */ 
+.site-header .button { 
+	font-size: 1.55em; 
 }
 
 .site-title, 
 .main-nav .nav-link {
 	text-transform: uppercase; 
-}
-
-.site-title {
-	font-size: 1.2rem; 
 }
 
 .main-nav .nav-link {

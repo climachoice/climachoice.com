@@ -34,7 +34,7 @@ body {
 .text-entry {
 	font-family: Arial;
 	font-size: 1.2rem; 
-	line-height: 1.8; 
+	line-height: 1.4; 
 }
 
 
@@ -45,6 +45,7 @@ body {
 /* Pseudo-element, used as a placeholder for the icon */
 .button:before { 
 	font-family: var( --icon-font-family ); 
+	font-size: 1em; 
 	text-indent: 0; 
 }
 
@@ -69,7 +70,7 @@ body {
 } */
 
 .button {
-	font-size: 1.85rem; 
+	/* font-size: 1.85rem;  */
 	text-transform: uppercase; 
 }
 

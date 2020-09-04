@@ -67,7 +67,7 @@
 	--content-push-inward: calc( ( 100% - var( --max-content-width ) ) / 2 ); 
 
 	/* For use when header is placed over slider */
-	--header-height: 5rem; 
+	--header-height: 2.5rem; 
 	--header-margin-top: 2rem; 
 
 	/* Offer list text box width, taken out of scope to be available to other sections */

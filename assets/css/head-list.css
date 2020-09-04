@@ -26,7 +26,7 @@
 	max-width: var( --max-content-width ); margin-left: auto; margin-right: auto; 
 	
 	/* When text content has a box around */ 
-	padding-top: 4rem; 
+	padding-top: 3rem; 
 	padding-bottom: 4rem; 
 	padding-left: 4rem;
 	padding-right: 4rem; 
