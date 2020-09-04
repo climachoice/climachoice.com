@@ -26,6 +26,7 @@ body {
 .heading {
 	font-family: var( --heading-font-family ); 
 	font-size: var( --heading-font-size ); 
+	font-weight: bold; 
 	line-height: var( --heading-line-height ); 
 	text-transform: uppercase; 
 }

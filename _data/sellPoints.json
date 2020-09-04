@@ -6,7 +6,7 @@
 		"entries": [ 
 			{ 
 				"heading": { 
-					"text": "Slide Heading 1"
+					"text": "Заглавие на слайд 1"
 				}, 
 				"text": [ 
 					{ 
@@ -25,7 +25,7 @@
 
 			{ 
 				"heading": { 
-					"text": "Slide Heading 2"
+					"text": "Заглавие на слайд 2"
 				}, 
 				"text": [ 
 					{ 
@@ -44,7 +44,7 @@
 
 			{ 
 				"heading": { 
-					"text": "Slide Heading 3"
+					"text": "Заглавие на слайд 3"
 				}, 
 				"text": [ 
 					{ 

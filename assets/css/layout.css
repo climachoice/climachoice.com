@@ -1,12 +1,15 @@
 /* Separates paragraph or paragraphs visually from headings and buttons */
-.heading, 
-.text-entry:last-of-type {
-	margin-bottom: 1.8rem; 
+.heading {
+	margin-bottom: var( --heading-margin-bottom ); 
+} 
+
+.text-entry:last-of-type { 
+	margin-bottom: var( --text-margin-bottom ); 
 }
 
 /* Paragraphs distance */
 .text-entry {
-	margin-bottom: 1.2rem;
+	margin-bottom: 1.2rem; 
 }
 
 /* Removes bottom margin from paragraphs, that have no adjacent elements */
