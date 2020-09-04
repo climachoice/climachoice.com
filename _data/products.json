@@ -1,7 +1,7 @@
 { 
 	"head": {
 		"heading": { 
-			"text": "Products"
+			"text": "Нашите продукти" 
 		}, 
 		
 		"text": [ 
@@ -18,43 +18,29 @@
 		"entries": [ 
 			{ 
 				"heading": { 
-					"text": "Air Conditioners Office"
+					"text": "Климатици" 
 				}, 
 				"text": [ 
 					{ 
-						"text": "Pellentesque odio velit, pharetra nec venenatis eu, gravida vel velit. In hac habitasse platea dictumst. In pulvinar purus vel eleifend bibendum. Mauris vitae nibh ut enim euismod luctus vitae nec nulla. Duis tempor porttitor vulputate. Curabitur eget tincidunt massa." 
+						"text": "Pellentesque odio velit, pharetra nec venenatis eu, gravida vel velit. In hac habitasse platea dictumst. In pulvinar purus vel eleifend bibendum." 
 					}
 				], 
 				"link": { 
-					"text": "Read More" 
+					"text": "Прочетете повече" 
 				}
 			}, 
 
 			{ 
 				"heading": { 
-					"text": "Air Conditioners Home" 
+					"text": "Термопомпи" 
 				}, 
 				"text": [ 
 					{ 
-						"text": "Pellentesque odio velit, pharetra nec venenatis eu, gravida vel velit. In hac habitasse platea dictumst. In pulvinar purus vel eleifend bibendum. Mauris vitae nibh ut enim euismod luctus vitae nec nulla. Duis tempor porttitor vulputate. Curabitur eget tincidunt massa." 
+						"text": "Pellentesque odio velit, pharetra nec venenatis eu, gravida vel velit. In hac habitasse platea dictumst. In pulvinar purus vel eleifend bibendum." 
 					}
 				], 
 				"link": { 
-					"text": "Read More" 
-				}
-			}, 
-
-			{ 
-				"heading": { 
-					"text": "Thermopumps"
-				}, 
-				"text": [ 
-					{ 
-						"text": "Pellentesque odio velit, pharetra nec venenatis eu, gravida vel velit. In hac habitasse platea dictumst. In pulvinar purus vel eleifend bibendum. Mauris vitae nibh ut enim euismod luctus vitae nec nulla. Duis tempor porttitor vulputate. Curabitur eget tincidunt massa." 
-					}
-				], 
-				"link": { 
-					"text": "Read More" 
+					"text": "Прочетете повече" 
 				}
 			}
 

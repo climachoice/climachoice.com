@@ -6,7 +6,8 @@
 	width: var( --max-content-width ); 
 	margin-left: auto; margin-right: auto; 
 	/* Giving space around the text content */
-	padding-top: 2.5rem; padding-bottom: 2.5rem; 
+	/* padding-top: 2.5rem;  */ 
+	/* padding-bottom: 2.5rem;   */
 	padding-left: 4rem; padding-right: 4rem; 
 	position: relative; 
 }
@@ -29,7 +30,8 @@
 	
 	/* When text content has a box around */ 
 	/* padding: 5rem;  */
-	padding-top: 5rem; padding-bottom: 5rem; 
+	/* padding-top: 5rem;  */ 
+	margin-bottom: 2.5rem;  
 	/* padding-top: 5rem; 
 	padding-bottom: 5rem; 
 	padding-left: 8.5rem;

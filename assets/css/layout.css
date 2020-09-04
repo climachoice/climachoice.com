@@ -22,7 +22,7 @@
 leaving some distance from window edges, achieving that by using transparent borders */
 .header, 
 .section {
-	box-sizing: border-box; 
+	/* box-sizing: border-box;  */ 
 	max-width: var( --max-page-width ); margin-left: auto; margin-right: auto; 
 	border-style: solid; border-color: transparent; 
 	border-left-width: var( --content-padding-left ); border-right-width: var( --content-padding-right ); 
@@ -45,8 +45,16 @@ leaving some distance from window edges, achieving that by using transparent bor
 }
 
 /* Defines distance between sections */
-.section {
-	margin-bottom: 2rem; 
+/* .section {
+	margin-bottom: 4rem; 
+} */ 
+
+.section .head { 
+	margin-bottom: 2.5rem; 
+} 
+
+.section { 
+	margin-top: 5rem; 
 }
 
 /* Usability headings are not a visual part of the page */

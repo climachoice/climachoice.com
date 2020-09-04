@@ -1,7 +1,7 @@
 { 
 	"head": {
 		"heading": { 
-			"text": "Questions" 
+			"text": "Често задавани въпроси" 
 		}, 
 
 		"text": [ 
@@ -12,7 +12,7 @@
 
 		"link": {
 			"target": "", 
-			"text": "Read more" 
+			"text": "Прочетете повече" 
 		}, 
 
 		"image": { 

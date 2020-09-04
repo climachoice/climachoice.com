@@ -4,14 +4,14 @@
 
 /* CSS variables, setting number of columns and gutter sizes between them */
 .products-entry-list {
-	--visible-column-count: 3; 
+	--visible-column-count: 2; 
 	--visisble-column-gutter-count: calc( var( --visible-column-count ) - 1 );
 	--column-gutter-x: 0.5rem; 
 	--column-gutter-y: var( --column-gutter-x ); 
 	--feature-entry-width: calc( ( 100% - var( --visisble-column-gutter-count ) * var( --column-gutter-x ) ) / var( --visible-column-count ) ); 
 } 
 
-.products-entry:nth-child( 3n + 3 ) { 
+.products-entry:nth-child( 2n + 2 ) { 
 	margin-right: 0; 
 }
 
@@ -61,7 +61,7 @@
 
 	/* Defines vertical distance between entries */ 
 	margin-right: var( --column-gutter-x ); 
-	margin-bottom: var( --column-gutter-y ); 
+	/* margin-bottom: var( --column-gutter-y );  */ 
 	position: relative;  
 } 
 
@@ -126,10 +126,10 @@
 	text-align: center; 
 }
 
-.products-entry:before {
+/* .products-entry:before {
 	font-family: var( --icon-font-family );
 	content: ""; 
-}
+} */
 
 .products-entry .text {
 	font-size: 14px; 
