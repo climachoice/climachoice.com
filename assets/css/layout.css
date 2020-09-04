@@ -26,9 +26,9 @@ leaving some distance from window edges, achieving that by using transparent bor
 }
 
 /* Not full width sections */
-.header {
+/* .header {
 	max-width: var( --max-content-width ); 
-}
+} */
 
 /* Full width sections, without leaving distance from window edges */
 .sell-points {

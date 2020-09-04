@@ -20,14 +20,11 @@
 	{% endif %} 
 {% endcapture %} 
 
-{% if block.textContent %} 
+{% if block.image %} 
 	<section class= "text-content"> 
 		{{ text-content }} 
 	</section>
+	{% include cover-image.html data = block.image %}
 {% else %} 
 	{{ text-content }} 
-{% endif %}
-
-{% if block.image %}
-	{% include cover-image.html data = block.image %} 
 {% endif %}

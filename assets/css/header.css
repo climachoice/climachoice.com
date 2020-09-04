@@ -3,7 +3,7 @@
 ----------------------------------------------------------------- */
 
 /* Direct descendant elements of header and main navigation are horizontally aligned */
-.header, 
+/* .header,  */
 .main-nav .nav-entry-list {
 	display: flex; align-items: center; 
 }
@@ -18,7 +18,7 @@
 
 	/* Sizes header to match slider text box */
 	box-sizing: border-box; 
-	max-width: var( --max-content-width ); 
+	/* max-width: var( --max-content-width );  */ 
 	/* border-right-width: var( --text-box-border-right ); */
 	/* padding-left: var( --content-padding-left );
 	/* Takes care of header background */
@@ -32,6 +32,13 @@
 
 	/* Pulls header in front of slider */
 	position: relative; z-index: 2;  
+
+	border-left-width: 0; border-right-width: 0; 
+} 
+
+.site-header { 
+	display: flex; flex-direction: row-reverse; align-items: center; 
+
 }
 
 /* Gives distance between ID and main navigation */
@@ -79,7 +86,12 @@
 
 /* -----------------------------------------------------------------
 	Typography
------------------------------------------------------------------ */
+----------------------------------------------------------------- */ 
+
+.header { 
+	text-align: center; 
+
+}
 
 .site-title, 
 .main-nav .nav-link {
@@ -112,7 +124,12 @@
 
 /* -----------------------------------------------------------------
 	Color
------------------------------------------------------------------ */
+----------------------------------------------------------------- */ 
+
+.header { 
+	color: #EEE; 
+
+}
 
 .nav-link:hover {
 	color: #EEE; 
