@@ -10,18 +10,7 @@
 				}
 			]
 
-		}, 
-
-		{ 
-			"entries": [ 
-				{
-					"key": "office", 
-					"value": "email@example.com" 
-				}
-			]
-
-		}
-
+		} 
 	]
 
 }

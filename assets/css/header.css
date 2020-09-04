@@ -38,6 +38,7 @@
 
 .site-header { 
 	display: flex; flex-direction: row-reverse; align-items: center; 
+	margin-top: var( --header-margin-top ); margin-bottom: var( --header-margin-bottom ); 
 
 }
 
