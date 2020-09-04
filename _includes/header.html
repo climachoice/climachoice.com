@@ -1,12 +1,28 @@
-<header class= "header"> 
+{% assign sellPoints = include.data %} 
+{% assign points = sellPoints.entries %}
 
-	{% include id.html data = site.data.company.id %} 
 
-	{% include main-nav.html data = site.data.mainNav %} 
+<header class= "header page-header"> 
 
-	{% include quick-contact.html 
-		className = "quick-contact" 
-		data = site.data.quickContact 
-	%} 
+	<ul class= "entry-list head-list">
+		{% for point in points %} 
+			<li class= "entry head-entry"> 
+				<header class= "header site-header"> 
+					{% include id.html data = site.data.company.id %} 
+					{% include main-nav.html data = site.data.mainNav %}  
+				</header> 
+
+				{% include block.html 
+					level = 2 
+					data = point 
+				%} 
+
+				{% include quick-contact.html 
+					className = "quick-contact" 
+					data = site.data.quickContact 
+				%} 
+			</li>
+		{% endfor %} 
+	</ul>
 
 </header>

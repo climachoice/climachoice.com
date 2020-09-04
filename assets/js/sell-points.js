@@ -1,6 +1,6 @@
 ( function() {
 	// Initializes main slider
-	$( '.sell-points-entry-list' ).bxSlider( { 
+	$( '.header .head-list' ).bxSlider( { 
 		auto: true, 
 		autoStart: true, 
 		infiniteLoop: true, 
