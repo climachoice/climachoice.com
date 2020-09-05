@@ -88,6 +88,7 @@ leaving some distance from window edges, achieving that by using transparent bor
 /* Buttons are displayed as inline-block to adapt sizewise to their label */ 
 .button {
 	display: inline-block;  
+	position: relative; 
 	border: 1px solid; 
 	cursor: pointer; 
 }

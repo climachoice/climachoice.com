@@ -141,4 +141,4 @@
 	button.on( 'mouseenter', mouseOverBehaviour );
 	button.on( 'mouseleave', mouseOutBehaviour );
 
-}( $( '.scroll-to-top' ), '.header', 'visible', 1000, 1000 ) );
+}( $( '.scroll-to-top, .footer-scroll-to-top' ), '.header', 'visible', 1000, 1000 ) ); 	
