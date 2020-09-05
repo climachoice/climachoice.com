@@ -3,7 +3,13 @@
 		"heading": { 
 			"text": "Our Contacts" 
 		}, 
-		"text": [] 
+		"text": [ 
+			{
+				"text": "Fusce semper porttitor libero, in pretium libero sollicitudin nec. Praesent euismod porttitor consequat. Nunc arcu enim, dictum in scelerisque ut, viverra ut nisi. Vivamus et mauris venenatis, gravida justo vitae, aliquam ante." 
+
+			}
+
+		] 
 	}, 
 
 	"body": { 
@@ -13,15 +19,22 @@
 			{ 
 				"className": "address", 
 
+				"subheading": {
+					"text": "Our"
+				}, 
 				"heading": {
 					"text": "Address"
 				}, 
 				"text": [
 					{ 
-						"text": "Address Text"
+						"text": "Praesent mollis lectus rhoncus ipsum congue, vitae feugiat ex imperdiet. Vestibulum dictum nisi facilisis dolor fermentum, ac maximus turpis mollis."
 
 					}
 				], 
+				"image": { 
+					"src": "", 
+					"alt": ""
+				}, 
 
 				"entries": [ 
 					{
@@ -46,15 +59,22 @@
 			{ 
 				"className": "phone", 
 
+				"subheading": {
+					"text": "Our"
+				}, 
 				"heading": {
 					"text": "Phone"
 				}, 
 				"text": [
 					{ 
-						"text": "Phone Text"
+						"text": "Nunc arcu enim, dictum in scelerisque ut, viverra ut nisi. Vivamus et mauris venenatis, gravida justo vitae, aliquam ante."
 
 					}
 				], 
+				"image": { 
+					"src": "", 
+					"alt": ""
+				}, 
 
 				"entries": [ 
 					{
@@ -69,15 +89,22 @@
 			{ 
 				"className": "email", 
 
+				"subheading": {
+					"text": "Our" 
+				}, 
 				"heading": {
 					"text": "Email"
 				}, 
 				"text": [
 					{ 
-						"text": "Email Text"
+						"text": "Vestibulum dictum nisi facilisis dolor fermentum, ac maximus turpis mollis. Integer eleifend dignissim eros, vitae rutrum urna malesuada in." 
 		
 					}
 				], 
+				"image": { 
+					"src": "", 
+					"alt": ""
+				}, 
 		
 				"entries": [ 
 					{

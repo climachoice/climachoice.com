@@ -4,15 +4,19 @@
 
 {% for contact in contacts %} 
 
-	{% assign className = "" %} 
-	{% if contact.className %} 
-		{% assign className = " " | append: contact.className %} 
-	{% endif %}
+	<article class= "entry {{ include.className }}"> 
 
-	<article class= "entry{{ className }}"> 
+		{% if contact.subheading %}
+			{% include heading.html 
+				className = "subheading" 
+				level = 5 
+				text = contact.subheading.text 
+			%} 
+		{% endif %}
 
 		{% if contact.heading %}
 			{% include heading.html 
+				className = "contact-heading" 
 				level = data.level 
 				text = contact.heading.text 
 			%} 
@@ -20,6 +24,10 @@
 
 		{% if contact.text %}
 			{% include text.html data = contact.text %} 
+		{% endif %} 
+
+		{% if contact.image %} 
+			{% include cover-image.html data = contact.image %} 
 		{% endif %}
 		
 		{% include key-value-pair-list.html data = contact.entries %} 

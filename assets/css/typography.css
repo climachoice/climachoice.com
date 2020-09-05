@@ -31,10 +31,15 @@ body {
 	text-transform: uppercase; 
 } 
 
+.subheading { 
+	font-size: calc( var( --heading-font-size ) * 0.585 ); 
+
+}
+
 .section-heading:before { 
 	display: block; 
 	width: 7rem; height: 2px; 
-	margin-left: auto; margin-right: auto; margin-bottom: 2.5rem; 
+	margin-left: auto; margin-right: auto; margin-bottom: 3.5rem; 
 	background-color: #444; 
 	content: ""; 
 

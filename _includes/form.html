@@ -21,5 +21,5 @@
 		</label>
 	{% endfor %} 
 
-	<button type= "submit" class= "submit-button">{{ data.submit.text }}</button> 
+	{% include button.html type= "submit" className= "submit-button" text = data.submit.text %} 
 </form>

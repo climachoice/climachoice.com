@@ -31,6 +31,7 @@
 
 	--heading-margin-bottom: 1.5rem; 
 	--text-margin-bottom: calc( var( --heading-margin-bottom ) * 1.4 ); 
+	--subheading-margin-bottom: calc( var( --heading-margin-bottom ) * 0.05 ); 
 
 
 	/**
