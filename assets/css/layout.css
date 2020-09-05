@@ -58,8 +58,9 @@ leaving some distance from window edges, achieving that by using transparent bor
 	margin-bottom: 2.5rem; 
 } 
 
-.section { 
-	margin-top: 5rem; 
+.section, 
+.footer { 
+	margin-top: var( --section-margin-y );  
 }
 
 /* Usability headings are not a visual part of the page */

@@ -8,19 +8,19 @@
 
 .footer {
 	/* flex-direction: column;  */
-	margin-top: 5rem; 
+	/* margin-top: 5rem;  */
 	/* margin-bottom: 4rem;  */
 	text-align: center; 
 } 
 
 .footer-scroll-to-top, 
 .company { 
-	margin-bottom: 2.5rem; 
+	margin-bottom: 3.5rem; 
 }
 
 .company-description { 
 	max-width: 40rem; 
-	margin-left: auto; margin-right: auto; margin-top: 0.8rem; 
+	margin-left: auto; margin-right: auto; margin-top: 1.4rem; 
 }
 
 .copyright {  	
