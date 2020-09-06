@@ -58,9 +58,11 @@
 
 	--sell-points-heading-font-size: 2rem; 
 	
-	--heading-font-family: "Times New Roman"; 
+	--heading-font-family: ArialBlack; 
 	--heading-font-size: 1.8rem; 
 	--heading-line-height: 1.25; 
+
+	--subheading-font-family: Arial; 
 
 	/* Points to the font, used by icons */
 	--icon-font-family: IonIcons; 
