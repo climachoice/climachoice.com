@@ -10,6 +10,8 @@
 	position: relative; z-index: 1; 
 	background-color: #CCC; 
 
+	text-align: left; 
+
 }
 
 .about-us .cover-image { 

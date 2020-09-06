@@ -20,6 +20,10 @@ html,
 body {
 	font-family: var( --text-font-family ); 
 	font-size: var( --base-font-size ); 
+} 
+
+.section { 
+	text-align: center; 
 }
 
 /* Heading style */

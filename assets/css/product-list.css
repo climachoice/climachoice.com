@@ -61,7 +61,7 @@
 
 	/* Defines vertical distance between entries */ 
 	margin-right: var( --column-gutter-x ); 
-	/* margin-bottom: var( --column-gutter-y );  */ 
+	margin-bottom: var( --column-gutter-y );  
 	position: relative;  
 } 
 

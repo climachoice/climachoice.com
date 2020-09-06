@@ -1,0 +1,75 @@
+{ 
+	"head": {
+		"heading": { 
+			"text": "Нашите клиенти" 
+		}, 
+		
+		"text": [ 
+			{ 
+				"text": "Pellentesque odio velit, pharetra nec venenatis eu, gravida vel velit. In hac habitasse platea dictumst. In pulvinar purus vel eleifend bibendum. Mauris vitae nibh ut enim euismod luctus vitae nec nulla. Duis tempor porttitor vulputate. Curabitur eget tincidunt massa." 
+			}
+		]
+	}, 
+
+	"body": { 
+		"template": "block.html", 
+		"level": 3, 
+
+		"entries": [ 
+			{ 
+				"subheading": { 
+					"text": "Инженер" 
+				}, 
+				"heading": { 
+					"text": "Евгени Терзийски" 
+				}, 
+				"text": [], 
+				"link": { 
+					"text": "Прочетете повече" 
+				}
+			}, 
+
+			{ 
+				"subheading": { 
+					"text": "Икономист" 
+				},
+				"heading": { 
+					"text": "Георги Михайлов" 
+				}, 
+				"text": [], 
+				"link": { 
+					"text": "Прочетете повече" 
+				}
+			}, 
+
+			{ 
+				"subheading": { 
+					"text": "Монтьор" 
+				},
+				"heading": { 
+					"text": "Сотир Герасимов" 
+				}, 
+				"text": [], 
+				"link": { 
+					"text": "Прочетете повече" 
+				}
+			}, 
+
+			{ 
+				"subheading": { 
+					"text": "Строителен работник" 
+				},
+				"heading": { 
+					"text": "Методи Красимиров" 
+				}, 
+				"text": [], 
+				"link": { 
+					"text": "Прочетете повече" 
+				}
+			}
+
+		]
+
+	}
+
+}
