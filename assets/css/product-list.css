@@ -41,7 +41,7 @@
 } */
 
 /* Product presentations section and presentation icon holder use flexbox */
-.products, 
+/* .products,  */
 .products-entry:before {
 	display: flex; flex-direction: column; 
 } 

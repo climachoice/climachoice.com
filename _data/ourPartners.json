@@ -1,7 +1,7 @@
 { 
 	"head": {
 		"heading": { 
-			"text": "Нашите продукти" 
+			"text": "Партньори" 
 		}, 
 		
 		"text": [ 
@@ -18,10 +18,10 @@
 		"entries": [ 
 			{ 
 				"subheading": { 
-					"text": "Нашите" 
+					"text": "Вносител" 
 				}, 
 				"heading": { 
-					"text": "Климатици" 
+					"text": "Condex" 
 				}, 
 				"text": [], 
 				"link": { 
@@ -31,10 +31,10 @@
 
 			{ 
 				"subheading": { 
-					"text": "Нашите" 
+					"text": "Вносител" 
 				},
 				"heading": { 
-					"text": "Термопомпи" 
+					"text": "Condex" 
 				}, 
 				"text": [], 
 				"link": { 
