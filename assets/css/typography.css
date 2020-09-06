@@ -33,7 +33,6 @@ body {
 
 .subheading { 
 	font-size: calc( var( --heading-font-size ) * 0.585 ); 
-
 }
 
 .section-heading:before { 

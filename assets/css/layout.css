@@ -1,3 +1,9 @@
+.section > * { 
+	max-width: var( --max-content-width ); 
+	margin-left: auto; margin-right: auto; 
+
+} 
+
 /* Separates paragraph or paragraphs visually from headings and buttons */
 .heading {
 	margin-bottom: var( --heading-margin-bottom ); 
@@ -14,7 +20,7 @@
 
 /* Paragraphs distance */
 .text-entry {
-	margin-bottom: 1.2rem; 
+	margin-bottom: 0.5rem; 
 }
 
 /* Removes bottom margin from paragraphs, that have no adjacent elements */
@@ -45,6 +51,7 @@ leaving some distance from window edges, achieving that by using transparent bor
 
 /* Sections and their body section are positioned to contain all their absolutely positioned elements */
 .section, 
+.section .head, 
 .section .body {
 	position: relative; 	
 }

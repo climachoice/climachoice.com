@@ -1,11 +1,24 @@
 {% assign block = include.data %} 
-{% assign level = include.level %}
+
+{% if include.level %}
+	{% assign level = include.level %}
+{% else %}
+	{% assign level = block.heading.level %} 
+{% endif %}
 
 
 {% capture text-content %} 
+	{% if block.subheading %}
+		{% include heading.html 
+			className = "subheading" 
+			level = 5 
+			text = block.subheading.text 
+		%} 
+	{% endif %}
+
 	{% if block.heading %}
 		{% include heading.html 
-			level = level 
+			level = level  
 			text = block.heading.text 
 		%} 
 	{% endif %}

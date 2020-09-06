@@ -17,6 +17,9 @@
 
 		"entries": [ 
 			{ 
+				"subheading": { 
+					"text": "Нашите" 
+				}, 
 				"heading": { 
 					"text": "Климатици" 
 				}, 
@@ -31,6 +34,9 @@
 			}, 
 
 			{ 
+				"subheading": { 
+					"text": "Нашите" 
+				},
 				"heading": { 
 					"text": "Термопомпи" 
 				}, 

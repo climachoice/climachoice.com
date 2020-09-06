@@ -8,17 +8,35 @@
 			{
 				"text": "Pellentesque odio velit, pharetra nec venenatis eu, gravida vel velit. In hac habitasse platea dictumst. In pulvinar purus vel eleifend bibendum. Mauris vitae nibh ut enim euismod luctus vitae nec nulla. Duis tempor porttitor vulputate. Curabitur eget tincidunt massa." 
 			}
-		], 	
+		]	
 
-		"link": {
-			"target": "", 
-			"text": "Прочетете повече" 
+	}, 
+
+	"body": { 
+		"heading": { 
+			"level": 2, 
+			"text": "За нас" 
 		}, 
+
+		"text": [ 
+			{
+				"text": "Pellentesque odio velit, pharetra nec venenatis eu, gravida vel velit. In hac habitasse platea dictumst. In pulvinar purus vel eleifend bibendum." 
+			}, 
+
+			{
+				"text": "Pellentesque odio velit, pharetra nec venenatis eu, gravida vel velit. In hac habitasse platea dictumst. In pulvinar purus vel eleifend bibendum." 
+			}, 
+
+			{
+				"text": "Pellentesque odio velit, pharetra nec venenatis eu, gravida vel velit. In hac habitasse platea dictumst. In pulvinar purus vel eleifend bibendum." 
+			} 
+		], 
 
 		"image": { 
 			"src": "", 
 			"alt": ""
 		} 
+
 	}
 
 }
