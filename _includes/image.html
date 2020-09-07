@@ -1,5 +1,6 @@
-{% assign image = include.data %} 
+{% assign src = include.src %} 
+{% assign alt = include.alt %}
 {% assign className = include.className %} 
 
 
-<img class= "image {{ className }}" src= "{{ image.src }}" alt= "{{ image.alt }}" /> 
+<img class= "image {{ className }}" src= "{{ src }}" alt= "{{ alt }}" /> 
