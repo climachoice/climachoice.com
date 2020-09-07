@@ -1,0 +1,9 @@
+<ul class= "air-conditioner-list">
+	{% for entry in include.data %} 
+		{% assign airConditioner = entry[ 1 ] %}
+		
+		<li class= "air-conditioner-entry"> 
+			{% include air-conditioner-preview.html data = airConditioner %} 
+		</li>
+	{% endfor %}
+</ul>
