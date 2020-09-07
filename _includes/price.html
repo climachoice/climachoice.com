@@ -1,13 +1,7 @@
 <article class= "price"> 
 	<article class= "value"> 
-		<dl class= "key-value-pair int"> 
-			<dt class= "key">Integrals</dt> 
-			<dd class= "value">89</dd>
-		</dl> 
-		<dl class= "key-value-pair fract">
-			<dt class= "key">Fractionals</dt> 
-			<dd class= "value">99</dd>
-		</dl>
+		{% include key-value-pair.html className = "integrals" key = "Integrals" value = include.integrals %}
+		{% include key-value-pair.html className = "fractions" key = "Fractions" value = include.fractions %}
 	</article>
 
 	<p class= "currency">лв.</p> 
