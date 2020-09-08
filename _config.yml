@@ -32,7 +32,18 @@ github_username:  jekyll
 # Build settings
 theme: minima
 plugins:
-  - jekyll-feed
+  - jekyll-feed 
+
+collections: 
+    airConditioners: 
+      output: true 
+
+defaults: 
+  - scope: 
+      path: "" 
+      type: "airConditioners"
+    values: 
+      layout: "air-conditioner" 
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -52,4 +63,4 @@ plugins:
 #   - vendor/bundle/
 #   - vendor/cache/
 #   - vendor/gems/
-#   - vendor/ruby/
+#   - vendor/ruby/ 
