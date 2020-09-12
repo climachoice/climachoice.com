@@ -1,84 +1,115 @@
 ---
-model: Mitsubishi XD-12 
+model: Mitsubishi XD-12
 serie: Diamond ZR
 type: High Wall
-image:
-  src: /images/image-1.jpg
-  alt: ''
+pictures:
+  heading: Look and Feel
+  text:
+  - text: Donec tincidunt nunc non volutpat porttitor. Cras consequat elit at lacus
+      euismod hendrerit. Maecenas lacinia, ipsum vel fringilla lobortis, arcu dui
+      mollis mauris, eget cursus dolor felis eu libero.
+  entries:
+  - src: "/images/image-1.jpg"
+    alt: ''
 price:
-  integrals: 1499
-  fractions: 99
+  integrals: '1499'
+  fractions: '99'
 description:
-- text: Quisque congue massa diam, id venenatis enim lacinia non. Pellentesque a luctus
-    lacus. Pellentesque finibus venenatis dictum. Phasellus nunc velit, laoreet vestibulum
-    risus ac, efficitur ultrices felis. Aenean velit justo, dictum eu eleifend consequat,
-    sodales ut orci. Cras leo enim, elementum sed laoreet sed, elementum vitae diam.
-    Pellentesque euismod diam eget iaculis lobortis. Ut convallis turpis urna, at
-    tincidunt dolor pharetra ac. Suspendisse finibus augue ipsum, et pharetra ligula
-    consectetur quis.
+  heading: Description
+  text:
+  - text: Donec tincidunt nunc non volutpat porttitor. Cras consequat elit at lacus
+      euismod hendrerit. Maecenas lacinia, ipsum vel fringilla lobortis, arcu dui
+      mollis mauris, eget cursus dolor felis eu libero.
 specs:
-  power:
-    value: 2000 W
-  capacity:
-    value: ''
-    format: ''
-  energyClass:
-    value: A+ / A+++
-    format: warming / cooling
-  consumption:
-    value: ''
-    format: ''
-  noiseLevel:
-    value: ''
-    format: ''
-  workingTemperature:
-    format: ''
-    cooling:
-      value: ''
-    warming:
-      value: ''
-  energyEffectiveness:
-    value: ''
-    format: ''
-  performanceRatio:
-    value: ''
-    format: ''
-  innerBody:
-    dimensions:
+  heading: Specifications
+  text:
+  - text: Donec tincidunt nunc non volutpat porttitor. Cras consequat elit at lacus
+      euismod hendrerit. Maecenas lacinia, ipsum vel fringilla lobortis, arcu dui
+      mollis mauris, eget cursus dolor felis eu libero.
+  body:
+    power:
+      key: Power
+      value: 2000 W
+    capacity:
+      key: Capacity
       value: ''
       format: ''
-    weight:
+    energyClass:
+      key: Energy Class
+      value: A+ / A+++
+      format: warming / cooling
+    consumption:
+      key: Consumption
       value: ''
       format: ''
     noiseLevel:
+      key: ''
+      value: ''
+      format: ''
+    workingTemperature:
+      key: Working Temperature
       format: ''
       cooling:
         value: ''
       warming:
         value: ''
-  outerBody:
-    dimensions:
+    energyEffectiveness:
+      key: Energy Effectiveness
       value: ''
       format: ''
-    weight:
+    performanceRatio:
+      key: Performance Ratio
       value: ''
       format: ''
-    noiseLevel:
+    innerBody:
+      key: Inner Body
+      dimensions:
+        key: Diemnsions
+        value: ''
+        format: ''
+      weight:
+        key: Weight
+        value: ''
+        format: ''
+      noiseLevel:
+        key: Noise Level
+        format: ''
+        cooling:
+          value: ''
+        warming:
+          value: ''
+    outerBody:
+      key: Outer Body
+      dimensions:
+        key: Dimensions
+        value: ''
+        format: ''
+      weight:
+        key: Weight
+        value: ''
+        format: ''
+      noiseLevel:
+        key: Noise Level
+        format: ''
+        cooling:
+          value: ''
+        warming:
+          value: ''
+    energyConsumptionPerYear:
+      key: Energy Consumption Per Year
+      value: ''
       format: ''
-      cooling:
-        value: ''
-      warming:
-        value: ''
-  energyConsumptionPerYear:
-    value: ''
-    format: ''
-  coolingAgent:
-    value: ''
-  powerSupply:
-    value: ''
-    format: ''
-  properArea:
-    value: ''
-  waranty:
-    value: 36 months
+    coolingAgent:
+      key: Cooling Agent
+      value: ''
+    powerSupply:
+      key: Power Supply
+      value: ''
+      format: ''
+    properArea:
+      key: Proper Area
+      value: ''
+    warranty:
+      key: Warranty
+      value: 36 months
 --- 

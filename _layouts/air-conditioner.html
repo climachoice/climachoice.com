@@ -3,8 +3,41 @@ layout: page
 --- 
 
 
-{% include section.html className = "product-pictures" body = "entry-list.html"  %} 
+{% include heading.html className = "product-heading" level = 1 text = page.model %} 	
 
-{% include section.html className = "product-description" body = "article.html" %} 
+<section class= "section pictures"> 
+	{% include heading.html className = "section-heading" level = 2 text = "Pictures" %} 
+	{% include text.html data = page.pictures.text %} 
 
-{% include section.html className = "product-specs" body = "entry-list.html" %} 
+	<ul class= "image-list"> 
+	{% for image in page.pictures.entries %} 
+		<li class= "entry image-entry"> 
+			{% include image.html src = image.src alt = image.alt %} 
+		</li>
+	{% endfor %} 
+	</ul>
+</section>
+
+<section class= "section description"> 
+	{% include heading.html className = "section-heading" level = 2 text = "Description" %} 
+	{% include text.html data = page.description.text %} 
+</section>
+
+<section class= "section specifications"> 
+	{% include heading.html className = "section-heading" level = 2 text = "Specifications" %} 
+	{% include text.html data = page.specs.text %} 
+
+	<table class= "key-value-pair-list"> 
+		<tbody>
+		{% for spec in page.specs.body %} 
+			{% assign data = spec[ 1 ] %}
+
+			<tr class= "key-value-pair"> 
+				<th class= "key">{{ data.key }}</th> 
+				<td class= "value">{{ data.value }}</td> 
+			</tr>
+		{% endfor %}
+		</tbody>
+	</table>
+	
+</section>
