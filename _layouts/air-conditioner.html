@@ -27,17 +27,28 @@ layout: page
 	{% include heading.html className = "section-heading" level = 2 text = "Specifications" %} 
 	{% include text.html data = page.specs.text %} 
 
-	<table class= "key-value-pair-list"> 
-		<tbody>
-		{% for spec in page.specs.body %} 
-			{% assign data = spec[ 1 ] %}
+	<section class= "spec-set"> 
+	{% for spec in site.data.airConditioner.specs.body %} 
+		<article class= "spec"> 
+			<h3 class= "heading spec-heading">{{ spec.key }}</h3> 
 
-			<tr class= "key-value-pair"> 
-				<th class= "key">{{ data.key }}</th> 
-				<td class= "value">{{ data.value }}</td> 
-			</tr>
-		{% endfor %}
-		</tbody>
-	</table>
+			<table class= "spec-group-list">
+				<tbody>
+				{% for group in spec.groups %} 
+					<tr class= "spec-group">
+						<th class= "spec-group-head">{{ group.key }}</th>
+						{% for value in group.values %} 
+							<td class= "spec-group-entry">	
+								{% include value.html data = value %} 
+							</td>
+						{% endfor %} 
+					</tr>
+				{% endfor %}
+				</tbody>
+			</table>
+
+		</article>
+	{% endfor %} 
+	</section>
 	
 </section>

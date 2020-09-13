@@ -1,0 +1,12 @@
+{% assign data = include.data %}
+
+
+<tr>
+{% for value in data.values %}  
+	<td>
+		<table>
+			{% include value.html data = value %} 
+		</table>
+	</td> 
+{% endfor %}
+</tr>

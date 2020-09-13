@@ -1,0 +1,8 @@
+{% assign spec = include.data %} 
+
+
+{% if spec.value %} 
+	{% assign count = 1 %}
+{% elsif spec.values %} 
+	{% assign count = spec.values | size %} 
+{% endif %}
