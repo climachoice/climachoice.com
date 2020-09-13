@@ -35,11 +35,16 @@ layout: page
 			<table class= "spec-group-list">
 				<tbody>
 				{% for group in spec.groups %} 
-					<tr class= "spec-group">
-						<th class= "spec-group-head">{{ group.key }}</th>
+					<tr class= "spec-group"> 
+						{% if group.key %}
+							<th class= "spec-group-head">{{ group.key }}</th> 
+						{% endif %}
 						{% for value in group.values %} 
 							<td class= "spec-group-entry">	
-								{% include value.html data = value %} 
+								{% include value.html units = spec.units data = value %} 
+								{% if spec.units %}
+									<p class= "units">{{ spec.units }}</p>  
+								{% endif %}
 							</td>
 						{% endfor %} 
 					</tr>

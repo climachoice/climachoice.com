@@ -1,9 +1,9 @@
 ( function() {
 	// Initializes main slider
 	$( '.header .head-list' ).bxSlider( { 
-		auto: true, 
-		autoStart: true, 
-		infiniteLoop: true, 
+		// auto: true, 
+		// autoStart: true, 
+		// infiniteLoop: true, 
 		mode: "vertical", 
 		controls: false, 
 		adaptiveHeight: true,  
