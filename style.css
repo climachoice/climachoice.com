@@ -226,7 +226,8 @@ body {
 
 .head, 
 .body, 
-.content, 
+.head .content, 
+.body .content, 
 .hex { 
 	animation-fill-mode: forwards; 
 
