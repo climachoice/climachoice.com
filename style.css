@@ -239,7 +239,7 @@ body {
 } 
 
 .body { 
-	animation-name: shrink-to-top; animation-delay: 0.5s; animation-duration: 0.4s; 
+	animation-name: expand-to-bottom; animation-delay: 0.5s; animation-duration: 0.4s; 
 
 }   
 
@@ -269,13 +269,21 @@ body {
 
 @keyframes expand-to-bottom { 
 
+	0% { 
+		bottom: 100%; 
+	}
+
 	100% { 
-		bottom: 0; 
+		bottom: 50%; 
 	}
 
 } 
 
 @keyframes shrink-to-bottom { 
+
+	0% { 
+		top: 0; 
+	}
 
 	100% { 
 		top: 50%; 
