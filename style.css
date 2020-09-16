@@ -69,7 +69,7 @@ body {
 .intro { 
 	width: 100%; height: 100%; 
 	position: fixed; 
-	background-color: var( --background-color );  
+	/* background-color: var( --background-color );   */ 
 	overflow: auto; 
 } 
 
@@ -78,20 +78,22 @@ body {
 }
 
 .head, .body { 
-	box-sizing: border-box; 
-	min-height: 50vh; 
-	/* padding-bottom: var( --head-border-width );  */
-
+	box-sizing: border-box;  
+	/* padding-bottom: var( --head-border-width );  */ 
+	position: absolute; left: 0; right: 0;  
+	/* overflow: hidden;  */ 
+	background-color: var( --foreground-color ); 
+	color: var( --background-color ); 
 } 
 
 .head, .body { 
 	display: flex; flex-direction: column; justify-content: center; 
-	position: relative; 
 }
 
 .content { 
-	max-width: 960px;   
+	max-width: 960px; 
 	margin-left: auto; margin-right: auto; 
+	padding-left: 1.25rem; padding-right: 1.25rem; 
 	text-align: center; 
 	
 } 
@@ -101,37 +103,49 @@ body {
 }
 
 .head {  
-	position: relative;   
-	padding-bottom: var( --head-border-width ); 
-	color: var( --background-color ); 
+	display: block; 
+	top: 100%; bottom: 0; z-index: 2;  
+	/* padding-bottom: var( --head-border-width );  */  
+	/* border-top: 1px solid;  */ 
+	background-color: var( --background-color ); 
+	color: var( --foreground-color ); 
 } 
 
 /* .head .content { 
 	padding: 2.5rem;   
 }  */
 
-.head:after { 
+/* .head:after { 
 	display: block; 
 	width: 100%; height: 200%; 
 	position: absolute; left: 0; top: 0; z-index: -1; 
 	background-color: var( --foreground-color );
 	transform: translateY( -100% ); 
 	content: ""; 
-} 
+}  */
 
-.block { 
-	transform: translateY( 100% ); 
+/* .block { 
+	transform: translateY( 0 ); 
 	opacity: 0; 
-} 
+}  */
 
 /* .logo { 
 	width: 7rem; height: 4rem; 
 	margin-bottom: 0.25rem; 
 	background-image: url( ./icons/ellibeetherapy-logo.png ); background-size: contain; background-repeat: no-repeat; 
-}  */
+}  */ 
+
+.head .content, .body .content { 
+	transform: translateY( -50% ); 
+	opacity: 0; 
+
+}
 
 .heading {  
-	margin-bottom: 0.2rem; 
+	margin-top: 2.75rem; 
+	margin-bottom: 0.7rem; 
+	position: relative; z-index: 3; 
+	font-size: 1.5rem;
 } 
 
 .heading, .under-construction-after-message, .under-construction-message { 
@@ -139,21 +153,49 @@ body {
 } 
 
 .heading, .under-construction-message { 
-	font-family: Impact; font-size: 2rem; 
+	font-family: Impact;  
+} 
+
+.heading-icon:before { 
+	display: inline-block; 
+
+	font-family: IonIcons; font-size: 0.4rem; 
+	content: "\f137"; 
+	opacity: 0; 
+
 }
 
 .text { 
+	margin-bottom: 2rem; 
 	font-family: Arial; font-size: 0.75rem; text-transform: uppercase; 
+	line-height: 1.25; 
 } 
 
+/* .block { 
+	margin-bottom: 2.5rem;  
+
+} */
+
 .under-construction-after-message-holder { 
-	margin-top: -5rem; margin-bottom: 2.5rem;  
-	opacity: 0; 
+	/* margin-top: -5rem; 
+	margin-bottom: 2.5rem;  
+	opacity: 0;  */ 
+
+	width: 100%;  
+	/* position: absolute; bottom: 0;  */ 
+	text-align: center; 
 }
 
 .under-construction-after-message {  
-	padding: 0.85rem; 
+	/* box-sizing: border-box;  */
+	display: inline-block; 
+	/* height: 2.5rem; line-height: 2.5rem;  */
+	/* margin-bottom: calc( -1 * 4rem / 2 );  */ 
+	/* padding-left: 0.85rem; padding-right: 0.85rem; */ 
+	padding: 1.2rem; 
 	border: 1px solid; 
+	/* background-color: var( --foreground-color ); 
+	color: var( --background-color );  */ 
 	font-family: Arial; 
 	font-size: 0.85rem; 
 } 
@@ -161,23 +203,21 @@ body {
 /* .body {  
 	padding-top: 4.75rem; 
 	padding-bottom: 4.75rem; 
-}  */
+}  */ 
 
-.under-construction-message, 
+/* .under-construction-message, 
 .countdown {  
-	/* padding-top: 2rem;  */ 
 	border: none;  
-	font-family: Impact;  
-	color: var( --foreground-color );  
+	font-family: Impact;    
 	transform: translateY( 25px ); 
 	opacity: 0; 
 
-} 
+}  */
 
-.countdown { 
+/* .countdown { 
 	margin-top: 2.85rem; 
 
-}
+} */
 
 /* .under-construction-message, 
 .countdown { 
@@ -187,39 +227,49 @@ body {
 
 .under-construction-message { 
 	display: inline-block; 
-	padding-top: 0.85rem; padding-bottom: 1rem;  
-	margin-top: 1.5rem; 
+	/* padding-top: 0.85rem;  */ 
+	padding-bottom: 0.7rem;  
+	/* margin-top: 1.5rem;   */
 	position: relative; 
 	font-family: Arial; 
 	font-size: 0.8rem; 
 } 
 
-.under-construction-message:before { 
+.under-construction-message:after { 
 	display: block; 
 	margin-bottom: 0.2rem; 
-	/* height: 1px; 
-	position: absolute; left: 20%; right: 20%; top: 0; 
-	background-color: var( --foreground-color );  */ 
-	content: "\f474"; 
+	height: 1px; 
+	position: absolute; left: 25%; right: 25%; bottom: 0;  
+	background-color: var( --background-color );  
+	/* content: "\f474";  */
+	content: ""; 
 	font-family: IonIcons; 
 	font-size: 1.25rem; 
 
 }
 
 .hex { 
-	/* margin-top: calc( -1 * var( --head-border-width ) );  */ 
+	/* margin-top: calc( -1 * var( --head-border-width ) );   */
 	/* border-radius: 50%; 
 	background-color: #444;  */
-	position: absolute; top: calc( -1 * var( --head-border-width ) ); 
+	position: absolute; top: calc( -1 * var( --head-border-width ) );  
+	transform: translateY( -50% ); 
+	opacity: 0; 
+	text-align: center; 
 
 }
 
 .hex:before {
-	display: flex; align-items: center; justify-content: center; 
-	font-family: IonIcons; font-size: 8rem; 
-	content: "\f2fc"; 
-	color: var( --foreground-color ); 
+	/* display: flex; align-items: center; justify-content: center;  */ 
+	display: inline-block;  
+	width: 1.25em !important; height: 1.25em !important; line-height: 1.25em; 
+//	border: 1px solid; border-radius: 50%;  
+	font-family: IonIcons; font-size: 2.85rem; 
+	content: "\f137"; 
+	background-color: var( --foreground-color ); 
+	color: var( --background-color ); 
 	text-shadow: 0 0 2px var( --background-color ); 
+	box-shadow: 0 0 2px var( --background-color ); 
 } 
 
 /* .body { 
@@ -228,9 +278,29 @@ body {
 } */
 
 .body .content { 
-	height: 100%; 
+	/* height: 100%;  */ 
 	/* margin-top: calc( -1 * var( --head-border-width ) );  */  
 } 
+
+.body { 
+	/* display: block;  */ 
+	top: 0; bottom: 100%; z-index: 1; 
+	/* background-color: var( --background-color );  */
+
+}
+
+.body .block { 
+	box-sizing: border-box; 
+	/* display: inline-block;  */
+	/* width: 15rem; height: 8rem;  */
+	/* margin-top: -4rem;  */
+	/* padding-top: 2rem; padding-bottom: 2rem;     */
+	/* border: 1px solid var( --background-color );  */
+	/* background-color: var( --foreground-color );
+	color: var( --background-color );  */
+
+
+}
 
 /* .hex, .icon, .hex:before, .icon:before { 
 	background-position: center; background-size: contain; background-repeat: no-repeat;  
@@ -245,8 +315,8 @@ body {
 	width: var( --hex-holder-width ); height: var( --hex-holder-height );  
 	width: 100%; 
 	/* background-image: url( './icons/hex.png' );  */ 
-	transform: translateY( 150px ); 
-	opacity: 0; 
+	/* transform: translateY( 150px ); 
+	opacity: 0;  */
 } 
 
 /* .hex:before, .icon:before {  
@@ -259,7 +329,7 @@ body {
 } 
 
 
-.intro, .body, .hex, 
+/* .intro, .body, .hex, 
 .head:after, .icon, .logo, .head .content, .block, 
 .under-construction-after-message-holder, .under-construction-after-message, .under-construction-message, 
 .countdown, 
@@ -295,22 +365,144 @@ body {
 
 .under-construction-message { 
 	animation-delay: calc( var( --icon-in-start-delay ) + 0.125s ); 
+}  */
+
+
+.head, 
+.body, 
+.content, 
+.hex { 
+	animation-fill-mode: forwards; 
+
 } 
+
+.head { 
+	animation-name: expand-to-top, shrink-to-bottom; animation-delay: 0s, 0.5s; animation-duration: 0.4s; 
+
+} 
+
+.body { 
+	animation-name: shrink-to-top; animation-delay: 0.5s; animation-duration: 0.4s; 
+
+}   
+
+.head .content, .hex { 
+	animation-name: fade-in, slideY; animation-delay: 0.75s; animation-duration: 0.4s; 
+
+} 
+
+/* .hex {
+	animation-name: slideY, fade-in; animation-delay: 2s; animation-duration: 0.4s; 
+} */ 
+
+.body .content { 
+	animation-name: fade-in, slideY; animation-delay: 0.7s; animation-duration: 0.4s; 
+
+}
+
+
+@keyframes expand-to-bottom { 
+
+	100% { 
+		bottom: 0; 
+	}
+
+} 
+
+@keyframes shrink-to-bottom { 
+
+	100% { 
+		top: 50%; 
+	}
+
+} 
+
+@keyframes expand-to-top { 
+
+	100% { 
+		top: 0; 
+	}
+
+} 
+
+@keyframes shrink-to-top { 
+
+	100% { 
+		bottom: 50%; 
+	}
+
+} 
+
+@keyframes fade-in { 
+
+	100% { 
+		opacity: 1;  
+	}
+
+} 
+
+@keyframes slideY { 
+
+	100% { 
+		transform: translateY( 0 ); 
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @keyframes pull-up { 
 
-	80% { 
+	/* 80% { 
 		transform: translateY( calc( -50% + 150px ) ); 
-	}
+	} */
 
 	100% { 
-		transform: translateY( -50% ); 
+		transform: translateY( 0 ); 
 	}
 	
 } 
 
-@keyframes slide-up { 
+/* @keyframes slide-up { 
 
 	100% { 
 		transform: translateY( 0 ); 
@@ -334,7 +526,7 @@ body {
 		
 	}
 	
-} 
+}  */
 
 
 
