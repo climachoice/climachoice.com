@@ -143,22 +143,22 @@ body {
 }
 
 .text { 
-	margin-top: 0.8rem; 
-	margin-bottom: 2rem; 
+	margin-top: 0.8rem; margin-top: 2.5rem; 
+	margin-bottom: 0.585rem; 
 	font-family: Arial; font-size: 0.75rem; text-transform: uppercase; 
 	line-height: 1.25; 
 } 
 
 .under-construction-after-message-holder { 
-	width: 100%;   
+	width: 100%;    
 	text-align: center; 
 }
 
 .under-construction-after-message {  
 	display: inline-block; 
-	padding: 1.2rem 1.7rem; 
-	/* border: 1px solid;  */ 
-	border-radius: 40px; 
+	padding: 1.35rem; 
+	border: 1px solid;  
+	/* border-radius: 10px;  */ 
 	background-color: var( --foreground-color ); 
 	color: var( --background-color ); 
 	font-family: Arial; font-weight: bold; 
