@@ -35,13 +35,13 @@ plugins:
   - jekyll-feed 
 
 collections: 
-    airConditioners: 
+    air-conditioners: 
       output: true 
 
 defaults: 
   - scope: 
       path: "" 
-      type: "airConditioners"
+      type: "air-conditioners" 
     values: 
       layout: "air-conditioner" 
 

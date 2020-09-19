@@ -1,4 +1,9 @@
-<dl class= "key-value-pair">
+{% assign key = include.key %}
+{% assign value = include.value %}
+{% assign className = include.className %}
+
+
+<dl class= "key-value-pair {{ className }}"> 
 	<dt class= "key">{{ include.key }}</dt>
 	<dd class= "value">{{ include.value }}</dd> 
 </dl>

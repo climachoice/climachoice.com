@@ -1,14 +1,15 @@
-{% assign paragraph = include.data %} 
+{% assign text = include.text %} 
+{% assign image = include.image %} 
 {% assign className = include.className %} 
 
 
 <p class= "text-entry {{ className }}"> 
-	{{ paragraph.text }}
+	{{ text }}
 
-	{% if paragraph.image %} 
+	{% if image %} 
 		{% include image.html 
 			className = "inline-image" 
-			data = paragraph.image 
+			data = image 
 		%} 
 	{% endif %}
 </p>

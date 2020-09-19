@@ -1,0 +1,6 @@
+{% assign value = include.model.specs.body | where: "key", include.key | first %} 
+{% assign value = 
+	value.groups[ 0 ].values[ 0 ].value 
+	| append: "/" 
+	| append: value.groups[ 1 ].values[ 0 ].value 
+%} 
