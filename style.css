@@ -114,13 +114,18 @@ body {
 	transform: translateY( -50% ); 
 	opacity: 0; 
 
+} 
+
+.block { 
+	margin-top: 2.5rem; 
+
 }
 
 .heading {  
-	margin-top: 1.75rem; 
-	margin-bottom: 0.7rem; 
+	margin-top: 2.75rem;  
+	margin-bottom: 1.75rem; 
 	position: relative; z-index: 3; 
-	font-size: 1.5rem;
+	font-size: 1.4rem;
 } 
 
 .heading, 
@@ -133,12 +138,19 @@ body {
 	font-family: Impact;  
 } 
 
+.heading-icon { 
+	display: inline-block; 
+	width: 2rem; height: 2rem; 
+	margin-left: 0.2rem; margin-right: 0.2rem; 
+	border: 1px solid; border-radius: 50%; 
+
+}
+
 .heading-icon:before { 
 	display: inline-block; 
-
-	font-family: IonIcons; font-size: 0.4rem; 
+	font-family: IonIcons; font-size: 1.7rem; 
 	content: "\f137"; 
-	opacity: 0; 
+	/* opacity: 0;  */ 
 
 }
 
@@ -150,12 +162,12 @@ body {
 } 
 
 .under-construction-after-message-holder { 
-	width: 100%;    
+	width: 100%;     
 	text-align: center; 
 }
 
 .under-construction-after-message {  
-	display: inline-block; 
+	display: inline-block;  
 	padding: 1.35rem; 
 	border: 1px solid;  
 	/* border-radius: 10px;  */ 
@@ -167,10 +179,11 @@ body {
 
 .under-construction-message { 
 	display: inline-block; 
+	margin-top: 0.8rem; 
 	padding-bottom: 0.7rem;  
 	position: relative; 
 	font-family: Arial; 
-	font-size: 0.8rem; 
+	font-size: 0.75rem;  
 } 
 
 .under-construction-message:after { 
@@ -179,7 +192,7 @@ body {
 	height: 1px; 
 	position: absolute; left: 25%; right: 25%; bottom: 0;  
 	background-color: var( --background-color );  
-	content: ""; 
+	/* content: "";  */
 	font-family: IonIcons; 
 	font-size: 1.25rem; 
 
