@@ -1,3 +1,18 @@
+.product-list {
+	--column-count: 3; 
+	--column-gutter-x: 0.5rem; 
+} 
+
+/* Removes right margin from elements in the last column */
+.product-list .entry:nth-child( 3n + 3 ) { 
+	margin-right: 0; 
+} 
+
+/* Removes top margin from elements in the top row */
+.product-list .entry:nth-child( 3 - n ) { 
+	margin-top: 0; 
+}
+
 .product {  
 	/* Presentations are not given a fixed height, and their content is not centered vertically,
 	to avoid vertical disalignment of content in presentations with different text volume */ 
@@ -34,7 +49,7 @@
 
 }
 
-/* .product .details-link { 
+.product .details-link { 
 	box-sizing: border-box; 
 	display: flex; align-items: center; justify-content: center; 
 	position: absolute; z-index: 3; 
@@ -46,7 +61,7 @@
 
 .product:hover .details-link { 
 	transform: translateY( 0 ) !important;  
-}  */
+} 
 
 .spec-overview { 
 	padding: 1.4rem; 

@@ -13,14 +13,14 @@
 } 
 
 /* Removes right margin from elements in the last column */
-.entry:nth-child( 2n + 2 ) { 
+/* .entry:nth-child( 2n + 2 ) { 
 	margin-right: 0; 
-} 
+}  */
 
 /* Removes top margin from elements in the top row */
-.entry:nth-child( 2 - n ) { 
+/* .entry:nth-child( 2 - n ) { 
 	margin-top: 0; 
-}
+} */
 
 /* Entry list is a row of flex items that could move to the next row */ 
 .entry-list { 
