@@ -1,7 +1,7 @@
 ---
 model: model-01
 serie: Diamond ZR
-type: High Wall
+type: Канален 
 pictures:
   heading: Look and Feel
   text:

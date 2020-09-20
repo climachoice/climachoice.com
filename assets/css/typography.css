@@ -97,6 +97,36 @@ body {
 .details-link { 
 	font-size: 1rem; 
 
+} 
+
+.price { 
+	font-family: var( --heading-font-family ); 
+	font-size: 2rem; 
+
+} 
+
+.price .value { 
+	display: flex; justify-content: center; 
+
+}
+
+.price .integrals { 
+	font-size: 1em; 
+
+} 
+
+.price .fractions, 
+.price .currency { 
+	font-size: 0.5em; 
+
+} 
+
+.price .currency { 
+	display: inline-block; 
+	padding: 0.4rem; 
+	border: 1px solid; 
+	font-family: var( --text-font-family ); 
+
 }
 
 

@@ -104,6 +104,10 @@ leaving some distance from window edges, achieving that by using transparent bor
 	position: relative; 
 	border: 1px solid; 
 	cursor: pointer; 
+} 
+
+.price .key { 
+	display: none; 
 }
 
 

@@ -3,15 +3,21 @@
 ----------------------------------------------------------------- */
 
 /* CSS variables, setting number of columns and gutter sizes between them */
-.products-entry-list {
-	--visible-column-count: 2; 
+.product-list {
+	--visible-column-count: 3; 
 	--visisble-column-gutter-count: calc( var( --visible-column-count ) - 1 );
 	--column-gutter-x: 0.5rem; 
 	--column-gutter-y: var( --column-gutter-x ); 
 	--feature-entry-width: calc( ( 100% - var( --visisble-column-gutter-count ) * var( --column-gutter-x ) ) / var( --visible-column-count ) ); 
 } 
 
-.products-entry:nth-child( 2n + 2 ) { 
+.product-list { 
+	max-width: var( --max-content-width ); 
+	margin-left: auto; margin-right: auto; 
+
+}
+
+.product:nth-child( 3n + 3 ) { 
 	margin-right: 0; 
 }
 
@@ -42,30 +48,32 @@
 
 /* Product presentations section and presentation icon holder use flexbox */
 /* .products,  */
-.products-entry:before {
+/* .product:before {
 	display: flex; flex-direction: column; 
-} 
+}  */
 
-.products-entry-list { 
+.product-list { 
 	display: flex; flex-direction: row; flex-wrap: wrap; 
 	width: 100%; 
 } 
 
-.products-entry {  
+.product {  
 	/* Presentations are not given a fixed height, and their content is not centered vertically,
 	to avoid vertical disalignment of content in presentations with different text volume */ 
 	box-sizing: border-box; 
 	width: var( --feature-entry-width ); 
-	min-height: 12rem; padding-top: 2.75rem;  
-	padding-left: 2rem; padding-right: 2rem; padding-bottom: 2.75rem; 
+	min-height: 12rem; 
+	/* padding-top: 2.75rem;   */ 
+	/* padding-left: 2rem; padding-right: 2rem; padding-bottom: 2.75rem;  */ 
 
 	/* Defines vertical distance between entries */ 
 	margin-right: var( --column-gutter-x ); 
 	margin-bottom: var( --column-gutter-y );  
 	position: relative;  
+	overflow: hidden; 
 } 
 
-.products-entry:before {
+.product:before {
 	/* Icon is centered within its placeholder */
 	/* align-items: center; justify-content: center;  */
 	/* Icon placeholder is centered within presentation */
@@ -75,17 +83,26 @@
 	position: relative; 
 	/* Border radius of half the size of the icon placeholder makes a circle */
 	border: 1px solid; border-color: rgba( 0, 0, 0, 0.4 ); border-radius: 50%; 
+} 
+
+.product-head { 
+	position: relative; 
+
 }
 
-.products-entry .image {
+.product .heading {
+	font-size: 1.2rem;  
+}
+
+/* .product .image {
 	display: none;  
 	width: 100%; height: 100%; 
 	margin-bottom: 1.4rem; 
 	position: absolute; left: 0; top: 0; z-index: -1; 
 	opacity: 0.2; 
-}
+} */ 
 
-.products-entry .text-entry {
+.product .text-entry {
 	padding-left: 1.2rem; padding-right: 1.2rem; 
 }
 
@@ -109,8 +126,55 @@
 	background-image: url( "../images/selected-products/Vector-Smart-Object2.png" ); background-size: contain; 
 } */ 
 
-.products-entry .details-link { 
+/* .product-head .cover-image { 
+	width: 100%; height: 100%; 
+	position: absolute; 
+
+} */
+
+.product .price { 
+	padding: 0.5rem; 
+	position: absolute; right: 1.25rem; bottom: 1.25rem; 
 	border: 1px solid; 
+
+}
+
+.product .currency { 
+	display: none; 
+
+}
+
+.product .details-link { 
+	box-sizing: border-box; 
+	display: flex; align-items: center; justify-content: center; 
+	position: absolute; z-index: 3; 
+	left: 0; top: 0; right: 0; bottom: 0; 
+	border: 1px solid; border: none; 
+	background-color: var( --overlay-color ); 
+	transform: translateY( 100% ); 
+} 
+
+.product:hover .details-link { 
+	transform: translateY( 0 ) !important;  
+} 
+
+.spec-overview { 
+	padding: 1.4rem; 
+	text-align: left; 
+
+}
+
+.spec-overview > * { 
+	display: inline-block; 
+	margin-right: 0.5rem; margin-bottom: 0.5rem; 
+
+}
+
+.spec-overview .value { 
+	font-family: var( --heading-font-family ); 
+	font-size: 1.25rem; 
+
+
 }
 
 
@@ -118,22 +182,28 @@
 	Typography
 ----------------------------------------------------------------- */
 
-.products .head {  
+/* .products .head {  
 	text-align: center; 
-}
+} */
 
-.products-entry {  
+.product {  
 	text-align: center; 
-}
+} 
 
-/* .products-entry:before {
+/* .product:before {
 	font-family: var( --icon-font-family );
 	content: ""; 
 } */
 
-.products-entry .text {
+.product .text {
 	font-size: 14px; 
 	line-height: 1.5; 
+} 
+
+.product .details-link { 
+	font-family: var( --heading-font-family ); 
+	font-size: 0.85rem; 
+	text-transform: uppercase; 
 }
 
 
@@ -141,67 +211,67 @@
 	Color
 ----------------------------------------------------------------- */
 
-.products-entry {
+.product {
 	background-color: rgba( 255, 255, 255, 0.4 ); 
 } 
 
-.products-entry .details-link { 
+.product .details-link {  
 	color: var( --heading-color ); 
 	border-color: var( --heading-color ); 
 }
 
-/* .products-entry:hover {
+/* .product:hover {
 	color: #EEE; 
 	background-color: var( --text-color ); 
 }  */
 
-/* .products-entry:hover .details-link {
+/* .product:hover .details-link {
 	color: var( --text-color ); 
 	background-color: #EEE; 
 }  */
 
-.products-entry:hover .details-link:hover { 
+/* .product:hover .details-link:hover { 
 	color: #EEE; 
 	background-color: var( --heading-color );  
-} 
+}  */
 
 
 /* -----------------------------------------------------------------
 	Images
 ----------------------------------------------------------------- */ 
 
-/* .products-entry { 
+/* .product { 
 	background-image: url( "/assets/images/abstract-1846979_1920.jpg" ); 
 	
 } */
 
-.products-entry:before { 
+.product:before { 
 	background-size: 70%; background-repeat: no-repeat; background-position: center; 
 	opacity: 0.7; 
 
 }
 
-.products-entry:nth-child( 1 ):before {
+.product:nth-child( 1 ):before {
 	background-image: url( "/assets/icons/immune-system.png" ); 
 } 
 
-.products-entry:nth-child( 2 ):before {
+.product:nth-child( 2 ):before {
 	background-image: url( "/assets/icons/respiratory-system.png" );
 }
 
-.products-entry:nth-child( 3 ):before {
+.product:nth-child( 3 ):before {
 	background-image: url( "/assets/icons/cardio-system.png" );
 }
 
-.products-entry:nth-child( 4 ):before {
+.product:nth-child( 4 ):before {
 	background-image: url( "/assets/icons/skeletal-system.png" );
 }
 
-.products-entry:nth-child( 5 ):before {
+.product:nth-child( 5 ):before {
 	background-image: url( "/assets/icons/neural-system.png" );
 }
 
-.products-entry:nth-child( 6 ):before {
+.product:nth-child( 6 ):before {
 	background-image: url( "/assets/icons/digestive-system.png" ); 
 }
 
@@ -218,7 +288,7 @@
 } */
 
 /* @media ( max-width: 980px ) {
-	.products-entry-list {
+	.product-list {
 		--product-presentation-column-count: 2;
 	}
 
@@ -248,7 +318,7 @@
 
 	}
 
-	.products-entry-list {
+	.product-list {
 		--product-presentation-column-count: 3;
 	}
 
@@ -260,11 +330,11 @@
 } */
 
 @media ( max-width: 800px ) {
-	.products-entry-list {
+	.product-list {
 		--visible-column-count: 1; 
 	} 
 
-	.products-entry {  
+	.product {  
 		margin-right: 0; 
 	} 
 
