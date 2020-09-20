@@ -1,0 +1,16 @@
+/* CSS variables, setting number of columns and gutter sizes between them */
+.our-products .entry-list {
+	--column-count: 2; 
+	--column-gutter-x: 0.5rem; 
+	--column-gutter-y: var( --column-gutter-x ); 
+} 
+
+/* Removes right margin from elements in the last column */
+.our-products .entry:nth-child( 2n + 2 ) { 
+	margin-right: 0; 
+} 
+
+/* Removes top margin from elements in the top row */
+.our-products .entry:nth-child( 2 - n ) { 
+	margin-top: 0; 
+}

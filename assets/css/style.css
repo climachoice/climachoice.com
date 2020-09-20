@@ -3,12 +3,14 @@
 @import "./layout.css"; 
 @import "./typography.css"; 
 @import "./color.css"; 
+@import "./entry-list.css"; 
 @import "./header.css"; 
 @import "./head-list.css"; 
-@import "./product-list.css"; 
+/* @import "./product-list.css";  */ 
 @import "./section-head.css"; 
 @import "./home.css"; 
 @import "./about-us.css"; 
+/* @import "./air-conditioners.css";  */ 
 @import "./faq.css"; 
 @import "./product.css"; 
 @import "./contacts.css"; 

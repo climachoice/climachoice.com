@@ -1,0 +1,44 @@
+.product .price { 
+	padding: 0.5rem; 
+	position: absolute; right: 1.25rem; bottom: 1.25rem; 
+	border: 1px solid; 
+
+}
+
+.product .currency { 
+	display: none; 
+
+}
+
+.product .details-link { 
+	box-sizing: border-box; 
+	display: flex; align-items: center; justify-content: center; 
+	position: absolute; z-index: 3; 
+	left: 0; top: 0; right: 0; bottom: 0; 
+	border: 1px solid; border: none; 
+	background-color: var( --overlay-color ); 
+	transform: translateY( 100% ); 
+} 
+
+.product:hover .details-link { 
+	transform: translateY( 0 ) !important;  
+} 
+
+.spec-overview { 
+	padding: 1.4rem; 
+	text-align: left; 
+
+}
+
+.spec-overview > * { 
+	display: inline-block; 
+	margin-right: 0.5rem; margin-bottom: 0.5rem; 
+
+}
+
+.spec-overview .value { 
+	font-family: var( --heading-font-family ); 
+	font-size: 1.25rem; 
+
+
+}
