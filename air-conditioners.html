@@ -4,12 +4,12 @@ layout: page
 
 {% assign airConditioners = site.air-conditioners %}
 
-<ul class= "product-list air-conditioner-list">
+<ul class= "entry-list product-list air-conditioner-list">
 {% for airConditioner in airConditioners %} 
 	{% assign specs = airConditioner.specs.body %} 
 	{% assign pageUrl = "/air-conditioners/" | append: airConditioner.model %} 
 
-	<li class= "product air-conditioner">  
+	<li class= "entry product air-conditioner">  
 		<section class= "product-head">
 			{% include cover-image.html src = "/" %}  
 			{% include price.html integrals = airConditioner.price.integrals fractions = airConditioner.price.fractions %}
@@ -18,10 +18,7 @@ layout: page
 		<section class= "spec-overview">  
 			{% include key-value-pair.html className = "model" key = "Модел" value = airConditioner.model %} 
 			{% include key-value-pair.html className = "type" key = "Тип" value = airConditioner.type %} 
-			{% include key-value-pair.html className = "serie" key = "Серия" value = airConditioner.serie %} 
-
-			<!-- {% include extract-value.html model = airConditioner key = "Енергиен клас" %} 
-			{% include key-value-pair.html className = "energy-class" key = "Енергиен клас" value = value %}  --> 
+			{% include key-value-pair.html className = "serie" key = "Серия" value = airConditioner.serie %}  
 		</section> 
 
 		{% include link.html className = "details-link" text = "Вижте повече" target = pageUrl %}

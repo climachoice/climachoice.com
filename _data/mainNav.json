@@ -5,22 +5,27 @@
 	"entries": [ 
 		{
 			"target": "/", 
-			"text": "Home"
+			"text": "Начало"
 		}, 
 
 		{
 			"target": "/about-us.html",
-			"text": "About"
+			"text": "За нас"
+		}, 
+
+		{
+			"target": "/air-conditioners.html", 
+			"text": "Климатици"
 		},
 
 		{
 			"target": "/frequently-asked-questions.html", 
-			"text": "FAQ" 
+			"text": "На Вашето внимание" 
 		}, 
 
 		{
 			"target": "/contacts.html", 
-			"text": "Contacts" 
+			"text": "Контакти" 
 		} 
 
 	] 

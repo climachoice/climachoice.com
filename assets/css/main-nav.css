@@ -1,0 +1,183 @@
+/* -----------------------------------------------------------------
+	Layout
+----------------------------------------------------------------- */ 
+
+.main-nav .entry-list {
+	--column-count: 1; 
+	--column-gutter-x: 0; 
+} 
+
+/* Direct descendant elements of header and main navigation are horizontally aligned */
+.main-nav {
+	/* display: flex; align-items: center;   */ 
+	position: relative; 
+}  
+
+/**
+ * Navigation visibility control buttons 
+ */ 
+
+.main-nav .nav { 
+	display: flex; justify-content: center; align-items: center; 
+	width: 100%; height: 0; overflow: hidden; 
+	position: fixed; z-index: 3; 
+	left: 0; top: 0; 
+	background-color: rgba( 255, 255, 255, 0.85 ); 
+} 
+
+.main-nav .nav-entry-list { 
+	display: block; 
+
+} 
+
+.main-nav .button {
+	width: var( --header-height ); height: var( --header-height ); 	
+	position: relative; 
+	border: none; 
+}
+
+.close-nav-button {  
+	position: fixed; 
+}
+
+/* Navigation link clickable sizing */
+.main-nav .nav-link {
+	display: block; 
+	height: var( --header-height ); line-height: var( --header-height );
+	padding-left: 0.85rem; padding-right: 0.85rem; 
+	text-align: center; 
+}
+
+/* Mobile navigation background */
+/* .main-nav .nav:after {
+	width: 100%; height: 100%; 
+	position: fixed; left: 0; top: 0; z-index: -1; 
+	background-color: rgba( 255, 255, 255, 0.85 ); 
+	content: "";
+} */ 
+
+.main-nav-open .nav { 
+	height: 100%; 
+
+} 
+
+.button.close-nav-button { 
+	position: absolute; top: 0; right: 0; 
+	color: var( --text-color ); 
+}
+
+
+/* -----------------------------------------------------------------
+	Typography
+----------------------------------------------------------------- */ 
+
+.main-nav .nav-link {
+	font-size: 0.85rem; 
+} 
+
+/**
+ * Sets navigation control button icons 
+ */
+
+/* Assigns open button icon */
+.open-nav-button:before {
+	content: var( --open-nav-button-icon ); 
+}
+
+/* Assigns close button icon */
+.close-nav-button:before { 
+	font-size: 1.4rem; 
+	content: var( --close-nav-button-icon ); 
+}
+
+
+/* -----------------------------------------------------------------
+	Color
+----------------------------------------------------------------- */ 
+
+.main-nav .nav-link { 
+	color: var( --text-color ); 
+}
+
+.open-nav-button, 
+.close-nav-button { 
+	/* color: var( --text-color );  */
+	background-color: transparent; 
+}
+
+.open-nav-button:hover, 
+.close-nav-button:hover { 
+	color: var( --text-color ); 
+	background-color: #EEE;  
+}
+
+/* .main-nav.open .nav-link {
+	color: #EEE; 
+} */
+
+
+/* -----------------------------------------------------------------
+	Media Queries
+----------------------------------------------------------------- */
+
+/* @media ( max-width: 1060px ) and ( min-width: 841px ) {
+	.header { 
+		flex-direction: column; align-items: flex-start; 
+		margin-bottom: 2rem; 
+	}
+
+	.main-nav .nav-link {
+		padding-top: 1.575rem; 
+	}
+
+	.main-nav .nav-entry:first-child .nav-link {
+		padding-left: 0;  
+	}
+	
+}
+
+@media ( max-width: 840px ) {
+	.header { 
+		flex-direction: row; justify-content: space-between; align-items: center;
+		margin-bottom: 0; 
+	}
+
+	.header .id {
+		margin-right: 0; 
+	}
+
+	.main-nav .nav-entry-list {
+		flex-direction: column; align-items: center; justify-content: center; 
+		height: 0; overflow: hidden; 
+		position: fixed; left: 50%; top: 50%; z-index: 3; 
+		transform: translate( -50%, -50% );
+	}
+
+	.main-nav.open:after {
+		display: block; 
+	}
+
+	.main-nav.open .nav-entry-list {
+		width: auto; height: auto; 
+	}
+
+	.open-nav-button {
+		display: block; 
+	}
+
+	.main-nav.open .close-nav-button {
+		display: block; 
+		top: 0; right: 0; 
+		z-index: 3; 
+	}
+
+	.main-nav .nav-link:before {
+		background-color: #EEE;
+	}
+
+	.main-nav .nav-link {
+		padding-top: 1rem; padding-bottom: 1rem; 
+
+	}
+
+} */

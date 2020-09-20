@@ -97,7 +97,7 @@
 
 	/* For use when header is placed over slider */
 	--header-height: 2.5rem; 
-	--header-margin-top: 0; 
+	--header-margin-top: 4rem; 
 	--header-margin-bottom: 0; 
 
 	--site-header-font-size: 1rem; 

@@ -1,0 +1,22 @@
+{% assign points = include.data %} 
+
+
+<header class= "header page-header"> 
+	{% include header.html %} 
+	
+	<ul class= "entry-list head-list"> 
+		{% for point in points %} 
+			<li class= "entry head-entry"> 
+				{% include block.html 
+					level = 2 
+					data = point 
+				%} 
+			</li>
+		{% endfor %} 
+	</ul> 
+
+	{% include quick-contact.html 
+		className = "quick-contact" 
+		data = site.data.quickContact 
+	%} 
+</header>

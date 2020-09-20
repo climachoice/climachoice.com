@@ -1,9 +1,9 @@
 {% assign products = include.data %}
 
 
-<ul class= "entry-list product-list"> 
+<ul class= "entry-list product-group-list"> 
 	{% for product in products.entries %} 
-		<li class= "entry product"> 
+		<li class= "entry product-group"> 
 			{% include block.html 
 				level = 3 
 				data = product 

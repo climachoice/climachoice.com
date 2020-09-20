@@ -1,3 +1,27 @@
+.product {  
+	/* Presentations are not given a fixed height, and their content is not centered vertically,
+	to avoid vertical disalignment of content in presentations with different text volume */ 
+	box-sizing: border-box; 
+	/* width: var( --feature-entry-width );  */ 
+	/* padding-top: 2.75rem;   */ 
+	/* padding-left: 2rem; padding-right: 2rem; padding-bottom: 2.75rem;  */ 
+
+	/* Defines vertical distance between entries */ 
+	/* margin-right: var( --column-gutter-x ); 
+	margin-bottom: var( --column-gutter-y );   */ 
+	position: relative;  
+	overflow: hidden; 
+} 
+
+.product-head { 
+	position: relative; 
+
+} 
+
+.product .text-entry {
+	padding-left: 1.2rem; padding-right: 1.2rem; 
+}
+
 .product .price { 
 	padding: 0.5rem; 
 	position: absolute; right: 1.25rem; bottom: 1.25rem; 
@@ -10,7 +34,7 @@
 
 }
 
-.product .details-link { 
+/* .product .details-link { 
 	box-sizing: border-box; 
 	display: flex; align-items: center; justify-content: center; 
 	position: absolute; z-index: 3; 
@@ -22,7 +46,7 @@
 
 .product:hover .details-link { 
 	transform: translateY( 0 ) !important;  
-} 
+}  */
 
 .spec-overview { 
 	padding: 1.4rem; 
