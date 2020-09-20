@@ -2,6 +2,9 @@
 layout: page
 --- 
 
+
+{% include page-header.html data = site.data.sellPoints.body.entries %} 
+
 {% for entry in site.data.info.entries %} 
 
 	{% include section.html body = "block.html" data = entry %} 

@@ -2,7 +2,10 @@
 layout: page 
 --- 
 
-{% assign airConditioners = site.air-conditioners %}
+{% assign airConditioners = site.air-conditioners %} 
+
+
+{% include page-header.html data = site.data.sellPoints.body.entries %} 
 
 <ul class= "entry-list product-list air-conditioner-list">
 {% for airConditioner in airConditioners %} 

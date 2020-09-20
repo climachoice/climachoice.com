@@ -2,6 +2,9 @@
 layout: page
 --- 
 
+
+{% include page-header.html data = site.data.sellPoints.body.entries %} 
+
 {% include section.html className = "about-us" body = "block.html" data = site.data.aboutUs %} 
 
 {% include section.html className= "our-partners" body = "products.html" data = site.data.ourPartners %} 
