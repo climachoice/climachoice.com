@@ -1,0 +1,105 @@
+.product-list {
+	--column-count: 2; 
+	--column-gutter-x: 1.2rem; 
+} 
+
+/* Removes right margin from elements in the last column */
+.product-list .entry:nth-child( 2n + 2 ) { 
+	margin-right: 0; 
+} 
+
+/* Removes top margin from elements in the top row */
+.product-list .entry:nth-child( 2 - n ) { 
+	margin-top: 0; 
+}
+
+.product {  
+	/* Presentations are not given a fixed height, and their content is not centered vertically,
+	to avoid vertical disalignment of content in presentations with different text volume */ 
+	box-sizing: border-box; 
+	/* width: var( --feature-entry-width );  */ 
+	/* padding-top: 2.75rem;   */ 
+	/* padding-left: 2rem; padding-right: 2rem; padding-bottom: 2.75rem;  */ 
+
+	/* Defines vertical distance between entries */ 
+	/* margin-right: var( --column-gutter-x ); 
+	margin-bottom: var( --column-gutter-y );   */ 
+
+	/* border: 1px solid;  */ 
+	position: relative;  
+	overflow: hidden; 
+} 
+
+.product-head { 
+	position: relative; 
+
+} 
+
+.product-head .cover-image { 
+	height: 20rem; 
+
+}
+
+.product .text-entry {
+	padding-left: 1.2rem; padding-right: 1.2rem; 
+} 
+
+.product .price { 
+	padding: 0.5rem; 
+	position: absolute; right: 1.25rem; top: 1.25rem; 
+	border: 1px solid; 
+	color: var( --text-background-color ); 
+
+}
+
+.product .currency { 
+	display: none; 
+
+} 
+
+.product .spec-overview { 
+	width: 100%; 
+	position: absolute; z-index: 3; 
+	bottom: 2.25rem; 
+	background-color: var( --text-background-color ); 
+
+}
+
+.product .details-link { 
+	box-sizing: border-box; 
+	display: flex; align-items: center; justify-content: center; 
+	position: absolute; z-index: 3; 
+	left: 0; top: 0; right: 0; bottom: 0; 
+	border: 1px solid; border: none; 
+	background-color: var( --text-color );  
+	transform: translateY( 100% ); 
+} 
+
+.product:hover .details-link { 
+	transform: translateY( 0 );  
+} 
+
+.spec-overview { 
+	padding: 1.4rem; 
+	text-align: left; 
+
+}
+
+.spec-overview > * { 
+	display: inline-block; 
+	margin-right: 1.2rem; margin-bottom: 0.75rem; 
+	text-transform: uppercase;  
+
+} 
+
+.spec-overview .key { 
+	font-size: 0.8rem;   
+
+}
+
+.spec-overview .value { 
+	font-family: var( --heading-font-family ); 
+	font-size: 1.25rem; 
+
+
+}

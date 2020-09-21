@@ -1,0 +1,32 @@
+body {
+	color: var( --text-color ); 
+	background-color: var( --text-background-color ); 
+} 
+
+.cover-image { 
+	background-color: var( --text-color ); 
+
+}
+
+/**
+ * Buttons 
+ */
+
+.bx-controls-direction:before {
+	background-color: var( --text-color ); 	
+}
+
+.button {
+	color: var( --text-color );
+	background-color: var( --text-background-color ); 
+	border-color: transparent; 
+}
+
+/* On mouse over changes background and text colors */
+.button:hover, 
+.details-link:hover {
+	color: var( --text-background-color );
+	background-color: var( --text-color ); 
+	border-color: var( --text-color ); 
+}
+

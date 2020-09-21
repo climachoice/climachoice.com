@@ -1,0 +1,133 @@
+.spec { 
+	/* display: inline-block;  */ 
+	margin-top: 5rem; 
+
+} 
+
+.spec tbody { 
+	display: flex; flex-direction: row; 
+
+}
+
+.spec-group-list { 
+	margin-left: auto; margin-right: auto; 
+	/* text-align: left;  */ 
+
+}
+
+.spec-heading { 
+	padding: 0.85rem; 
+	/* background-color: #DDD;  */ 
+	font-size: 1.2rem; 
+
+} 
+
+.spec-heading:after { 
+	display: block; 
+	/* width: 10rem; height: 1px;  */ 
+	margin-left: auto; margin-right: auto; 
+	margin-top: 0.75rem; 
+	/* background-color: #444;  */
+	content: "+"; 
+
+}
+
+.spec-group { 
+	display: flex; flex-direction: row; flex-wrap: wrap; justify-content: flex-start; 
+	margin-bottom: 1.85rem; 
+} 
+
+.spec-group:nth-child( odd ) { 
+	justify-content: flex-end; 
+
+} 
+
+.spec-group:nth-child( odd ) .spec-group-head { 
+	text-align: right; 
+
+}
+
+.spec-group-head {  
+	width: 100%;  
+	margin-bottom: 0.75rem; 
+	padding: 0.4rem; 
+	/* background-color: #CCC;  */ 
+	font-family: var( --heading-font-family );  
+	font-size: 0.8rem; 
+	text-align: left; 
+	text-transform: uppercase; 
+	
+} 
+
+.spec-group-entry {  
+	display: flex; flex-direction: column; align-items: center; justify-content: center; 
+	width: 3.25em; height: 3.25em; 
+	margin-right: 0.7rem; margin-bottom: 0.7rem; 
+	/* background-color: #DDD;  */ 
+	border: 1px solid rgba( 0, 0, 0, 0.125 ); 
+	font-size: 4rem; 
+
+} 
+
+.spec-group-entry .key-value-pair { 
+	margin-bottom: 0.7rem; 
+
+} 
+
+/* .spec-group-entry .key, 
+.spec-group-entry .value { 
+	margin-bottom: 0.085rem; 
+
+} */
+
+/* .spec-group-entry .key-value-pair:after {  
+	display: block; 
+	margin-top: 0.5rem; 
+	content: attr( data-units ); 
+
+} */
+
+.spec-group-entry .value {  
+	font-family: var( --heading-font-family ); 
+	font-size: 1.25rem; 
+
+} 
+
+.spec-group-entry .key, 
+.spec-group-entry .key-value-pair:after, 
+.spec-group-entry .units { 
+	padding: 0.5rem 0; 
+	/* border: 1px solid #DDD;  */
+	/* background-color: #DDD;  */
+	font-size: 0.85rem;  
+	text-transform: uppercase;  
+
+} 
+
+.spec-group-entry .key { 
+	/* border: 1px solid #DDD;  */ 
+	font-size: 0.8rem; 
+	text-transform: uppercase; 
+
+}
+
+.spec-group-entry .units { 
+	box-sizing: border-box; 
+	width: 100%; 
+	/* padding: 0.45rem 0.75rem;  */ 
+	/* border-width: 1px 0;  */ 
+	background-color: #DDD;   
+	/* border: 1px solid;  */
+	font-size: 1rem; 
+
+} 
+
+.spec-group-entry .power { 
+	display: inline-block; 
+	position: relative; top: -0.2rem; 
+	font-size: 0.7rem; 
+
+}
+
+
+

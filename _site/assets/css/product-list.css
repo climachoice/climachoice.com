@@ -1,0 +1,341 @@
+/* -----------------------------------------------------------------
+	Layout
+----------------------------------------------------------------- */
+
+/* CSS variables, setting number of columns and gutter sizes between them */
+/* .product-list {
+	--visible-column-count: 3; 
+	--visisble-column-gutter-count: calc( var( --visible-column-count ) - 1 );
+	--column-gutter-x: 0.5rem; 
+	--column-gutter-y: var( --column-gutter-x ); 
+	--feature-entry-width: calc( ( 100% - var( --visisble-column-gutter-count ) * var( --column-gutter-x ) ) / var( --visible-column-count ) ); 
+} 
+
+.product-list { 
+	max-width: var( --max-content-width ); 
+	margin-left: auto; margin-right: auto; 
+
+}
+
+.product:nth-child( 3n + 3 ) { 
+	margin-right: 0; 
+} */
+
+/* Aligns vertical centers of section head and body */
+/* .products {
+	max-width: var( --max-content-width ); 
+} */
+
+/* .products .head, 
+.products .body {
+	box-sizing: border-box; 
+	margin-left: auto; margin-right: auto; 
+}  */
+
+/* .products .head { 
+	margin-bottom: 2rem; 
+
+} */
+
+/* .products .head { 
+	max-width: var( --max-content-width ); 
+	margin-right: 4rem; 
+}
+
+.products .body {
+	max-width: 60%; 
+} */
+
+/* Product presentations section and presentation icon holder use flexbox */
+/* .products,  */
+/* .product:before {
+	display: flex; flex-direction: column; 
+}  */
+
+/* .product-list { 
+	display: flex; flex-direction: row; flex-wrap: wrap; 
+	width: 100%; 
+}  */
+
+.product {  
+	/* Presentations are not given a fixed height, and their content is not centered vertically,
+	to avoid vertical disalignment of content in presentations with different text volume */ 
+	box-sizing: border-box; 
+	width: var( --feature-entry-width ); 
+	min-height: 12rem; 
+	/* padding-top: 2.75rem;   */ 
+	/* padding-left: 2rem; padding-right: 2rem; padding-bottom: 2.75rem;  */ 
+
+	/* Defines vertical distance between entries */ 
+	margin-right: var( --column-gutter-x ); 
+	margin-bottom: var( --column-gutter-y );  
+	position: relative;  
+	overflow: hidden; 
+} 
+
+.product:before {
+	/* Icon is centered within its placeholder */
+	/* align-items: center; justify-content: center;  */
+	/* Icon placeholder is centered within presentation */
+	margin-left: auto; margin-right: auto; 
+	margin-bottom: 0.8rem; 
+	width: 3.5rem; height: 3.5rem; 
+	position: relative; 
+	/* Border radius of half the size of the icon placeholder makes a circle */
+	border: 1px solid; border-color: rgba( 0, 0, 0, 0.4 ); border-radius: 50%; 
+} 
+
+.product-head { 
+	position: relative; 
+
+}
+
+.product .heading {
+	font-size: 1.2rem;  
+}
+
+/* .product .image {
+	display: none;  
+	width: 100%; height: 100%; 
+	margin-bottom: 1.4rem; 
+	position: absolute; left: 0; top: 0; z-index: -1; 
+	opacity: 0.2; 
+} */ 
+
+.product .text-entry {
+	padding-left: 1.2rem; padding-right: 1.2rem; 
+}
+
+/**
+ * Plugin pager color overrides 
+ */
+
+/* .products .lSPager a {
+	background-color: #999 !important; 
+}
+
+.products .lSPager li.active a, 
+.products .lSPager li:hover a {
+	background-color: #444 !important; 
+}
+
+.mark {
+	display: none; align-items: center; justify-content: center;  
+	width: var( --width ); height: var( --height ); 
+	position: absolute; top: 0; right: 0; 
+	background-image: url( "../images/selected-products/Vector-Smart-Object2.png" ); background-size: contain; 
+} */ 
+
+/* .product-head .cover-image { 
+	width: 100%; height: 100%; 
+	position: absolute; 
+
+} */
+
+.product .price { 
+	padding: 0.5rem; 
+	position: absolute; right: 1.25rem; bottom: 1.25rem; 
+	border: 1px solid; 
+
+}
+
+.product .currency { 
+	display: none; 
+
+}
+
+.product .details-link { 
+	box-sizing: border-box; 
+	display: flex; align-items: center; justify-content: center; 
+	position: absolute; z-index: 3; 
+	left: 0; top: 0; right: 0; bottom: 0; 
+	border: 1px solid; border: none; 
+	background-color: var( --overlay-color ); 
+	transform: translateY( 100% ); 
+} 
+
+.product:hover .details-link { 
+	transform: translateY( 0 ) !important;  
+} 
+
+.spec-overview { 
+	padding: 1.4rem; 
+	text-align: left; 
+
+}
+
+.spec-overview > * { 
+	display: inline-block; 
+	margin-right: 0.5rem; margin-bottom: 0.5rem; 
+
+}
+
+.spec-overview .value { 
+	font-family: var( --heading-font-family ); 
+	font-size: 1.25rem; 
+
+
+}
+
+
+/* -----------------------------------------------------------------
+	Typography
+----------------------------------------------------------------- */
+
+/* .products .head {  
+	text-align: center; 
+} */
+
+.product {  
+	text-align: center; 
+} 
+
+/* .product:before {
+	font-family: var( --icon-font-family );
+	content: ""; 
+} */
+
+.product .text {
+	font-size: 14px; 
+	line-height: 1.5; 
+} 
+
+.product .details-link { 
+	font-family: var( --heading-font-family ); 
+	font-size: 0.85rem; 
+	text-transform: uppercase; 
+}
+
+
+/* -----------------------------------------------------------------
+	Color
+----------------------------------------------------------------- */
+
+/* .product {
+	background-color: rgba( 255, 255, 255, 0.4 ); 
+} 
+
+.product .details-link {  
+	color: var( --heading-color ); 
+	border-color: var( --heading-color ); 
+} */
+
+/* .product:hover {
+	color: #EEE; 
+	background-color: var( --text-color ); 
+}  */
+
+/* .product:hover .details-link {
+	color: var( --text-color ); 
+	background-color: #EEE; 
+}  */
+
+/* .product:hover .details-link:hover { 
+	color: #EEE; 
+	background-color: var( --heading-color );  
+}  */
+
+
+/* -----------------------------------------------------------------
+	Images
+----------------------------------------------------------------- */ 
+
+/* .product { 
+	background-image: url( "/assets/images/abstract-1846979_1920.jpg" ); 
+	
+} */
+
+.product:before { 
+	background-size: 70%; background-repeat: no-repeat; background-position: center; 
+	opacity: 0.7; 
+
+}
+
+.product:nth-child( 1 ):before {
+	background-image: url( "/assets/icons/immune-system.png" ); 
+} 
+
+.product:nth-child( 2 ):before {
+	background-image: url( "/assets/icons/respiratory-system.png" );
+}
+
+.product:nth-child( 3 ):before {
+	background-image: url( "/assets/icons/cardio-system.png" );
+}
+
+.product:nth-child( 4 ):before {
+	background-image: url( "/assets/icons/skeletal-system.png" );
+}
+
+.product:nth-child( 5 ):before {
+	background-image: url( "/assets/icons/neural-system.png" );
+}
+
+.product:nth-child( 6 ):before {
+	background-image: url( "/assets/icons/digestive-system.png" ); 
+}
+
+
+/* -----------------------------------------------------------------
+	Meadia Queries
+----------------------------------------------------------------- */
+
+/* @media ( max-width: 1000px ) {
+	.products .head {
+		margin-left: 0; 
+	}
+	
+} */
+
+/* @media ( max-width: 980px ) {
+	.product-list {
+		--product-presentation-column-count: 2;
+	}
+
+	.products .head {
+		width: 60%;  
+	}
+
+	.products .body {
+		width: 40%; 
+	}
+
+} */
+
+/* @media ( max-width: 820px ) {
+	.products {
+		flex-direction: column; 
+	}
+
+	.products .head {
+		width: auto; 
+		padding-right: var( --content-padding-right ); 
+	}
+
+	.products .body {
+		width: auto; 
+		padding-top: 2.5rem; padding-bottom: 2.5rem; 
+
+	}
+
+	.product-list {
+		--product-presentation-column-count: 3;
+	}
+
+	.products .bx-controls-direction {
+		left: auto; right: 0; 
+
+	}
+	
+} */
+
+@media ( max-width: 800px ) {
+	.product-list {
+		--visible-column-count: 1; 
+	} 
+
+	.product {  
+		margin-right: 0; 
+	} 
+
+}

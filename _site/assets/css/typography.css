@@ -1,0 +1,133 @@
+/**
+ * Font declarations 
+ */
+
+/* Arial Black font declaration */
+@font-face {
+	font-family: ArialBlack; 
+	src: url( "/assets/fonts/ariblk.ttf" ); 
+}
+
+/* Ionicons font declaration */ 
+@font-face {
+	font-family: IonIcons; 
+	src: url( "/assets/fonts/ionicons.ttf" ); 
+
+}
+
+/* Sets font size to use as a base for all font sizes */
+html, 
+body {
+	font-family: var( --text-font-family ); 
+	font-size: var( --base-font-size ); 
+} 
+
+.section { 
+	text-align: center; 
+}
+
+/* Heading style */
+.heading {
+	font-family: var( --heading-font-family ); 
+	font-size: var( --heading-font-size ); 
+	font-weight: bold; 
+	line-height: var( --heading-line-height ); 
+	text-transform: uppercase; 
+} 
+
+.subheading { 
+	font-family: var( --subheading-font-family ); 
+	font-size: calc( var( --heading-font-size ) * 0.485 ); 
+	font-weight: normal; 
+}
+
+.section-heading:before { 
+	display: block; 
+	width: 7rem; height: var( --section-heading-overline-height ); 
+	margin-left: auto; margin-right: auto; margin-bottom: var( --section-heading-overline-distance ); 
+	background-color: var( --text-color ); 
+	border-color: transparent; 
+	content: ""; 
+
+}
+
+/* Paragraph style */
+.text-entry {
+	font-family: Arial;
+	font-size: 1rem; 
+	line-height: 1.4; 
+}
+
+
+/**
+ * Control buttons typography styles
+ */
+
+/* Pseudo-element, used as a placeholder for the icon */
+.button:before { 
+	font-family: var( --icon-font-family ); 
+	font-size: 1em; 
+	text-indent: 0; 
+}
+
+/* Control button text is moved out of the screen to be replaced with an icon */
+.main-nav .button {
+	text-indent: -10000px; overflow: hidden; 
+	cursor: pointer; 
+}
+
+/**
+ * Sets control button icons 
+ */
+
+/* Assigns prev control button icon */
+/* .bx-controls-direction .bx-prev:before {
+	content: var( --prev-button-icon ); 
+} */
+
+/* Assigns next control button icon */
+/* .bx-controls-direction .bx-next:before {
+	content: var( --next-button-icon ); 
+} */
+
+.button {
+	/* font-size: 3.85rem;  */
+	text-transform: uppercase; 
+} 
+
+.details-link { 
+	font-size: 1rem; 
+
+} 
+
+.price { 
+	font-family: var( --heading-font-family ); 
+	font-size: 2rem; 
+
+} 
+
+.price .value { 
+	display: flex; justify-content: center; 
+
+}
+
+.price .integrals { 
+	font-size: 1em; 
+
+} 
+
+.price .fractions, 
+.price .currency { 
+	font-size: 0.5em; 
+
+} 
+
+.price .currency { 
+	display: inline-block; 
+	padding: 0.4rem; 
+	border: 1px solid; 
+	font-family: var( --text-font-family ); 
+
+}
+
+

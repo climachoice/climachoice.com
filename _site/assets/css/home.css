@@ -1,0 +1,20 @@
+/* CSS variables, setting number of columns and gutter sizes between them */
+.our-products .entry-list {
+	--column-count: 2; 
+} 
+
+/* Removes right margin from elements in the last column */
+.our-products .entry:nth-child( 2n + 2 ) { 
+	margin-right: 0; 
+} 
+
+/* Removes top margin from elements in the top row */
+.our-products .entry:nth-child( 2 - n ) { 
+	margin-top: 0; 
+} 
+
+.our-products .entry { 
+	padding: 2rem; 
+	background-color: rgba( 255, 255, 255, 0.4 ); 
+
+}
