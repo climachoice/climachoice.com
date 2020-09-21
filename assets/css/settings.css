@@ -68,8 +68,8 @@
 	--icon-font-family: IonIcons; 
 
 	/* Assigns icons */
-	--open-nav-button-icon: "\f20e"; 
-	--close-nav-button-icon: "\f404"; 
+	--open-nav-button-icon: "\f20d"; 
+	--close-nav-button-icon: "\f12a"; 
 	--scroll-to-top-button-icon: "\f3d7"; 
 	--address-icon: "\f448"; 
 	--phone-icon: "\f4b9"; 
@@ -100,7 +100,7 @@
 	--header-margin-top: 4rem; 
 	--header-margin-bottom: 0; 
 
-	--site-header-font-size: 1rem; 
+	--site-header-font-size: 1.8rem; 
 
 	/* Offer list text box width, taken out of scope to be available to other sections */
 	--text-box-width: 40rem; 

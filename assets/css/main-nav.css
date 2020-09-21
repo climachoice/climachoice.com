@@ -33,7 +33,7 @@
 .main-nav .button {
 	width: var( --header-height ); height: var( --header-height ); 	
 	position: relative; 
-	border: none; 
+	border: none;  
 }
 
 .close-nav-button {  
@@ -64,6 +64,14 @@
 .button.close-nav-button { 
 	position: absolute; top: 0; right: 0; 
 	color: var( --text-color ); 
+} 
+
+/* Hides button text to prevent disalignment */ 
+.main-nav .button-text { 
+	width: 0; height: 0; 
+	position: absolute; left: -10000px; 
+	overflow: hidden; 
+
 }
 
 
@@ -71,22 +79,28 @@
 	Typography
 ----------------------------------------------------------------- */ 
 
-.main-nav .nav-link {
-	font-size: 0.85rem; 
+.main-nav .nav-link { 
+	font-family: var( --heading-font-family ); 
+	font-size: 0.75rem; 
 } 
+
+/* .main-nav .button {
+	font-size: 1.45rem;  
+} */
 
 /**
  * Sets navigation control button icons 
  */
 
 /* Assigns open button icon */
-.open-nav-button:before {
+.open-nav-button:before { 
+	font-size: 0.85em; 
 	content: var( --open-nav-button-icon ); 
 }
 
 /* Assigns close button icon */
 .close-nav-button:before { 
-	font-size: 1.4rem; 
+	font-size: 1.2rem;  
 	content: var( --close-nav-button-icon ); 
 }
 
