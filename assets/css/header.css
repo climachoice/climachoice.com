@@ -88,13 +88,40 @@
 	margin-bottom: 0.5em; 
 	/* border: 1px solid; border-radius: 4rem;  */ 
 	font-family: var( --icon-font-family ); 
-	font-size: 1em; 
+	font-size: 1.125em; 
 	content: var( --phone-icon ); 
 
 }
 
 .bx-controls { 
-	position: absolute; 
+	--bx-button-size: 0.8rem; 
+	--bx-button-current-size: calc( var( --bx-button-size ) * 1.4 ); 
+	margin-right: 0.8rem; 
+	position: absolute; right: 50%; bottom: 50%; transform: translateY( 50% ); 
+
+} 
+
+.bx-pager-item { 
+	margin-bottom: 0.2rem; 
+
+}
+
+.bx-pager-link { 
+	display: block; 
+	width: var( --bx-button-size ); height: var( --bx-button-size ); 
+	margin-left: auto; margin-right: auto; 
+	/* border: 1px solid; border-color: transparent;  */
+	border-radius: 50%; 
+	background-color: var( --text-background-color ); 
+	text-indent: -10000px; 
+
+} 
+
+.bx-pager-link.active { 
+	width: var( --bx-button-current-size ); height: var( --bx-button-current-size ); 
+	/* transform: scale( 1.4 );  */
+	/* border-color: var( --text-background-color ); 
+	background-color: transparent;  */
 
 }
 
