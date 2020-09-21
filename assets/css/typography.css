@@ -43,9 +43,10 @@ body {
 
 .section-heading:before { 
 	display: block; 
-	width: 7rem; height: 2px; 
-	margin-left: auto; margin-right: auto; margin-bottom: 3.5rem; 
-	background-color: #444; 
+	width: 7rem; height: var( --section-heading-overline-height ); 
+	margin-left: auto; margin-right: auto; margin-bottom: var( --section-heading-overline-distance ); 
+	background-color: var( --text-color ); 
+	border-color: transparent; 
 	content: ""; 
 
 }

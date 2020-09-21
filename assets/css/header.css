@@ -61,7 +61,7 @@
 .quick-contact { 
 	width: 50%; height: 4rem; 
 	position: absolute; left: 50%; bottom: 0; 
-	background-color: #444; 
+	/* background-color: #444;  */
 
 } 
 
@@ -110,10 +110,10 @@
 	Color
 ----------------------------------------------------------------- */ 
 
-.header { 
+/* .header { 
 	color: #EEE; 
 
-}
+} */
 
 
 /* -----------------------------------------------------------------

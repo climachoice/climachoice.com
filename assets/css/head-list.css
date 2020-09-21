@@ -77,9 +77,9 @@ but for border around the box, an :after pseudo-element has to be created */
 	Color
 ----------------------------------------------------------------- */ 
 
-.header .head-list { 
+/* .header .head-list { 
 	background-color: #CCC; 
-}
+} */
 
 .head-list .text-content:after {
 	/* background-color: #CCC;  */ 
@@ -108,7 +108,7 @@ but for border around the box, an :after pseudo-element has to be created */
 @media ( max-width: 1020px ) {
 	.head-list .text-content {
 		/* padding-left: 15%;  */
-		background-color: rgba( 205, 230, 236, 0.85 ); 
+		/* background-color: rgba( 205, 230, 236, 0.85 );  */
 	}
 
 }

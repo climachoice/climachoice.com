@@ -43,7 +43,7 @@
 	width: 3.5rem; height: 3.5rem; 
 	padding: 0;   
 	/* border: none;  */
-	border-color: transparent; 
+	border-color: inherit;  
 	border-radius: calc( 3.5rem / 2 );
 	cursor: pointer;  
 
@@ -56,6 +56,7 @@
 
 .footer-scroll-to-top { 
 	margin-left: auto; margin-right: auto; 
+	border-color: transparent; 
 
 }
 
@@ -91,15 +92,15 @@
 	Color
 ----------------------------------------------------------------- */
 
-footer { 
+/* footer { 
 	color: #888;  
-}
+} */
 
-.footer-nav .nav-link:before {
+/* .footer-nav .nav-link:before {
 	background-color: #CCC; 
-}
+} */
 
-.scroll-to-top {
+/* .scroll-to-top {
 	background-color: #FFF; 
 }
 
@@ -114,15 +115,23 @@ footer {
 
 .scroll-to-top:hover:before {
 	color: #FFF;
-} 
+}  */
 
 .footer-scroll-to-top:before { 
 	font-size: 2rem; 
 
 } 
 
+.footer-scroll-to-top { 
+	color: var( --text-background-color );
+	background-color: var( --text-color ); 
+
+} 
+
 .footer-scroll-to-top:hover { 
-	border-color: inherit;  
+	color: var( --text-color );
+	background-color: var( --text-background-color ); 
+	border-color: inherit; 
 
 }
 

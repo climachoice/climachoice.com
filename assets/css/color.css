@@ -1,10 +1,10 @@
 body {
-	color: #555; 
-	background-color: #EEE; 
+	color: var( --text-color ); 
+	background-color: var( --text-background-color ); 
 } 
 
 .cover-image { 
-	background-color: #444; 
+	background-color: var( --text-color ); 
 
 }
 
@@ -17,15 +17,16 @@ body {
 }
 
 .button {
-	color: var( --text-background-color );
-	background-color: var( --text-color );
+	color: var( --text-color );
+	background-color: var( --text-background-color ); 
 	border-color: transparent; 
 }
 
 /* On mouse over changes background and text colors */
-.button:hover {
-	color: var( --text-color );
-	background-color: transparent; 
-	border-color: var( --text-color );
+.button:hover, 
+.details-link:hover {
+	color: var( --text-background-color );
+	background-color: var( --text-color ); 
+	border-color: var( --text-color ); 
 }
 

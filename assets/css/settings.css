@@ -37,6 +37,8 @@
 	 */
 
 	--heading-margin-bottom: 1.5rem; 
+	--section-heading-overline-height: 2px; 
+	--section-heading-overline-distance: 3.5rem; 
 	--text-margin-bottom: calc( var( --heading-margin-bottom ) * 1.4 ); 
 	--subheading-margin-bottom: calc( var( --heading-margin-bottom ) * 0.05 ); 
 
@@ -81,11 +83,11 @@
 	 */
 
 	/* Main text color */
-	--text-color: rgba( 0, 0, 0, 0.7 ); 
+	--text-color: rgba( 255, 0, 0, 0.7 ); 
 	/* Color behind text */
-	--text-background-color: rgba( 255, 255, 255, 0.7 );
+	--text-background-color: rgba( 255, 255, 255, 0.95 );
 	/* Color of text section, overlapping another section or an image */
-	--overlay-color: rgba( 255, 255, 255, 0.8 ); 
+	--overlay-color: rgba( 255, 255, 255, 0.95 ); 
 
 
 	/**

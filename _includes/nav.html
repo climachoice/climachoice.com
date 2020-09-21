@@ -3,7 +3,7 @@
 
 <ul class= "entry-list nav-entry-list">
 	{% for link in links  %} 
-		<li class= "entry nav-entry"> 
+		<li class= "entry nav-entry{% if link.target == page.url %}{{ " current" }}{% endif %}"> 
 			{% include link.html 
 				className = "nav-link" 
 				text = link.text 
