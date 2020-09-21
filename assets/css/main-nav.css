@@ -79,7 +79,8 @@
 	Typography
 ----------------------------------------------------------------- */ 
 
-.main-nav .nav-link { 
+/* Seting font properties on nav to spread them over nav links and close button icon */
+.main-nav .nav { 
 	font-family: var( --heading-font-family ); 
 	font-size: 0.75rem; 
 } 
@@ -94,13 +95,15 @@
 
 /* Assigns open button icon */
 .open-nav-button:before { 
+	/* Setting icon font size proportionally to site title size */ 
 	font-size: 0.85em; 
 	content: var( --open-nav-button-icon ); 
 }
 
 /* Assigns close button icon */
 .close-nav-button:before { 
-	font-size: 1.2rem;  
+	/* Setting icon font size proportionally to nav links size */
+	font-size: 0.9em;  
 	content: var( --close-nav-button-icon ); 
 }
 
