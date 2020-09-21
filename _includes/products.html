@@ -1,8 +1,14 @@
-{% assign products = include.data %}
+{% assign products = include.data %} 
+{% if include.limit %} 
+	{% assign count = include.limit | minus: 1 %}
+{% else %} 
+	{% assign count = products.entries | size | minus: 1 %} 
+{% endif %} 
 
 
 <ul class= "entry-list product-group-list"> 
-	{% for product in products.entries %} 
+	{% for pos in ( 0..count ) %} 
+		{% assign product = products.entries[ pos ] %}
 		<li class= "entry product-group"> 
 			{% include block.html 
 				level = 3 
