@@ -65,6 +65,11 @@
 
 } 
 
+.quick-contact .key { 
+	display: none; 
+
+}
+
 .bx-controls { 
 	position: absolute; 
 

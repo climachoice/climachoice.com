@@ -1,9 +1,13 @@
 {% assign key = include.key %}
-{% assign value = include.value %}
+{% assign value = include.value %} 
+{% assign note = include.note %} 
 {% assign className = include.className %}
 
 
 <dl class= "key-value-pair {{ className }}"> 
-	<dt class= "key">{{ include.key }}</dt>
-	<dd class= "value">{{ include.value }}</dd> 
+	<dt class= "key">{{ key }}</dt> 
+	<dd class= "value">{{ value }}</dd> 
+	{% if note %} 
+		<dd class= "note">{{ note }}</dd> 
+	{% endif %}
 </dl>
