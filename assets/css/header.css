@@ -59,14 +59,37 @@
 } */ 
 
 .quick-contact { 
-	width: 50%; height: 4rem; 
-	position: absolute; left: 50%; bottom: 0; 
-	/* background-color: #444;  */
+	--icon-size: 1.25rem; 
+	width: 50%; 
+	/* height: 4rem;  */ 
+	position: absolute; left: 50%; bottom: 2.75rem; 
+	/* border: 1px solid;  */ 
+	/* background-color: #444;  */ 
+	/* font-size: 0.8rem;  */ 
 
 } 
 
 .quick-contact .key { 
-	display: none; 
+	display: none;  
+
+} 
+
+.quick-contact .value { 
+	margin-bottom: 0.2em; 
+	font-family: var( --heading-font-family ); 
+	font-size: 1.5em; 
+
+} 
+
+.quick-contact .value:before { 
+	display: block; 
+	width: var( --icon-size ); height: var( --icon-size ); line-height: var( --icon-size ); 
+	margin-left: auto; margin-right: auto; 
+	margin-bottom: 0.5em; 
+	/* border: 1px solid; border-radius: 4rem;  */ 
+	font-family: var( --icon-font-family ); 
+	font-size: 1em; 
+	content: var( --phone-icon ); 
 
 }
 
