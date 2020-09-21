@@ -1,16 +1,22 @@
 ---
 model: model-01
 serie: Diamond ZR
-type: Стенен 
-pictures:
-  heading: Look and Feel
-  text:
-  - text: Donec tincidunt nunc non volutpat porttitor. Cras consequat elit at lacus
-      euismod hendrerit. Maecenas lacinia, ipsum vel fringilla lobortis, arcu dui
-      mollis mauris, eget cursus dolor felis eu libero.
-  entries:
-  - src: "/assets/images/image-1.jpg"
+type: High Wall
+head:
+- heading:
+    text: model-01
+  images:
+  - src: ''
     alt: ''
+  - src: ''
+    alt: ''
+  - src: ''
+    alt: ''
+  keyValuePairList:
+  - key: serie
+    value: Diamond ZR
+  - key: type
+    value: High Wall
 price:
   integrals: '1499'
   fractions: '99'

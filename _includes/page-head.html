@@ -1,0 +1,38 @@
+{% assign entries = include.data %} 
+
+
+<section class= "page-head"> 
+	{% include header.html %}
+
+	<ul class= "entry-list head-list"> 
+	{% for entry in entries %} 
+		<li class= "entry head-entry"> 
+			<section class= "text-content">
+				{% include heading.html level = 1 text = entry.heading.text %} 
+
+				{% if entry.text %} 
+					{% include text.html data = entry.text %} 
+				{% endif %}
+
+				{% if entry.link %} 
+					{% include link.html className = "details-link" text = entry.link.text %} 
+				{% endif %} 
+
+				{% if entry.keyValuePairList %} 
+					{% include key-value-pair-list.html data = entry.keyValuePairList %} 
+				{% endif %}
+			</section> 
+
+			<ul class= "image-list">
+			{% for image in entry.images %}
+				<li class= "image-entry"> 
+					{% include cover-image.html src = image.src %} 
+				</li>
+			{% endfor %}
+			</ul>
+		</li>
+	{% endfor %} 
+	</ul>
+
+	{% include quick-contact.html data = site.data.quickContact %} 
+</section>

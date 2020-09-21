@@ -5,9 +5,9 @@ id: "faq-page"
 --- 
 
 
-{% include page-header.html data = site.data.sellPoints.body.entries %} 
+{% include page-head.html data = site.data.info.head %} 
 
-{% for entry in site.data.info.entries %} 
+{% for entry in site.data.info.body.entries %} 
 
 	{% include section.html body = "block.html" data = entry %} 
 

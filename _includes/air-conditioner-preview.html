@@ -6,13 +6,13 @@
 
 
 <section class= "head"> 
-	{% include image.html className = "product-preview-image" src = image.src alt = image.alt %} 
-	{% include price.html integrals = price.integrals fractions = price.fractions %}  
+	{% include image.html className = "product-preview-image" src = image.src alt = image.alt %}   
+	{% include price.html integrals = price.integrals fractions = price.fractions %} 	
 	{% include link.html className = "product-details-link" text = "Details" target = link.target %} 
 </section> 
 
 <section class= "body"> 
 	{% include key-value-pair.html className = "model" key = "Model" value = airConditioner.model %} 
 	{% include key-value-pair.html className = "power" key = "Power" value = specs.power.value %}
-	{% include key-value-pair.html className = "energy-class" key = "Energy Class" value = specs.energyClass.value %}
+	{% include key-value-pair.html className = "energy-class" key = "Energy Class" value = specs.energyClass.value %} 
 </section> 

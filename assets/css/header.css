@@ -58,6 +58,11 @@
 	content: "";
 } */ 
 
+.page-head { 
+	position: relative; 
+
+}
+
 .quick-contact { 
 	--icon-size: 1.25rem; 
 	width: 50%; 
@@ -66,6 +71,7 @@
 	/* border: 1px solid;  */ 
 	/* background-color: #444;  */ 
 	/* font-size: 0.8rem;  */ 
+	text-align: center; 
 
 } 
 

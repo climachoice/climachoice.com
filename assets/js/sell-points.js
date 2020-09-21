@@ -1,6 +1,6 @@
 ( function() {
 	// Initializes main slider
-	$( '.header .head-list' ).bxSlider( { 
+	$( '.page-head .head-list' ).bxSlider( { 
 		// auto: true, 
 		// autoStart: true, 
 		// infiniteLoop: true, 

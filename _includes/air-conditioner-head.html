@@ -1,0 +1,26 @@
+{% assign model = include.model %}
+{% assign serie = include.serie %}
+{% assign type = include.type %} 
+{% assign images = include.images %} 
+
+
+<section class= "page-head air-conditioner-head"> 
+	<section class= "head"> 
+		{% include heading.html className= "model" level = 5 text = model %}
+
+		<article class= "model-classification"> 
+			{% include key-value-pair.html className = "serie" key = "serie" value = serie %} 
+			{% include key-value-pair.html className = "type" key = "type" value = type %} 
+		</article>
+	</section> 
+
+	<section class= "body"> 
+		<ul class= "entry-list image-list"> 
+		{% for image in images %}
+			<li class= "entry image-entry"> 
+				{% include cover-image.html src = image.src alt = image.alt %}
+			</li> 
+		{% endfor %}
+		</ul> 
+	</section>
+</section> 
