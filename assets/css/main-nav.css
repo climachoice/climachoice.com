@@ -91,7 +91,7 @@
 /* Seting font properties on nav to spread them over nav links and close button icon */
 .main-nav .nav { 
 	font-family: var( --heading-font-family ); 
-	font-size: 0.75rem; 
+	font-size: 0.85rem; 
 } 
 
 /* .main-nav .button {

@@ -67,8 +67,9 @@
 
 .our-contacts .value {  
 	padding-top: 1em; padding-bottom: 1em; 
-	font-family: var( --heading-font-family );  
-	font-size: 1.125rem; font-weight: bold; 
+	/* font-family: var( --heading-font-family );    */
+	/* font-size: 0.8rem;  */ 
+	/* font-weight: bold;  */ 
 	text-transform: uppercase;
 
 }
