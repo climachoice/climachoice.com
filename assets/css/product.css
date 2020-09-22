@@ -64,7 +64,7 @@
 	width: 3.25em; height: 3.25em; 
 	margin-right: 0.7rem; margin-bottom: 0.7rem; 
 	/* background-color: #DDD;  */ 
-	border: 1px solid rgba( 0, 0, 0, 0.125 ); 
+	border: 1px solid var( --text-color ); 
 	font-size: 4rem; 
 
 } 
@@ -116,7 +116,8 @@
 	width: 100%; 
 	/* padding: 0.45rem 0.75rem;  */ 
 	/* border-width: 1px 0;  */ 
-	background-color: #DDD;   
+	background-color: var( --text-color );   
+	color: var( --text-background-color ); 
 	/* border: 1px solid;  */
 	font-size: 1rem; 
 

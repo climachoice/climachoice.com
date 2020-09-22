@@ -1,10 +1,10 @@
 ---
-model: model-03
+model: model-01
 serie: Diamond ZR
 type: Стенен
 head:
 - heading:
-    text: model-03
+    text: model-01
   images:
   - src: ''
     alt: ''
@@ -21,17 +21,13 @@ price:
   integrals: '1499'
   fractions: '99'
 description:
-  heading: Description
+  heading: Описание
   text:
-  - text: Donec tincidunt nunc non volutpat porttitor. Cras consequat elit at lacus
-      euismod hendrerit. Maecenas lacinia, ipsum vel fringilla lobortis, arcu dui
-      mollis mauris, eget cursus dolor felis eu libero.
+  - text: ''
 specs:
-  heading: Specifications
+  heading: Спецификации
   text:
-  - text: Donec tincidunt nunc non volutpat porttitor. Cras consequat elit at lacus
-      euismod hendrerit. Maecenas lacinia, ipsum vel fringilla lobortis, arcu dui
-      mollis mauris, eget cursus dolor felis eu libero.
+  - text: ''
   body:
   - key: Консумирана мощност
     groups:
@@ -166,4 +162,4 @@ specs:
     - values:
       - value: '36'
     units: месеца
---- 
+---

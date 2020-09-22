@@ -17,7 +17,7 @@ body {
 }
 
 .button {
-	color: var( --text-color );
+	color: var( --text-color ); 
 	background-color: var( --text-background-color ); 
 	border-color: transparent; 
 }

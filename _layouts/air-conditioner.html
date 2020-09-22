@@ -21,12 +21,12 @@ layout: page
 </section> -->
 
 <section class= "section description"> 
-	{% include heading.html className = "section-heading" level = 2 text = "Description" %} 
+	{% include heading.html className = "section-heading" level = 2 text = page.description.heading %} 
 	{% include text.html data = page.description.text %} 
 </section>
 
 <section class= "section specifications"> 
-	{% include heading.html className = "section-heading" level = 2 text = "Specifications" %} 
+	{% include heading.html className = "section-heading" level = 2 text = page.specs.heading %} 
 	{% include text.html data = page.specs.text %} 
 
 	<section class= "spec-set"> 

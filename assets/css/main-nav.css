@@ -81,6 +81,11 @@
 	position: absolute; left: -10000px; 
 	overflow: hidden; 
 
+} 
+
+.open-nav-button { 
+	margin-right: 0.8rem; 
+
 }
 
 
