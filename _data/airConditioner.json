@@ -48,20 +48,20 @@
 	},  
 
 	"description": { 
-		"heading": "Description", 
+		"heading": "Описание", 
 		"text": [
 			{
-				"text": "Donec tincidunt nunc non volutpat porttitor. Cras consequat elit at lacus euismod hendrerit. Maecenas lacinia, ipsum vel fringilla lobortis, arcu dui mollis mauris, eget cursus dolor felis eu libero."
+				"text": ""
 			}
 
 		]
 	}, 
 
 	"specs": { 
-		"heading": "Specifications", 
+		"heading": "Спецификации", 
 		"text": [
 			{
-				"text": "Donec tincidunt nunc non volutpat porttitor. Cras consequat elit at lacus euismod hendrerit. Maecenas lacinia, ipsum vel fringilla lobortis, arcu dui mollis mauris, eget cursus dolor felis eu libero."
+				"text": ""
 			}
 		], 
 

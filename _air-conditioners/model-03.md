@@ -1,16 +1,22 @@
 ---
-model: model-01
+model: model-03
 serie: Diamond ZR
-type: Канален 
-pictures:
-  heading: Look and Feel
-  text:
-  - text: Donec tincidunt nunc non volutpat porttitor. Cras consequat elit at lacus
-      euismod hendrerit. Maecenas lacinia, ipsum vel fringilla lobortis, arcu dui
-      mollis mauris, eget cursus dolor felis eu libero.
-  entries:
-  - src: "/assets/images/image-1.jpg"
+type: Стенен
+head:
+- heading:
+    text: model-03
+  images:
+  - src: ''
     alt: ''
+  - src: ''
+    alt: ''
+  - src: ''
+    alt: ''
+  keyValuePairList:
+  - key: Серия
+    value: Diamond ZR
+  - key: Тип
+    value: Стенен
 price:
   integrals: '1499'
   fractions: '99'

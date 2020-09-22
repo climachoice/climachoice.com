@@ -1,7 +1,8 @@
 {% assign entries = include.data %}
+{% assign className = include.className %}
 
 
-<article class= "key-value-pair-list"> 
+<article class= "key-value-pair-list {{ className }}"> 
 
 	{% for entry in entries %} 
 		{% include key-value-pair.html key = entry.key value = entry.value note = entry.note %} 

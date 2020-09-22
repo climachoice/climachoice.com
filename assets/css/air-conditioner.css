@@ -1,0 +1,39 @@
+.model-classification { 
+	margin-top: 2.5rem; 
+
+}
+
+.model-classification .key-value-pair { 
+	display: inline-block; 
+	width: 14rem; 
+	/* padding: 0.8rem;  */
+	/* padding-left: 0.85rem; padding-right: 0.85rem;  */ 
+	padding-top: 1.2rem; padding-bottom: 1.2rem; 
+	position: relative; 
+	border: 1px solid; 
+	border-width: 0; border-left-width: 1px; 
+	font-size: 0.85rem; 
+} 
+
+.model-classification .key-value-pair:last-child { 
+	border-right-width: 1px; 
+
+}
+
+/* .model-classification .key-value-pair:not( :last-child ):after { 
+	display: block; 
+	width: 1px; 
+	position: absolute; top: -0.5rem; bottom: -0.5rem; right: 0; 
+	background-color: var( --text-color ); 
+	content: ""; 
+
+} */
+
+.model-classification .key { 
+	text-transform: uppercase; 
+} 
+
+.model-classification .value { 
+	font-family: var( --heading-font-family ); 
+	font-size: 1.75em; 
+}

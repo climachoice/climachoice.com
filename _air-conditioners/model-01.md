@@ -1,7 +1,7 @@
 ---
 model: model-01
 serie: Diamond ZR
-type: High Wall
+type: Стенен
 head:
 - heading:
     text: model-01
@@ -13,10 +13,10 @@ head:
   - src: ''
     alt: ''
   keyValuePairList:
-  - key: serie
+  - key: Серия
     value: Diamond ZR
-  - key: type
-    value: High Wall
+  - key: Тип
+    value: Стенен
 price:
   integrals: '1499'
   fractions: '99'
