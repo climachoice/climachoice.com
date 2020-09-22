@@ -1,5 +1,10 @@
-.questions .body { 
+.questions .body {  
 	padding: 2rem; 
 	border: 1px solid; 
 	text-align: left;
+} 
+
+.faq-page .details-link { 
+	display: none; 
+
 }

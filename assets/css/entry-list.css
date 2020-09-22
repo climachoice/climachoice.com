@@ -24,7 +24,7 @@
 
 /* Entry list is a row of flex items that could move to the next row */ 
 .entry-list { 
-	display: flex; flex-direction: row; flex-wrap: wrap; 
+	display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center;  
 	max-width: var( --entry-list-width ); 
 	margin-left: auto; margin-right: auto; 
 

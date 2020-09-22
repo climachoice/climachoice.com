@@ -4,7 +4,7 @@
 } 
 
 .our-contacts .entry { 
-	padding-top: 2rem; padding-bottom: 2rem; 
+	padding-top: 2rem; padding-bottom: 2rem;  
 	margin-bottom: 0.75rem; 
 	position: relative; 
 
@@ -17,6 +17,12 @@
 
 .our-contacts .entry:nth-child( 2n ) { 
 	padding-right: 50%; 
+
+} 
+
+.our-contacts .heading, 
+.our-contacts .text-entry { 
+	padding-left: 0.8rem; padding-right: 0.8rem; 
 
 }
 
@@ -58,7 +64,7 @@
 } 
 
 .our-contacts .key-value-pair { 
-	display: inline-block; 
+	display: inline-block;  
 }
 
 .our-contacts .key { 

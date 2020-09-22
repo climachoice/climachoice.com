@@ -2,7 +2,7 @@
 	"head": { 
 		"heading": { 
 			"level": 3, 
-			"text": "Tell Us What You Think" 
+			"text": "Изпратете ни съобщение" 
 		}, 
 
 		"text": [ 
@@ -19,7 +19,7 @@
 				"element": "input", 
 				"type": "text", 
 				"name": "name", 
-				"value": "Your name", 
+				"value": "Вашето име", 
 				"required": false
 			}, 
 
@@ -27,7 +27,7 @@
 				"element": "input", 
 				"type": "email",
 				"name": "email", 
-				"value": "Your email", 
+				"value": "Вашият имейл", 
 				"required": true 
 			}, 
 
@@ -35,14 +35,14 @@
 				"element": "textarea", 
 				"type": "text",
 				"name": "message", 
-				"value": "Your message", 
+				"value": "Вашето съобщение", 
 				"required": true 
 			} 
 
 		], 
 
 		"submit": {
-			"text": "Send" 
+			"text": "Изпратете" 
 		}
 
 	}

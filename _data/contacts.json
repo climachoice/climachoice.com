@@ -2,11 +2,11 @@
 	"head": [ 
 		{ 
 			"heading": { 
-				"text": "Get in Touch With Us" 
+				"text": "Свържете се с нас" 
 			}, 
 			"text": [ 
 				{
-					"text": "Fusce semper porttitor libero, in pretium libero sollicitudin nec. Praesent euismod porttitor consequat. Nunc arcu enim, dictum in scelerisque ut, viverra ut nisi." 
+					"text": "Изберете най-подходящия за Вас начин да ни зададете въпрос, да потърсите помощ при проблем или да ни споделите нещо." 
 
 				}
 
@@ -29,14 +29,14 @@
 				"className": "address", 
 
 				"subheading": {
-					"text": "Our"
+					"text": "Нашият"
 				}, 
 				"heading": {
-					"text": "Address"
+					"text": "Адрес"
 				}, 
 				"text": [
 					{ 
-						"text": "Praesent mollis lectus rhoncus ipsum congue, vitae feugiat ex imperdiet. Vestibulum dictum nisi facilisis dolor fermentum, ac maximus turpis mollis."
+						"text": "Вратата ни е винаги отворена за Вас!"
 
 					}
 				], 
@@ -69,14 +69,14 @@
 				"className": "phone", 
 
 				"subheading": {
-					"text": "Our"
+					"text": "Нашият"
 				}, 
 				"heading": {
-					"text": "Phone"
+					"text": "Телефон"
 				}, 
 				"text": [
 					{ 
-						"text": "Nunc arcu enim, dictum in scelerisque ut, viverra ut nisi. Vivamus et mauris venenatis, gravida justo vitae, aliquam ante."
+						"text": "Имате въпрос? Ние сме насреща!" 
 
 					}
 				], 
@@ -99,14 +99,14 @@
 				"className": "email", 
 
 				"subheading": {
-					"text": "Our" 
+					"text": "Нашият" 
 				}, 
 				"heading": {
-					"text": "Email"
+					"text": "Имейл"
 				}, 
 				"text": [
 					{ 
-						"text": "Vestibulum dictum nisi facilisis dolor fermentum, ac maximus turpis mollis. Integer eleifend dignissim eros, vitae rutrum urna malesuada in." 
+						"text": "Имате много за казване? Нашият имейл адрес и формуляра по-долу са на Ваше разположение!" 
 		
 					}
 				], 

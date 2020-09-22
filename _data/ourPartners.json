@@ -6,7 +6,7 @@
 		
 		"text": [ 
 			{ 
-				"text": "Pellentesque odio velit, pharetra nec venenatis eu, gravida vel velit. In hac habitasse platea dictumst. In pulvinar purus vel eleifend bibendum. Mauris vitae nibh ut enim euismod luctus vitae nec nulla. Duis tempor porttitor vulputate. Curabitur eget tincidunt massa." 
+				"text": "Нашето високвалифицирано обслужване и огромен брой доволни клиенти не биха били възможни без любезното съдействие, съвети и помощ на нашите партньори." 
 			}
 		]
 	}, 
@@ -20,19 +20,6 @@
 				"subheading": { 
 					"text": "Вносител" 
 				}, 
-				"heading": { 
-					"text": "Condex" 
-				}, 
-				"text": [], 
-				"link": { 
-					"text": "Прочетете повече" 
-				}
-			}, 
-
-			{ 
-				"subheading": { 
-					"text": "Вносител" 
-				},
 				"heading": { 
 					"text": "Condex" 
 				}, 

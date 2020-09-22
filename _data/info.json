@@ -4,11 +4,11 @@
 	"head": [ 
 		{ 
 			"heading": { 
-				"text": "For Your Consideration" 
+				"text": "На Вашето внимание" 
 			}, 
 			"text": [ 
 				{
-					"text": "Fusce semper porttitor libero, in pretium libero sollicitudin nec. Praesent euismod porttitor consequat. Nunc arcu enim, dictum in scelerisque ut, viverra ut nisi." 
+					"text": "Отговаряме Ви на често задавани въпроси за монтажа, начина на работа и експлоатацията на нашите продукти." 
 
 				}
 			], 
@@ -27,11 +27,11 @@
 			{ 
 				"head": {
 					"heading": { 
-						"text": "Question Heading 1"
+						"text": "Защо климатик?"
 					}, 
 					"text": [ 
 						{ 
-							"text": "Question Text 1" 
+							"text": "" 
 						}
 					], 
 					"link": { 
@@ -51,15 +51,15 @@
 			{ 
 				"head": {
 					"heading": { 
-						"text": "Question Heading 2"
+						"text": "С какво климатиците на Misubishi Heavy Industries изпъкват?"
 					}, 
 					"text": [ 
 						{ 
-							"text": "Question Text 2" 
+							"text": "" 
 						}
 					], 
 					"link": { 
-						"text": "Read More" 
+						"text": "Прочетете повече" 
 					}
 				}, 
 
@@ -75,15 +75,15 @@
 			{ 
 				"head": {
 					"heading": { 
-						"text": "Question Heading 3"
+						"text": "Защо монтаж?"
 					}, 
 					"text": [ 
 						{ 
-							"text": "Question Text 3" 
+							"text": "" 
 						}
 					], 
 					"link": { 
-						"text": "Read More" 
+						"text": "Прочетете повече" 
 					}
 				}, 
 
@@ -103,15 +103,15 @@
 			{ 
 				"head": {
 					"heading": { 
-						"text": "Question Heading 4"
+						"text": "Как да използваме най-ефективно нашия климатик?" 
 					}, 
 					"text": [ 
 						{ 
-							"text": "Question Text 4" 
+							"text": "" 
 						}
 					], 
 					"link": { 
-						"text": "Read More" 
+						"text": "Прочетете повече" 
 					}
 				}, 
 

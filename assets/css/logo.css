@@ -1,5 +1,5 @@
 .logo {  
-	display: flex; flex-direction: row; align-items: center; 
+	display: flex; flex-direction: row; align-items: center; justify-content: center; 
 	font-family: var( --heading-font-family );  
 	text-transform: uppercase; 
 } 
