@@ -6,13 +6,13 @@
 
 		"text": [ 
 			{
-				"text": "Pellentesque odio velit, pharetra nec venenatis eu, gravida vel velit. In hac habitasse platea dictumst. In pulvinar purus vel eleifend bibendum. Mauris vitae nibh ut enim euismod luctus vitae nec nulla. Duis tempor porttitor vulputate. Curabitur eget tincidunt massa." 
+				"text": "Нещата, които искаме да споделим с Вас за нас - откъде идваме, какво стои зад нашите професионални възгледи и подход към работата и какво ни мотивира да правим това." 
 			}
 		], 	
 
-		"link": {
-			"target": "", 
-			"text": "Прочетете повече" 
+		"link": { 
+			"text": "Прочетете повече", 
+			"target": "/about-us.html" 
 		}, 
 
 		"image": { 

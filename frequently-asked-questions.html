@@ -1,7 +1,7 @@
 ---
 layout: page 
 title: "На Вашето внимание" 
-id: "faq-page" 
+className: "faq-page" 
 --- 
 
 
@@ -9,7 +9,7 @@ id: "faq-page"
 
 {% for entry in site.data.info.body.entries %} 
 
-	{% include section.html body = "block.html" data = entry %} 
+	{% include section.html className = "question question-close" body = "block.html" data = entry %} 
 
 {% endfor %} 
 

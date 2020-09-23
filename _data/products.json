@@ -6,7 +6,7 @@
 		
 		"text": [ 
 			{ 
-				"text": "Pellentesque odio velit, pharetra nec venenatis eu, gravida vel velit. In hac habitasse platea dictumst. In pulvinar purus vel eleifend bibendum. Mauris vitae nibh ut enim euismod luctus vitae nec nulla. Duis tempor porttitor vulputate. Curabitur eget tincidunt massa." 
+				"text": "Представяме Ви нашата продуктова гама, която включва климатиците на Mitsubishi Heavy Industries, известни по целия свят със своите качество, надеждност и икономичност." 
 			}
 		]
 	}, 
@@ -25,7 +25,8 @@
 				}, 
 				"text": [], 
 				"link": { 
-					"text": "Прочетете повече" 
+					"text": "Прочетете повече", 
+					"target": "/air-conditioners.html" 
 				}
 			}
 		]

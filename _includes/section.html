@@ -1,7 +1,8 @@
 {% assign data = include.data %} 
+{% assign className = include.className %}
 
 
-<section class= "section {{ include.className }}"> 
+<section class= "section {{ className }}"> 
 	
 	{% if data.head %}	
 		{% assign head = data.head %} 
@@ -27,6 +28,7 @@
 					{% include link.html 
 						className = "details-link" 
 						text = "Прочетете повече" 
+						target = head.link.target 
 					%} 
 				{% endif %} 
 			{% endcapture %} 
