@@ -1,3 +1,7 @@
+.faq-page .section + .section {
+	margin-top: 4.5rem; 
+}
+
 .faq-page .question .body {  
 	text-align: left;
 } 
@@ -13,7 +17,7 @@
 } 
 
 .faq-page .details-link { 
-	width: 3.25rem; height: 3.25rem; line-height: 3.25rem; 
+	width: 3rem; height: 3rem; line-height: 3rem; 
 	padding: 0; 
 	position: relative; 
 	border-radius: 50%; 
@@ -43,3 +47,8 @@
 .faq-page .question-open .details-link:before {  
 	content: "\f2f4"; 
 } 
+
+.faq-page .question-open + .question .heading:before { 
+	opacity: 0; 
+
+}

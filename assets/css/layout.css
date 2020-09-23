@@ -83,10 +83,9 @@ leaving some distance from window edges, achieving that by using transparent bor
 	height: 150px; 
 } 
 
-/* figure.image {
-	background-size: cover; background-position: center center; background-repeat: no-repeat; 
-	background-image: none !important; background-color: #999; 
-} */
+.cover-image {
+	background-size: cover; background-position: center center; background-repeat: no-repeat;  
+} 
 
 .cover-image .image {
 	display: none; 

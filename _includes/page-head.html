@@ -26,7 +26,7 @@
 			<ul class= "image-list">
 			{% for image in entry.images %}
 				<li class= "image-entry"> 
-					{% include cover-image.html src = image.src %} 
+					{% include cover-image.html data = image %} 
 				</li>
 			{% endfor %}
 			</ul>

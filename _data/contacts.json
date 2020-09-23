@@ -14,7 +14,7 @@
 
 			"images": [ 
 				{ 
-					"src": "", 
+					"src": "/assets/images/pexels-pixabay-461064.jpg", 
 					"alt": ""
 				} 
 			] 
@@ -41,7 +41,7 @@
 					}
 				], 
 				"image": { 
-					"src": "", 
+					"src": "/assets/images/pexels-pixabay-459654.jpg", 
 					"alt": ""
 				}, 
 
@@ -81,7 +81,7 @@
 					}
 				], 
 				"image": { 
-					"src": "", 
+					"src": "/assets/images/pexels-cottonbro-3944404.jpg", 
 					"alt": ""
 				}, 
 
@@ -111,7 +111,7 @@
 					}
 				], 
 				"image": { 
-					"src": "", 
+					"src": "/assets/images/pexels-pixabay-261599.jpg", 
 					"alt": ""
 				}, 
 		
