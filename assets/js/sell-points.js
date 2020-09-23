@@ -1,6 +1,7 @@
-( function() {
-	// Initializes main slider
-	$( '.page-head .head-list' ).bxSlider( { 
+( function() { 
+
+	// Initializes main slider 
+	const mainSliderLoaded = bxSliderLoad( $( '.page-head .head-list' ), { 
 		// auto: true, 
 		// autoStart: true, 
 		// infiniteLoop: true, 
@@ -11,5 +12,20 @@
 		autoHover: true, 
 		stopAutoOnClick: true 
 	} ); 
- 
+
+	if ( !mainSliderLoaded ) { 
+		bxSliderLoad( $( '.page-head .image-list' ), {
+			controls: false 
+		} ); 
+	}
+
+	function bxSliderLoad( element, bxSliderSettings ) { 
+		if ( element.children().length <= 1 ) { 
+			return false; 
+		} 
+
+		element.bxSlider( bxSliderSettings ); 
+		return true; 
+	}
+
 }() );

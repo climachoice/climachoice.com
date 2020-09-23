@@ -12,7 +12,7 @@ id: "all-air-conditioners-page"
 <ul class= "entry-list product-list air-conditioner-list">
 {% for airConditioner in airConditioners %} 
 	{% assign specs = airConditioner.specs.body %} 
-	{% assign pageUrl = "/air-conditioners/" | append: airConditioner.model %} 
+	{% assign pageUrl = "/air-conditioners/" | append: airConditioner.model | append: ".html" %} 
 
 	<li class= "entry product air-conditioner">  
 		<section class= "product-head">
