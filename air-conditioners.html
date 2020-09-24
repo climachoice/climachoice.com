@@ -11,12 +11,13 @@ className: "all-air-conditioners-page"
 
 <ul class= "entry-list product-list air-conditioner-list">
 {% for airConditioner in airConditioners %} 
+	{% assign image = airConditioner.head[ 0 ].images[ 0 ] %} 
 	{% assign specs = airConditioner.specs.body %} 
 	{% assign pageUrl = airConditioner.model | remove: "/" | downcase | split: " " | join: "-" | prepend: "/air-conditioners/" | append: ".html" %} 
 
 	<li class= "entry product air-conditioner">  
 		<section class= "product-head">
-			{% include cover-image.html src = "/" %}  
+			{% include cover-image.html data = image %}  
 			{% include price.html integrals = airConditioner.price.integrals fractions = airConditioner.price.fractions %}
 		</section>  
 
