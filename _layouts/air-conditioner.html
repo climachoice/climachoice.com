@@ -30,7 +30,7 @@ layout: page
 	{% include text.html data = page.specs.text %} 
 
 	<section class= "spec-set"> 
-	{% for spec in site.data.airConditioner.specs.body %} 
+	{% for spec in page.specs.body %} 
 		<article class= "spec"> 
 			<h3 class= "heading spec-heading">{{ spec.key }}</h3> 
 
