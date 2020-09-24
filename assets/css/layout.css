@@ -80,12 +80,27 @@ leaving some distance from window edges, achieving that by using transparent bor
 /* Taking into account styling, semantics and SEO, an image is represented as a figure element with an image element as its descendant */
 
 .cover-image { 
-	height: 150px; 
+	box-sizing: border-box; 
+	min-height: 150px; 
 } 
 
 .cover-image {
 	background-size: cover; background-position: center center; background-repeat: no-repeat;  
 } 
+
+/* .cover-image:after { 
+	--frame-border-distance: 1.25rem; 
+	box-sizing: border-box; 
+	display: block; 
+	position: absolute; 
+	left: var( --frame-border-distance ); top: var( --frame-border-distance ); 
+	right: var( --frame-border-distance ); bottom: var( --frame-border-distance ); 
+	background-color: var( --text-color ); 
+	background-clip: content-box; 
+	content: ""; 
+	opacity: 0.75; 
+
+} */
 
 .cover-image .image {
 	display: none; 

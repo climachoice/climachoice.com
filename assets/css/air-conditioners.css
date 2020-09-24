@@ -3,6 +3,10 @@
 	--column-gutter-x: 1.2rem; 
 } 
 
+.product-list { 
+	justify-content: flex-start; 
+}
+
 /* Removes right margin from elements in the last column */
 .product-list .entry:nth-child( 2n + 2 ) { 
 	margin-right: 0; 
