@@ -1,5 +1,5 @@
---- 
-className: air-conditioner-model 
+---
+className: air-conditioner-model
 model: model-01
 serie: Diamond ZR
 type: Стенен
@@ -7,11 +7,11 @@ head:
 - heading:
     text: model-01
   images:
-  - src: '/images/img-01.jpg'
+  - src: "/assets/images/pexels-andrea-piacquadio-3766218.jpg"
     alt: ''
-  - src: '/images/img-01.jpg'
+  - src: "/assets/images/pexels-picjumbocom-196658.jpg"
     alt: ''
-  - src: '/images/img-01.jpg'
+  - src: "/assets/images/pexels-pixabay-459654.jpg"
     alt: ''
   keyValuePairList:
   - key: Серия

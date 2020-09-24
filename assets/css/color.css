@@ -3,6 +3,11 @@ body {
 	background-color: var( --text-background-color ); 
 } 
 
+/* .heading { 
+	color: var( --heading-color ); 
+
+} */
+
 .cover-image { 
 	background-color: var( --text-color ); 
 

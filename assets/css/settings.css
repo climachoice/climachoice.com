@@ -83,11 +83,13 @@
 	 */
 
 	/* Main text color */
-	--text-color: rgba( 255, 0, 0, 0.7 ); 
+	--text-color: rgb(108, 133, 54); 
 	/* Color behind text */
 	--text-background-color: rgba( 255, 255, 255, 0.95 );
 	/* Color of text section, overlapping another section or an image */
 	--overlay-color: rgba( 255, 255, 255, 0.95 ); 
+
+	/* --heading-color:  rgba( 144, 224, 32, 1 );  */ 
 
 
 	/**
