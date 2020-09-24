@@ -11,6 +11,12 @@
 
 } 
 
+.head-list { 
+	margin-bottom: 4rem; 
+	padding: 1.25rem; 
+
+}
+
 .head-entry {
 	/* Giving space around the text content */
 	padding-top: var( --head-list-padding-y ); padding-bottom: var( --head-list-padding-y ); 
@@ -63,7 +69,8 @@ but for border around the box, an :after pseudo-element has to be created */
 } 
 
 .head-list .image-list {  
-	width: 50%; height: 100%; 
+	width: 50%; height: 100%;  
+	/* margin: 1.25rem;  */ 
 	position: absolute;  
 	left: 0; top: 0;   
 } 
@@ -71,19 +78,21 @@ but for border around the box, an :after pseudo-element has to be created */
 .head-list .cover-image {
 	width: 100%; height: 100%; 
 	position: absolute; left: 0; top: 0; 
+	background-color: transparent; 
 
 } 
 
-.head-list .image-list:after { 
+.head-list .head-entry:after { 
 	box-sizing: border-box; 
 	display: block; 	
-	width: 100%; height: 100%; 	
+	/* width: 100%; height: 100%; 	 */ 
+	margin-left: 50%; 
 	/* padding: 1rem;  */
-	position: absolute; left: 0; top: 0; 
-	/* left: 1.25rem; top: 1.35rem; right: 1.25rem; bottom: 1.25rem;  */
-	background-color: var( --overlay-color ); 
+	position: absolute;  
+	left: 1.25rem; top: 1.35rem; right: 1.25rem; bottom: 1.25rem; 
+	/* background-color: var( --overlay-color );  */
 	background-clip: content-box;  
-	border: 0.85rem solid transparent; 
+	/* border: 1px solid;  */
 	content: ""; 
 	opacity: 0.5; 
 
