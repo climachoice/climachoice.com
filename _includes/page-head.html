@@ -15,7 +15,7 @@
 				{% endif %}
 
 				{% if entry.link %} 
-					{% include link.html className = "details-link" text = entry.link.text %} 
+					{% include link.html className = "details-link" text = entry.link.text target = entry.link.target %} 
 				{% endif %} 
 
 				{% if entry.keyValuePairList %} 

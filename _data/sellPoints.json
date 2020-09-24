@@ -11,7 +11,30 @@
 					}
 				], 
 				"link": { 
-					"text": "Прочетете повече" 
+					"text": "Прочетете повече", 
+					"target": "/air-conditioners.html"
+				}, 
+
+				"images": [
+					{ 
+						"src": "/assets/images/rwmGdmT3WXqzYH4sPiNaak.jpg", 
+						"alt": "" 
+					}
+				]
+			}, 
+
+			{ 
+				"heading": { 
+					"text": "Изключително ниски нива на шум" 
+				}, 
+				"text": [ 
+					{ 
+						"text": "" 
+					}
+				], 
+				"link": { 
+					"text": "Прочетете повече", 
+					"target": "/air-conditioners.html"
 				}, 
 
 				"images": [
@@ -32,16 +55,18 @@
 					}
 				], 
 				"link": { 
-					"text": "Прочетете повече" 
+					"text": "Прочетете повече", 
+					"target": "/air-conditioners.html"
 				}, 
 
 				"images": [
 					{ 
-						"src": "/", 
+						"src": "/assets/images/rwmGdmT3WXqzYH4sPiNaak.jpg", 
 						"alt": "" 
 					}
 				]
 			}, 
+
 
 			{ 
 				"heading": { 
@@ -53,12 +78,13 @@
 					}
 				], 
 				"link": { 
-					"text": "Прочетете повече" 
+					"text": "Прочетете повече", 
+					"target": "/air-conditioners.html" 
 				}, 
 
 				"images": [
 					{ 
-						"src": "/", 
+						"src": "/assets/images/rwmGdmT3WXqzYH4sPiNaak.jpg", 
 						"alt": "" 
 					}
 				]
