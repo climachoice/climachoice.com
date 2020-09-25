@@ -45,6 +45,11 @@
 	background-color: transparent;  background-size: 100%; 
 	/* border: 1px solid;  */
 
+} 
+
+.product-head .cover-image:before { 
+	display: none; 
+
 }
 
 .product .text-entry {

@@ -14,7 +14,9 @@
 	} ); 
 
 	if ( !mainSliderLoaded ) { 
-		bxSliderLoad( $( '.page-head .image-list' ), {
+		bxSliderLoad( $( '.page-head .image-list' ), { 
+			auto: true, 
+			infiniteLoop: false, 
 			mode: "vertical", 
 			controls: false 
 		} ); 

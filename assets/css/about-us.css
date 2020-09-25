@@ -22,6 +22,7 @@
 
 .about-us .text-content { 
 	box-sizing: border-box; 
+	/* margin-top: 5rem; margin-bottom: 5rem;  */ 
 	margin-left: 5rem; margin-right: 40%; 
 	padding: 3.5rem; 
 	position: relative; z-index: 1; 
@@ -33,6 +34,7 @@
 
 .about-us .cover-image { 
 	width: 50%; height: 100%; 
-	position: absolute; left: 50%; top: 0; 
+	position: absolute; left: 45%; top: 0; 
+	background-size: contain; 
 
 }

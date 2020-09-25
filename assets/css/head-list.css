@@ -11,10 +11,10 @@
 
 } 
 
-/* .head-list { 
-	margin-bottom: 4rem; 
+.head-list { 
+	/* margin-bottom: 4rem;  */  
 
-} */ 
+} 
 
 .head-entry {
 	/* Giving space around the text content */
@@ -71,7 +71,7 @@ but for border around the box, an :after pseudo-element has to be created */
 	width: 50%; height: 100%;  
 	/* margin: 1.25rem;  */ 
 	position: absolute;  
-	left: 0; top: 0;   
+	left: 0; top: 0;    
 } 
 
 .head-list .cover-image {

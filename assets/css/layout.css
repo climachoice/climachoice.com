@@ -82,23 +82,22 @@ leaving some distance from window edges, achieving that by using transparent bor
 .cover-image { 
 	box-sizing: border-box; 
 	min-height: 150px; 
+	position: relative; 
 } 
 
 .cover-image {
 	background-size: cover; background-position: center center; background-repeat: no-repeat;  
 } 
 
-/* .cover-image:after { 
+/* .cover-image:before { 
 	--frame-border-distance: 1.25rem; 
 	box-sizing: border-box; 
 	display: block; 
-	position: absolute; 
-	left: var( --frame-border-distance ); top: var( --frame-border-distance ); 
-	right: var( --frame-border-distance ); bottom: var( --frame-border-distance ); 
+	position: absolute; left: 0; top: 0; right: 0; bottom: 0; 
 	background-color: var( --text-color ); 
-	background-clip: content-box; 
+	background-clip: content-box;  
 	content: ""; 
-	opacity: 0.75; 
+	opacity: 0.; 
 
 } */
 

@@ -13,7 +13,7 @@
 
 			"images": [
 				{ 
-					"src": "/assets/images/pexels-pixabay-327540.jpg", 
+					"src": "/assets/images/pexels-pixabay-272887.jpg", 
 					"alt": "" 
 				}
 			] 
@@ -41,7 +41,7 @@
 		], 
 
 		"image": { 
-			"src": "", 
+			"src": "/assets/images/asesor-png-7.png", 
 			"alt": ""
 		} 
 
