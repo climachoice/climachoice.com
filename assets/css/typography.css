@@ -5,13 +5,13 @@
 /* Arial Black font declaration */
 @font-face {
 	font-family: ArialBlack; 
-	src: url( "/fonts/ariblk.ttf" ); 
+	src: url( "../fonts/ariblk.ttf" ); 
 }
 
 /* Ionicons font declaration */ 
 @font-face {
 	font-family: IonIcons; 
-	src: url( "/fonts/ionicons.ttf" ); 
+	src: url( "../fonts/ionicons.ttf" ); 
 
 }
 
