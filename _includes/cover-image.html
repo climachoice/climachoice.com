@@ -1,7 +1,7 @@
 {% assign figure = include.data %}
 
 
-<figure class= "cover-image" style= "background-image: url( '{{ figure.src }}' )"> 
+<figure class= "cover-image" style= "background-image: url( '{{ site.baseurl }}{{ figure.src }}' )"> 
 	{% include image.html 
 		data = figure.image 
 	%} 

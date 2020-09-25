@@ -12,12 +12,12 @@
 				], 
 				"link": { 
 					"text": "Прочетете повече", 
-					"target": "{{ site.baseurl }}/air-conditioners.html"
+					"target": "/air-conditioners.html"
 				}, 
 
 				"images": [
 					{ 
-						"src": "{{ site.baseurl }}/assets/images/rwmGdmT3WXqzYH4sPiNaak.jpg", 
+						"src": "/assets/images/rwmGdmT3WXqzYH4sPiNaak.jpg", 
 						"alt": "" 
 					}
 				]
@@ -34,12 +34,12 @@
 				], 
 				"link": { 
 					"text": "Прочетете повече", 
-					"target": "{{ site.baseurl }}/air-conditioners.html"
+					"target": "/air-conditioners.html"
 				}, 
 
 				"images": [
 					{ 
-						"src": "{{ site.baseurl }}/assets/images/rwmGdmT3WXqzYH4sPiNaak.jpg", 
+						"src": "/assets/images/rwmGdmT3WXqzYH4sPiNaak.jpg", 
 						"alt": "" 
 					}
 				]
@@ -56,12 +56,12 @@
 				], 
 				"link": { 
 					"text": "Прочетете повече", 
-					"target": "{{ site.baseurl }}/air-conditioners.html"
+					"target": "/air-conditioners.html"
 				}, 
 
 				"images": [
 					{ 
-						"src": "{{ site.baseurl }}/assets/images/rwmGdmT3WXqzYH4sPiNaak.jpg", 
+						"src": "/assets/images/rwmGdmT3WXqzYH4sPiNaak.jpg", 
 						"alt": "" 
 					}
 				]
@@ -79,12 +79,12 @@
 				], 
 				"link": { 
 					"text": "Прочетете повече", 
-					"target": "{{ site.baseurl }}/air-conditioners.html" 
+					"target": "/air-conditioners.html" 
 				}, 
 
 				"images": [
 					{ 
-						"src": "{{ site.baseurl }}/assets/images/rwmGdmT3WXqzYH4sPiNaak.jpg", 
+						"src": "/assets/images/rwmGdmT3WXqzYH4sPiNaak.jpg", 
 						"alt": "" 
 					}
 				]
