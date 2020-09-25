@@ -60,15 +60,15 @@
 
 .page-head { 
 	position: relative; 
-	padding: 1.25rem; 
+	margin: 1.25rem; 
 
 }
 
 .quick-contact { 
 	--icon-size: 1.25rem; 
-	width: 50%; 
+	/* width: 50%;  */
 	/* height: 4rem;  */ 
-	position: absolute; left: 50%; bottom: 2.75rem; 
+	position: absolute; left: 50%; right: 0; bottom: 2.75rem; 
 	/* border: 1px solid;  */ 
 	/* background-color: #444;  */ 
 	/* font-size: 0.8rem;  */ 

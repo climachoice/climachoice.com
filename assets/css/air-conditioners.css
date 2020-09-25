@@ -21,7 +21,7 @@
 	/* Presentations are not given a fixed height, and their content is not centered vertically,
 	to avoid vertical disalignment of content in presentations with different text volume */ 
 	box-sizing: border-box; 
-	padding: 2.75rem; 
+	padding: 2.25rem; 
 	/* width: var( --feature-entry-width );  */ 
 	/* padding-top: 2.75rem;   */ 
 	/* padding-left: 2rem; padding-right: 2rem; padding-bottom: 2.75rem;  */ 
@@ -41,8 +41,9 @@
 } 
 
 .product-head .cover-image { 
-	height: 20rem; 
-	background-color: transparent; 
+	height: 15rem; 
+	background-color: transparent;  background-size: 100%; 
+	/* border: 1px solid;  */
 
 }
 
@@ -51,9 +52,11 @@
 } 
 
 .product .price { 
+	display: inline-block; 
+	margin-left: 1.25rem; 
 	padding: 0.5rem; 
-	position: absolute; left: 1.25rem; bottom: 0; 
-	border: 1px solid; 
+	/* position: absolute; left: 1.25rem; top: 0;    */ 
+	border: 1px solid;  
 	color: var( --text-color ); 
 
 }
@@ -93,7 +96,7 @@
 
 .product .details-link:hover {  
 	/* transform: translateY( 0 );   */ 	
-	opacity: 1; 
+	/* opacity: 1;  */ 
 } 
 
 .spec-overview { 

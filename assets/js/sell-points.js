@@ -15,6 +15,7 @@
 
 	if ( !mainSliderLoaded ) { 
 		bxSliderLoad( $( '.page-head .image-list' ), {
+			mode: "vertical", 
 			controls: false 
 		} ); 
 	}

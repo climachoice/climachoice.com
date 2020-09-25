@@ -14,7 +14,7 @@
 }
 
 .head-list .bx-wrapper { 
-	width: 50%; 
+	width: 50%; 	
 	position: absolute; left: 0; top: 0; 
 
 }
@@ -42,25 +42,27 @@
 
 .model-classification .key-value-pair { 
 	display: inline-block; 
-	width: 14rem; 
+	width: 12rem; 
 	/* margin-bottom: 1.25rem;  */
 	/* padding: 0.8rem;  */
-	padding-left: 1.85rem; padding-right: 1.85rem;  
-	padding-top: 1.2rem; padding-bottom: 1.2rem;  
+	/* padding-left: 1.85em; padding-right: 1.85em;   */
+	padding-top: 0.85em; padding-bottom: 0.85em;  
 	position: relative; 
-	/* border-bottom: 1px solid;  */
-	/* border-width: 0; border-bottom-width: 1px;   */ 
-	font-size: 0.85rem; 
+	/* border-bottom: 1px solid; 
+	border-width: 0; border-bottom-width: 1px;    */ 
+	/* border: 1px solid;  */ 
+	font-size: 0.8rem; 
+	text-transform: uppercase; 
 } 
 
 .model-classification .key-value-pair:first-child { 
-	padding-right: 1.85rem; 
+	padding-right: 1.85em; 
 	text-align: right; 
 
 }
 
 .model-classification .key-value-pair:last-child { 
-	padding-left: 1.85rem;
+	padding-left: 1.85em;
 	border: none; 
 	text-align: left; 
 
@@ -69,7 +71,7 @@
 .model-classification .key-value-pair:not( :last-child ):after { 
 	display: block; 
 	width: 1px; 
-	position: absolute; top: -0.5rem; bottom: -0.5rem; right: 0; 
+	position: absolute; top: -0.5em; bottom: -0.5em; right: 0; 
 	background-color: var( --text-color ); 
 	content: ""; 
 
@@ -81,5 +83,5 @@
 
 .model-classification .value { 
 	font-family: var( --heading-font-family ); 
-	font-size: 1.75em; 
+	font-size: 1.5em; 
 }
