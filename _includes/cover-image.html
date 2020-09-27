@@ -1,5 +1,5 @@
 {% assign figure = include.data %} 
-{% assign src = {{ site.baseurl | append: figure.src }} %} 
+{% assign src = site.baseurl | append: figure.src %} 
 
 
 <figure class= "cover-image" style= "background-image: url( '{{ src }}' )" > 
