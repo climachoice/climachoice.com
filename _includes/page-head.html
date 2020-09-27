@@ -1,12 +1,12 @@
 {% assign entries = include.data %}  
 
 
-<section class= "page-head"> 
-	{% include header.html %} 
-
+<section class= "page-head">  
 	<ul class= "entry-list head-list"> 
 	{% for entry in entries %} 
 		<li class= "entry head-entry"> 
+			{% include header.html %} 
+
 			<section class= "text-content">
 				{% if entry.subheading %} 
 					{% include heading.html className = "subheading" level = 5 text = entry.subheading.text %} 
@@ -34,9 +34,9 @@
 				</li>
 			{% endfor %}
 			</ul>
+
+			{% include quick-contact.html data = site.data.quickContact %} 
 		</li>
 	{% endfor %} 
-	</ul>
-
-	{% include quick-contact.html data = site.data.quickContact %} 
+	</ul> 
 </section>

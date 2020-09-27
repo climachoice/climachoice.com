@@ -1,4 +1,4 @@
-$( ".link-deactivated" ).on( "click", function( e ) { 
+$( ".our-products .details-link" ).on( "click", function( e ) { 
 	e.preventDefault(); 
 
 	const linkHolder = $( this ).parent(); 

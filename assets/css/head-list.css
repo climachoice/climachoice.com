@@ -132,56 +132,7 @@ but for border around the box, an :after pseudo-element has to be created */
 	Meadia Queries
 ----------------------------------------------------------------- */
 
-@media ( min-width: 1280px ) {
-	/* .head-list .image {
-		left: calc( 44rem - 3.5rem );
-	} */
-	
-}
 
-@media ( max-width: 1280px ) {
-	/* .head-list .image {
-		left: calc( 100% - 44rem - 3.5rem );
-	} */
-	
-}
 
-@media ( max-width: 1020px ) {
-	.head-list .text-content {
-		/* padding-left: 15%;  */
-		/* background-color: rgba( 205, 230, 236, 0.85 );  */
-	}
 
-}
-
-@media ( max-width: 840px ) {
-	.head-list {
-		border-left: 0; border-right: 0; 
-	}
-
-	/* .head-list .text-content {
-		margin-left: var( --content-padding-left ); margin-right: 30%; 
-		padding-left: 10%; padding-right: 10%; 
-	} */
-
-	/* .head-list .image {
-		left: 0; 
-	} */
-
-}
-
-@media ( max-width: 640px ) {
-	/* .head-list .text-content {
-		margin-left: 0;  
-		padding-left: var( --content-padding-left ); padding-right: var( --content-padding-left ); 
-	} */
-
-}
-
-@media ( max-width: 520px ) {
-	/* .head-list .text-content {
-		margin-right: 0;
-	} */
-
-}
 

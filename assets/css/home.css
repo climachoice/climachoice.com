@@ -24,3 +24,40 @@
 	color: var( --text-color ); 
 
 } 
+
+
+@media ( max-width: 980px ) {
+
+	.home-page .head-list .head-entry {  
+		padding-left: 0; 
+		  
+	} 
+
+	.home-page .head-list .image-list { 
+		width: 100%; 
+		
+	} 
+
+	.home-page .head-list .cover-image { 
+		opacity: 0.25; 
+
+	} 
+
+	.bx-controls { 
+		position: initial; 
+		margin-right: 0; 
+
+	}
+
+} 
+
+@media ( max-width: 780px ) { 
+
+	.our-products .entry-list, 
+	.reviews .entry-list { 
+		--column-count: 1; 
+		--column-gutter-x: 0rem; 
+
+	}
+
+}
