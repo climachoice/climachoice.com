@@ -14,9 +14,8 @@
 } 
 
 .our-products .entry { 
-	padding: 2.5rem; 
+	padding: 2.5rem;  
 	background-color: var( --text-background-color ); 
 	color: var( --text-color ); 
-	/* border: 1px solid;  */
 
-}
+} 

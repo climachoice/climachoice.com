@@ -3,7 +3,7 @@
 		"entries": [ 
 			{ 
 				"heading": { 
-					"text": "Създайте атмосфера във Вашия дом или офис" 
+					"text": "Домът е там, където е семейството" 
 				}, 
 				"text": [ 
 					{ 
@@ -17,74 +17,7 @@
 
 				"images": [
 					{ 
-						"src": "/assets/images/rwmGdmT3WXqzYH4sPiNaak.jpg", 
-						"alt": "" 
-					}
-				]
-			}, 
-
-			{ 
-				"heading": { 
-					"text": "Изключително ниски нива на шум" 
-				}, 
-				"text": [ 
-					{ 
-						"text": "" 
-					}
-				], 
-				"link": { 
-					"text": "Прочетете повече", 
-					"target": "/air-conditioners.html"
-				}, 
-
-				"images": [
-					{ 
-						"src": "/assets/images/rwmGdmT3WXqzYH4sPiNaak.jpg", 
-						"alt": "" 
-					}
-				]
-			}, 
-
-			{ 
-				"heading": { 
-					"text": "Комфорт от -20 до +46 градуса" 
-				}, 
-				"text": [ 
-					{ 
-						"text": "" 
-					}
-				], 
-				"link": { 
-					"text": "Прочетете повече", 
-					"target": "/air-conditioners.html"
-				}, 
-
-				"images": [
-					{ 
-						"src": "/assets/images/rwmGdmT3WXqzYH4sPiNaak.jpg", 
-						"alt": "" 
-					}
-				]
-			}, 
-
-
-			{ 
-				"heading": { 
-					"text": "Енергоспестяване, което ще възмути ЧЕЗ" 
-				}, 
-				"text": [ 
-					{ 
-						"text": "" 
-					}
-				], 
-				"link": { 
-					"text": "Прочетете повече", 
-					"target": "/air-conditioners.html" 
-				}, 
-
-				"images": [
-					{ 
-						"src": "/assets/images/rwmGdmT3WXqzYH4sPiNaak.jpg", 
+						"src": "/assets/images/Humidification Blog.png", 
 						"alt": "" 
 					}
 				]
