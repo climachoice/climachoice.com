@@ -1,7 +1,7 @@
 { 
 	"head": {
 		"heading": { 
-			"text": "За нас" 
+			"text": "Здравейте, ние сме Clima Energy" 
 		}, 
 
 		"text": [ 
@@ -16,7 +16,7 @@
 		}, 
 
 		"image": { 
-			"src": "/assets/images/pexels-pixabay-272887.jpg", 
+			"src": "/assets/images/pexels-fauxels-3184465.jpg", 
 			"alt": ""
 		} 
 	}

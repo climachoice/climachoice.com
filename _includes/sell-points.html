@@ -1,4 +1,5 @@
 {% assign sellPoints = include.data %} 
+{% assign image = site.data.sellPoints.body.image %} 
 {% assign points = sellPoints.entries %} 
 
 
@@ -10,5 +11,7 @@
 				data = point 
 			%} 
 		</li>
-	{% endfor %} 
-</ul>
+	{% endfor %}  
+
+	{% include cover-image.html data = image %} 
+</ul>  

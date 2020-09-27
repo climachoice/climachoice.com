@@ -1,13 +1,17 @@
-{% assign entries = include.data %} 
+{% assign entries = include.data %}  
 
 
 <section class= "page-head"> 
-	{% include header.html %}
+	{% include header.html %} 
 
 	<ul class= "entry-list head-list"> 
 	{% for entry in entries %} 
 		<li class= "entry head-entry"> 
 			<section class= "text-content">
+				{% if entry.subheading %} 
+					{% include heading.html className = "subheading" level = 5 text = entry.subheading.text %} 
+				{% endif %}
+
 				{% include heading.html level = 1 text = entry.heading.text %} 
 
 				{% if entry.text %} 

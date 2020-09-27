@@ -18,7 +18,7 @@
 		"entries": [ 
 			{ 
 				"subheading": { 
-					"text": "Нашите" 
+					"text": "Mitsubishi Heavy" 
 				}, 
 				"heading": { 
 					"text": "Климатици" 
@@ -27,6 +27,20 @@
 				"link": { 
 					"text": "Прочетете повече", 
 					"target": "/air-conditioners.html" 
+				}
+			}, 
+
+			{ 
+				"subheading": { 
+					"text": "Mitsubishi Heavy" 
+				}, 
+				"heading": { 
+					"text": "Термопомпи" 
+				}, 
+				"text": [], 
+				"link": { 
+					"text": "Прочетете повече", 
+					"target": "/" 
 				}
 			}
 		]

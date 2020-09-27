@@ -3,6 +3,11 @@
 	--column-count: 2; 
 } 
 
+/* .home-page .page-head { 
+	background-image: url( "../images/Humidification Blog.png" ); background-size: 50% auto; background-repeat: no-repeat; 
+
+} */ 
+
 /* Removes right margin from elements in the last column */
 .our-products .entry:nth-child( 2n + 2 ) { 
 	margin-right: 0; 

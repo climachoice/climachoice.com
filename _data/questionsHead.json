@@ -1,7 +1,7 @@
 { 
 	"head": {
 		"heading": { 
-			"text": "Често задавани въпроси" 
+			"text": "На Вашето внимание" 
 		}, 
 
 		"text": [ 
@@ -16,7 +16,7 @@
 		}, 
 
 		"image": { 
-			"src": "/assets/images/pexels-anna-shvets-3683053.jpg", 
+			"src": "/assets/images/pexels-1111368.jpg", 	
 			"alt": ""
 		} 
 	}
