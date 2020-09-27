@@ -2,10 +2,12 @@
 
 
 <section class= "page-head">  
+	{% include main-nav.html data = site.data.mainNav %} 
+
 	<ul class= "entry-list head-list"> 
-	{% for entry in entries %} 
+	{% for entry in entries %}
 		<li class= "entry head-entry"> 
-			{% include header.html %} 
+			{% include header.html %}
 
 			<section class= "text-content">
 				{% if entry.subheading %} 
@@ -33,7 +35,7 @@
 					{% include cover-image.html data = image %} 
 				</li>
 			{% endfor %}
-			</ul>
+			</ul> 
 
 			{% include quick-contact.html data = site.data.quickContact %} 
 		</li>

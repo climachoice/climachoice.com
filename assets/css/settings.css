@@ -47,8 +47,8 @@
 	 * Header vertical distances 
 	 */
 
-	--head-list-padding-y: 4rem; 
-	--head-list-text-padding-top: 5.5rem; 
+	--head-list-padding-y: 0rem; 
+	--head-list-text-padding-top: 12rem; 
 	--head-list-text-padding-bottom: calc( var( --head-list-text-padding-top ) + 0rem ); 
 
 

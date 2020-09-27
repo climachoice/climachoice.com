@@ -19,10 +19,10 @@
  * Navigation visibility control buttons 
  */ 
 
-.main-nav .nav { 
+.main-nav { 
 	display: flex; justify-content: center; align-items: center; 
 	width: 100%; height: 0; overflow: hidden; 
-	position: fixed; z-index: 3; 
+	position: fixed; z-index: 10; 
 	left: 0; top: 0; 
 	background-color: var( --overlay-color ); 
 } 
@@ -32,7 +32,13 @@
 
 } 
 
-.main-nav .button {
+.main-nav .nav-entry { 
+	position: relative; z-index: 10; 
+
+}
+
+.open-nav-button, 
+.close-nav-button {
 	width: var( --header-height ); height: var( --header-height ); 	
 	position: relative; 
 	border: none;  
@@ -58,7 +64,7 @@
 	content: "";
 } */ 
 
-.main-nav-open .nav { 
+.main-nav.main-nav-open { 
 	height: 100%; 
 
 } 

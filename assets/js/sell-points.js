@@ -1,5 +1,5 @@
 ( function() { 
-
+	
 	// Initializes main slider 
 	const mainSliderLoaded = bxSliderLoad( $( '.page-head .head-list' ), { 
 		// auto: true, 

@@ -71,7 +71,8 @@ body {
 }
 
 /* Control button text is moved out of the screen to be replaced with an icon */
-.main-nav .button {
+.button { 
+	display: inline-block; 
 	text-indent: -10000px; overflow: hidden; 
 	cursor: pointer; 
 }
