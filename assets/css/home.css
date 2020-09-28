@@ -33,17 +33,17 @@
 		left: 0; 
 	} 
 
-	.home-page .head-list .head-entry {  
+	.head-list .head-entry {  
 		padding-left: 0; 
 		  
 	} 
 
-	.home-page .head-list .image-list { 
+	.head-list .image-list { 
 		width: 100%; height: 100%; 
 		
 	} 
 
-	.home-page .head-list .cover-image { 
+	.head-list .cover-image { 
 		opacity: 0.25; 
 
 	} 
@@ -57,7 +57,7 @@
 		position: initial; 
 		margin-right: 0; 
 
-	}
+	} 
 
 } 
 
@@ -70,4 +70,4 @@
 
 	}
 
-}
+} 
