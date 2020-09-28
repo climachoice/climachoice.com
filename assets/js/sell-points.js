@@ -7,10 +7,10 @@
 		// infiniteLoop: true, 
 		mode: "vertical", 
 		controls: false, 
-		adaptiveHeight: true,  
-		pause: 7000, 
-		autoHover: true, 
-		stopAutoOnClick: true 
+		// adaptiveHeight: true,  
+		// pause: 7000, 
+		// autoHover: true, 
+		// stopAutoOnClick: true 
 	} ); 
 
 	if ( !mainSliderLoaded ) { 
@@ -20,7 +20,12 @@
 			mode: "vertical", 
 			controls: false 
 		} ); 
-	}
+	} 
+
+	$( '.details-link' ).on( 'click', function( e ) { 
+		window.location.replace( $( this ).attr( 'href' ) ); 
+	} ); 
+
 
 	function bxSliderLoad( element, bxSliderSettings ) { 
 		if ( element.children().length <= 1 ) { 
