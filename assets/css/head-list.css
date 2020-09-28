@@ -57,15 +57,15 @@
 
 /* A background is possible to be set on the text content box itself, 
 but for border around the box, an :after pseudo-element has to be created */
-.head-list .text-content:after {
+/* .head-list .text-content:after {
 	box-sizing: border-box; 
 	display: block; 
 	width: 100%; height: 100%; 
 	position: absolute; left: 0; top: 0;
 	z-index: -1; 
-	/* border-style: solid; border-width: 1px;  */
+	border-style: solid; border-width: 1px; 
 	content: ""; 
-} 
+}  */
 
 .head-list .image-list {  
 	width: 50%; height: 100%;  
@@ -81,21 +81,21 @@ but for border around the box, an :after pseudo-element has to be created */
 
 } 
 
-.head-list .head-entry:after { 
+/* .head-list .head-entry:after { 
 	box-sizing: border-box; 
 	display: block; 	
-	/* width: 100%; height: 100%; 	 */ 
+	width: 100%; height: 100%; 	 
 	margin-left: 50%; 
-	/* padding: 1rem;  */
+	padding: 1rem; 
 	position: absolute;  
 	left: 1.25rem; top: 1.35rem; right: 1.25rem; bottom: 1.25rem; 
-	/* background-color: var( --overlay-color );  */
+	background-color: var( --overlay-color ); 
 	background-clip: content-box;  
-	/* border: 1px solid;  */
+	border: 1px solid; 
 	content: ""; 
 	opacity: 0.5; 
 
-} 
+}  */
 
 /* .head-list .head-entry:after { 
 	margin-left: 50%; 
