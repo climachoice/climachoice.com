@@ -9,6 +9,7 @@
 		controls: false, 
 		adaptiveHeight: true,  
 		pause: 7000, 
+		touchEnabled: false 
 		// autoHover: true, 
 		// stopAutoOnClick: true 
 		
