@@ -9,7 +9,9 @@
 		controls: false, 
 		adaptiveHeight: true,  
 		pause: 7000, 
-		touchEnabled: false 
+		preventDefaultSwipeX: false, 
+		preventDefaultSwipeY: true 
+		// touchEnabled: false 
 		// autoHover: true, 
 		// stopAutoOnClick: true 
 		
