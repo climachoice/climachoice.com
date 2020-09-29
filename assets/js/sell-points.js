@@ -21,18 +21,18 @@
 		// item: 1 
 	} ); 
 
-	// if ( !mainSliderLoaded ) { 
-	// 	bxSliderLoad( $( '.page-head .image-list' ), { 
-	// 		auto: true, 
-	// 		infiniteLoop: false, 
-	// 		mode: "vertical", 
-	// 		controls: false 
-	// 	} ); 
-	// } 
+	if ( !mainSliderLoaded ) { 
+		bxSliderLoad( $( '.page-head .image-list' ), { 
+			auto: true, 
+			infiniteLoop: false, 
+			mode: "vertical", 
+			controls: false 
+		} ); 
+	} 
 
-	// $( '.details-link' ).on( 'click', function( e ) { 
-	// 	window.location.replace( $( this ).attr( 'href' ) ); 
-	// } ); 
+	$( '.head-list .details-link' ).on( 'click', function( e ) { 
+		window.location.replace( $( this ).attr( 'href' ) ); 
+	} ); 
 
 
 	function bxSliderLoad( element, bxSliderSettings ) { 
