@@ -2,18 +2,16 @@
 	
 	// Initializes main slider 
 	const mainSliderLoaded = bxSliderLoad( $( '.page-head .head-list' ), { 
-		// auto: true, 
+		auto: true, 
 		// autoStart: true, 
-		// infiniteLoop: true, 
+		infiniteLoop: false, 
 		mode: "vertical", 
 		controls: false, 
 		adaptiveHeight: true,  
-		pause: 7000, 
-		preventDefaultSwipeX: false,
-		preventDefaultSwipeY: true 
-		// touchEnabled: false 
-		// autoHover: true, 
-		// stopAutoOnClick: true 
+		pause: 5000, 
+		touchEnabled: false, 
+		autoHover: true, 
+		stopAutoOnClick: true 
 		
 		// mode: "slide", 
 		// vertical: false,  
