@@ -31,9 +31,9 @@
 		} ); 
 	} 
 
-	$( '.head-list .details-link' ).on( 'click', function( e ) { 
-		window.location.replace( $( this ).attr( 'href' ) ); 
-	} ); 
+	// $( '.head-list .details-link' ).on( 'click', function( e ) { 
+	// 	window.location.replace( $( this ).attr( 'href' ) ); 
+	// } ); 
 
 
 	function bxSliderLoad( element, bxSliderSettings ) { 
