@@ -43,7 +43,7 @@
 	/* background-clip: content-box;  */ 
 
 	position: relative; top: 0rem; 
-	z-index: 1; 
+	z-index: 2; 
 
 	/* border: 10px solid;  */
 
@@ -70,13 +70,14 @@ but for border around the box, an :after pseudo-element has to be created */
 .head-list .image-list {  
 	width: 50%; height: 100%;  
 	/* margin: 1.25rem;  */ 
-	position: absolute;  
-	left: 0; top: 0;    
+	position: absolute;  z-index: 1; 
+	left: 0; top: 0; 
 } 
 
 .head-list .cover-image {
 	width: 100%; height: 100%; 
-	position: absolute; left: 0; top: 0; 
+	position: absolute; z-index: 1; 
+	left: 0; top: 0; 
 	background-color: transparent; 
 
 } 
