@@ -19,7 +19,7 @@
 .head-entry {
 	/* Giving space around the text content */
 	padding-top: var( --head-list-padding-y ); padding-bottom: var( --head-list-padding-y ); 
-	display: flex; flex-direction: column; align-items: center; 
+	/* display: flex; flex-direction: column; align-items: center;  */
 	padding-left: 50%; 
 	position: relative; 
 	text-align: center; 

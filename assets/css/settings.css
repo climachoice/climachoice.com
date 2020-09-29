@@ -47,8 +47,8 @@
 	 * Header vertical distances 
 	 */
 
-	--head-list-padding-y: 0rem; 
-	--head-list-text-padding-top: 12rem; 
+	--head-list-padding-y: 4rem; 
+	--head-list-text-padding-top: 4rem; 
 	--head-list-text-padding-bottom: calc( var( --head-list-text-padding-top ) + 0rem ); 
 
 
@@ -101,7 +101,7 @@
 
 	/* For use when header is placed over slider */
 	--header-height: 2.5rem; 
-	--header-margin-top: 4rem; 
+	--header-margin-top: 0rem; 
 	--header-margin-bottom: 0; 
 
 	--site-header-font-size: 1rem; 
