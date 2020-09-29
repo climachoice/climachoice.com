@@ -22,9 +22,9 @@
 		} ); 
 	} 
 
-	$( '.details-link' ).on( 'click', function( e ) { 
-		window.location.replace( $( this ).attr( 'href' ) ); 
-	} ); 
+	// $( '.details-link' ).on( 'click', function( e ) { 
+	// 	window.location.replace( $( this ).attr( 'href' ) ); 
+	// } ); 
 
 
 	function bxSliderLoad( element, bxSliderSettings ) { 
