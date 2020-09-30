@@ -65,6 +65,9 @@ body {
 
 /* Pseudo-element, used as a placeholder for the icon */
 .button:before { 
+	display: flex; align-items: center; justify-content: center; 
+	width: 100%; height: 100%; 
+	position: absolute; left: 0; top: 0; 
 	font-family: var( --icon-font-family ); 
 	font-size: 1em; 
 	text-indent: 0; 
@@ -72,7 +75,7 @@ body {
 
 /* Control button text is moved out of the screen to be replaced with an icon */
 .button { 
-	display: flex; align-items: center; justify-content: center;
+	position: relative; 
 	/* display: block;  */ 
 	text-indent: -10000px; overflow: hidden; 
 	cursor: pointer; 
