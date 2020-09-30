@@ -34,7 +34,7 @@
 
 .our-contacts .cover-image { 
 	--frame-border-distance: 1.25rem; 
-	width: 50%; height: 100%; 
+//	width: 50%; height: 100%; 
 	top: 0; 
 
 } 
@@ -109,9 +109,10 @@
 		/* left: 0 !important;  */
 	} 
 
-	.our-contacts .cover-image { 
+	.our-contacts .entry:nth-child( n ) .cover-image { 
 		height: 20rem; 
 		position: relative; 
+		left: 0; 
 
 	} 
 
