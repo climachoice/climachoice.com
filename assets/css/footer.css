@@ -85,6 +85,7 @@
 .footer-scroll-to-top:before { 
 	font-family: var( --icon-font-family ); font-size: 2rem;  
 	content: var( --scroll-to-top-button-icon ); 
+	text-indent: 0; 
 }
 
 
