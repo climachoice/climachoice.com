@@ -4,7 +4,9 @@ model: SRK / SRC 35 ZSP-W
 serie: Standard
 type: Стенен
 head:
-- heading:
+- subheading:
+    text: Mitsubishi Heavy Industries
+  heading: 
     text: SRK / SRC 35 ZSP-W
   images:
   - src: "/assets/images/zsp.jpg"

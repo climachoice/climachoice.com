@@ -54,7 +54,7 @@
 	/* margin-bottom: 1.25rem;  */
 	/* padding: 0.8rem;  */
 	/* padding-left: 1.85em; padding-right: 1.85em;   */
-	padding-top: 0.85em; padding-bottom: 0.85em;  
+	padding-top: 1.25em; padding-bottom: 1.25em;  
 	position: relative; 
 	background-color: var( --text-color ); 
 	color: var( --text-background-color );
@@ -65,7 +65,7 @@
 	text-transform: uppercase; 
 } 
 
-.model-classification .key-value-pair:first-child { 
+/* .model-classification .key-value-pair:first-child { 
 	padding-right: 1.85em; 
 	text-align: right; 
 
@@ -76,7 +76,7 @@
 	border: none; 
 	text-align: left; 
 
-}
+} */
 
 /* .model-classification .key-value-pair:not( :last-child ):after { 
 	display: block; 
