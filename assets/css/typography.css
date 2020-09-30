@@ -72,7 +72,8 @@ body {
 
 /* Control button text is moved out of the screen to be replaced with an icon */
 .button { 
-	display: inline-block; 
+	display: flex; align-items: center; justify-content: center;
+	/* display: block;  */ 
 	text-indent: -10000px; overflow: hidden; 
 	cursor: pointer; 
 }

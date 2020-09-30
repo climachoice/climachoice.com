@@ -39,7 +39,7 @@
 
 .scroll-to-top, 
 .footer-scroll-to-top {
-	display: flex; align-items: center; justify-content: center; 
+	/* display: flex; align-items: center; justify-content: center;  */
 	width: 3.5rem; height: 3.5rem; 
 	padding: 0;   
 	/* border: none;  */
@@ -75,17 +75,17 @@
 	text-align: center;
 } 
 
-.scroll-to-top, 
+/* .scroll-to-top, 
 .footer-scroll-to-top {
 	text-indent: -10000px; 	
 
-}
+} */
 
 .scroll-to-top:before, 
 .footer-scroll-to-top:before { 
 	font-family: var( --icon-font-family ); font-size: 2rem;  
 	content: var( --scroll-to-top-button-icon ); 
-	text-indent: 0; 
+	/* text-indent: 0;  */
 }
 
 
