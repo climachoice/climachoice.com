@@ -28,6 +28,7 @@
 } */
 
 .air-conditioner-model .bx-controls { 
+	z-index: 4; 
 	right: 0; 
 
 }
@@ -95,3 +96,20 @@
 	font-family: var( --heading-font-family ); 
 	font-size: 1.5em; 
 }
+
+
+@media ( max-width: 980px ) { 
+	.head-list .bx-wrapper { 
+		width: 100%; 
+	
+	} 
+	
+	.air-conditioner-model .bx-controls { 
+		margin-right: 1.5rem; 
+		position: absolute; 
+	
+	}
+
+	
+
+} 
