@@ -34,7 +34,7 @@
 
 .our-contacts .cover-image { 
 	--frame-border-distance: 1.25rem; 
-//	width: 50%; height: 100%; 
+	width: 50%; height: 100%; 
 	top: 0; 
 
 } 

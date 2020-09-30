@@ -71,6 +71,7 @@
 	width: 100%; 
 	margin-bottom: 0; 
 	border: none; 
+	text-indent: 0; 
 } 
 
 .send-message .thankyou_message { 
