@@ -17,7 +17,7 @@
 
 .about-us .body { 
 	display: flex; flex-direction: column; 
-	/* padding-top: 7rem; padding-bottom: 7rem;  */
+	padding-top: 7rem; padding-bottom: 7rem; 
 
 }
 
@@ -25,7 +25,7 @@
 	order: 2; 
 	box-sizing: border-box; 
 	/* margin-top: 5rem; margin-bottom: 5rem;  */ 
-	margin-left: 50%; margin-right: 0; 
+	margin-left: 10%; margin-right: 40%; 
 	padding: 3.5rem; 
 	position: relative; z-index: 1; 
 	background-color: var( --text-background-color ); 
@@ -36,21 +36,23 @@
 }
 
 .about-us .cover-image { 
-	width: 50%; height: 100%; 
-	position: absolute; left: 0; top: 0; 
-	background-size: cover; 
+	height: 100%; 
+	position: absolute; left: 40%; right: 0%; top: 0; 
+	background-size: contain; 
 
 } 
 
 @media ( max-width: 940px ) { 
 
 	.about-us .body { 
-		padding-top: 12rem; // padding-bottom: 0; 
+		padding: 0; 
 	
 	}
 
 	.about-us .text-content { 
+		margin-top: -20%; 
 		margin-left: 10%; margin-right: 10%; 
+		/* position: absolute; top: 50%;  */
 	} 
 
 	.about-us .cover-image { 
