@@ -4,14 +4,12 @@ model: SRK / SRC 45 ZSP-W
 serie: Standard
 type: Стенен
 head:
-- subheading:
-    text: Mitsubishi Heavy Industries 
-  heading:
+- heading:
     text: SRK / SRC 45 ZSP-W
   images:
   - src: "/assets/images/zsp.jpg"
     alt: ''
-  - src: "/assets/images/SRC45ZSP-S.jpg"
+  - src: "/assets/images/SRC45ZSP-S.jpg.jpg"
     alt: ''
   keyValuePairList:
   - key: Серия
@@ -67,6 +65,15 @@ specs:
       - key: Максимална
         value: '5.8'
     units: kW
+  - key: Прогнозни годишни разходи
+    groups:
+    - key: Охлаждане
+      values:
+      - value: '54'
+    - key: Отопление
+      values:
+      - value: '275'
+    units: лв.
   - key: Енергиен клас
     groups:
     - key: Охлаждане

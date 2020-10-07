@@ -4,9 +4,7 @@ model: SRK / SRC 25 ZS-W
 serie: Premium
 type: Стенен
 head:
-- subheading:
-    text: Mitsubishi Heavy Industries
-  heading:
+- heading:
     text: SRK / SRC 25 ZS-W
   images:
   - src: "/assets/images/premium/srk-zs-s-700x700w.jpg"
@@ -80,6 +78,15 @@ specs:
       - key: Максимална
         value: '4.5'
     units: kW
+  - key: Прогнозни годишни разходи
+    groups:
+    - key: Охлаждане
+      values:
+      - value: '23'
+    - key: Отопление
+      values:
+      - value: '174'
+    units: лв.
   - key: Енергиен клас
     groups:
     - key: Охлаждане

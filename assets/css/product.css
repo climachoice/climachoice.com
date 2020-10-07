@@ -1,23 +1,30 @@
-.spec tbody { 
-	display: flex; flex-direction: column; justify-content: center; 
-
-} 
-
 .spec-group-list { 
 	display: block; 
 	height: 0; overflow: hidden;  
 } 
 
+.spec tbody { 
+	display: flex; flex-direction: column; justify-content: center;  
+
+} 
+
 .spec-heading { 
-	margin-bottom: 0.5rem; 
+	margin-bottom: 0rem; 
 	padding: 0.85rem; 
-	border: 1px solid;  
+	border-top: 1px solid;  
 	background-color: var( --text-color );  
 	color: var( --text-background-color ); 
-	font-size: 1.2rem; 
+	background-color: var( --text-background-color );  
+	color: var( --text-color );
+	font-size: 1rem; 
 	cursor: pointer; 
 
 } 
+
+.spec:last-child .spec-heading { 
+	border-bottom: 1px solid; 
+
+}
 
 .spec-open tbody { 
 	margin-top: 2.5rem; margin-bottom: 2.5rem; 
@@ -41,17 +48,27 @@
 
 .spec-group { 
 	display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; align-items: center; 
-	width: 100%; 
+	/* width: 100%;  */
 	margin-bottom: 1.85rem; 
 } 
 
 /* .spec-group:nth-child( odd ) { 
 	justify-content: flex-end; 
 
-}  */
+} 
 
-/* .spec-group:nth-child( odd ) .spec-group-head { 
+.spec-group:nth-child( odd ) .spec-group-head { 
 	text-align: right; 
+
+} 
+
+.spec-group:nth-child( even ) { 
+	justify-content: flex-start; 
+
+} 
+
+.spec-group:nth-child( even ) .spec-group-head { 
+	text-align: left; 
 
 } */
 
@@ -140,6 +157,14 @@
 
 } 
 
+
+@media ( min-width: 621px ) { 
+
+	.spec-group-entry:last-child { 
+		margin-right: 0; 	
+	}
+
+}
 
 @media ( max-width: 620px ) { 
 

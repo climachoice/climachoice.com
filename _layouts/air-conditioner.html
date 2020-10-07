@@ -2,6 +2,8 @@
 layout: page 
 --- 
 
+{% assign specToExpandPos = 2 %} 
+
 
 {% include page-head.html data = page.head %} 
 
@@ -33,11 +35,9 @@ layout: page
 	{% include text.html data = page.specs.text %} 
 
 	<section class= "spec-set"> 
-	{% assign count = 0 %}
-	{% for spec in page.specs.body %} 
-		{% assign count = count | plus: 1 %} 
-
-		<article class= "spec{% if count == 1 %}{{' spec-open'}}{% endif %}"> 
+	{% assign pos = 0 %}
+	{% for spec in page.specs.body %}  
+		<article class= "spec{% if pos == specToExpandPos %}{{' spec-open'}}{% endif %}"> 
 			<h3 class= "heading spec-heading">{{ spec.key }}</h3> 
 
 			<table class= "spec-group-list">
@@ -61,6 +61,8 @@ layout: page
 			</table>
 
 		</article>
+
+		{% assign pos = pos | plus: 1 %} 
 	{% endfor %} 
 	</section>
 	

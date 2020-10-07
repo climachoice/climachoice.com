@@ -1,7 +1,7 @@
 ---
 className: air-conditioner-model
 model: SRK / SRC 20 ZS-W
-serie: premium
+serie: Premium
 type: Стенен
 head:
 - subheading:
@@ -80,6 +80,15 @@ specs:
       - key: Максимална
         value: '4.3'
     units: kW
+  - key: Прогнозни годишни разходи
+    groups:
+    - key: Охлаждане
+      values:
+      - value: '18'
+    - key: Отопление
+      values:
+      - value: '172'
+    units: лв.
   - key: Енергиен клас
     groups:
     - key: Охлаждане

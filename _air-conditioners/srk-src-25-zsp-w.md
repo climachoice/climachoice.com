@@ -4,9 +4,7 @@ model: SRK / SRC 25 ZSP-W
 serie: Standard
 type: Стенен
 head:
-- subheading:
-    text: Mitsubishi Heavy Industries
-  heading: 
+- heading:
     text: SRK / SRC 25 ZSP-W
   images:
   - src: "/assets/images/zsp.jpg"
@@ -75,6 +73,15 @@ specs:
     - key: Отопление
       values:
       - value: A+
+  - key: Прогнозни годишни разходи
+    groups:
+    - key: Охлаждане
+      values:
+      - value: '28'
+    - key: Отопление
+      values:
+      - value: '207'
+    units: лв.
   - key: EER/COP
     groups:
     - key: EER
