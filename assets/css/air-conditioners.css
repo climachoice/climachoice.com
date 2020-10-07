@@ -127,4 +127,13 @@
 	font-size: 1.25rem; 
 
 
+} 
+
+
+@media ( max-width: 580px ) {
+	.product-list {
+		--column-count: 1; 
+		--column-gutter-x: 0rem; 
+	} 
+
 }
