@@ -33,8 +33,11 @@ layout: page
 	{% include text.html data = page.specs.text %} 
 
 	<section class= "spec-set"> 
+	{% assign count = 0 %}
 	{% for spec in page.specs.body %} 
-		<article class= "spec"> 
+		{% assign count = count | plus: 1 %} 
+
+		<article class= "spec{% if count == 1 %}{{' spec-open'}}{% endif %}"> 
 			<h3 class= "heading spec-heading">{{ spec.key }}</h3> 
 
 			<table class= "spec-group-list">

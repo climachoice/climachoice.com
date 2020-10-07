@@ -1,16 +1,11 @@
-.spec { 
-	/* display: inline-block;  */ 
-	/* margin-top: 5rem;  */
-	/* border: 1px solid;  */
+.spec tbody { 
+	display: flex; flex-direction: column; justify-content: center; 
 
 } 
 
 .spec-group-list { 
 	display: block; 
 	height: 0; overflow: hidden;  
-	/* margin-left: auto; margin-right: auto; */ 
-	/* text-align: left;  */ 
-
 } 
 
 .spec-heading { 
@@ -22,22 +17,17 @@
 	font-size: 1.2rem; 
 	cursor: pointer; 
 
-}
-
-.spec-open .spec-group-list { 
-	height: auto; 
-
-} 
-
-.spec tbody { 
-	display: flex; flex-direction: column; justify-content: center; 
-
 } 
 
 .spec-open tbody { 
 	margin-top: 2.5rem; margin-bottom: 2.5rem; 
 
 }
+
+.spec-open .spec-group-list { 
+	height: auto; 
+
+} 
 
 .spec-open .spec-heading {  
 	/* margin-bottom: 2.5rem;  */
@@ -48,16 +38,6 @@
 	color: var( --text-color ); 
 
 } 
-
-.spec-heading:after { 
-	display: block; 
-	/* width: 10rem; height: 1px;  */ 
-	margin-left: auto; margin-right: auto; 
-	/* margin-top: 0.75rem;  */
-	/* background-color: #444;  */
-	/* content: "+";  */
-
-}
 
 .spec-group { 
 	display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; align-items: center; 
