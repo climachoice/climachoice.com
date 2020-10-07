@@ -9,7 +9,7 @@ className: "faq-page"
 
 {% for entry in site.data.info.body.entries %} 
 
-	{% include section.html className = "question question-close" body = "block.html" data = entry %} 
+	{% include section.html className = "question question-open" body = "block.html" data = entry %} 
 
 {% endfor %} 
 
