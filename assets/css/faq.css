@@ -1,5 +1,22 @@
 .faq-page .section + .section {
-	margin-top: 4.5rem; 
+	margin-top: 1.25rem; 
+} 
+
+.faq-page .section { 
+	max-width: var( --max-content-width ); 
+	/* padding-top: 2rem;  */
+	/* border: 1px solid;  */
+} 
+
+.question .heading { 
+	margin-bottom: 0.5rem; 
+	font-size: 1.2rem; 
+
+} 
+
+.question .heading:before { 
+	display: none; 
+
 }
 
 .faq-page .question .body {  
@@ -37,6 +54,11 @@
 	text-indent: 0; 
 
 } 
+
+.faq-page .question-open { 
+	border: none; 
+
+}
 
 .faq-page .question-open .details-link {
 	color: var( --text-background-color );
