@@ -5,7 +5,7 @@
 } 
 
 /* Removes right margin from elements in the last column */
-/* .entry:nth-child( 5n ) { 
+/* .entry:nth-child( 3n ) { 
 	margin-right: 0; 
 }  */
 
@@ -24,6 +24,16 @@
 	padding-top: 2.5rem; 
 	border: 1px solid; 
 
+} */ 
+
+/* .air-conditioner-model .section-heading:before { 
+	display: none; 
+
+} */ 
+
+/* .air-conditioner-feature-list { 
+	justify-content: flex-start; 
+
 } */
 
 .air-conditioner-feature-group { 
@@ -33,7 +43,15 @@
 
 .air-conditioner-feature-group-heading { 
 	margin-bottom: 1.2rem; 
+	padding-bottom: 0.8rem; 
+	border-bottom: 1px solid; 
 	font-size: 1rem; 
+
+} 
+
+.air-conditioner-feature { 
+	margin-bottom: 0.7rem; 
+	/* text-align: left;  */ 
 
 }
 

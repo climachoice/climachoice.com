@@ -11,7 +11,7 @@ head:
   images:
   - src: "/assets/images/zsp.jpg"
     alt: ''
-  - src: "/assets/images/SRC45ZSP-S.jpg.jpg"
+  - src: "/assets/images/SRC45ZSP-S.jpg"
     alt: ''
   keyValuePairList:
   - key: Серия
