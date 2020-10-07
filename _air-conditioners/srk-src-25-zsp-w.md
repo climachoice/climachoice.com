@@ -65,14 +65,6 @@ specs:
       - key: Максимална
         value: '4.1'
     units: kW
-  - key: Енергиен клас
-    groups:
-    - key: Охлаждане
-      values:
-      - value: A++
-    - key: Отопление
-      values:
-      - value: A+
   - key: Прогнозни годишни разходи
     groups:
     - key: Охлаждане
@@ -81,7 +73,15 @@ specs:
     - key: Отопление
       values:
       - value: '207'
-    units: лв.
+    units: лв. 
+  - key: Енергиен клас
+    groups:
+    - key: Охлаждане
+      values:
+      - value: A++
+    - key: Отопление
+      values:
+      - value: A+
   - key: EER/COP
     groups:
     - key: EER
