@@ -1,7 +1,7 @@
 ---
 className: air-conditioner-model
 model: SRK / SRC 20 ZS-W
-serie: Premium
+serie: premium
 type: Стенен
 head:
 - subheading:
