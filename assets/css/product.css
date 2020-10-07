@@ -1,3 +1,42 @@
+.air-conditioner-feature-list { 
+	--column-count: 1; 
+	--column-gutter-x: 0rem; 
+
+} 
+
+/* Removes right margin from elements in the last column */
+/* .entry:nth-child( 5n ) { 
+	margin-right: 0; 
+}  */
+
+/* Removes top margin from elements in the top row */
+/* .entry:nth-child( 5 - n ) { 
+	margin-top: 0; 
+}  */
+
+/* .air-conditioner-feature-list { 
+	align-items: center; 
+
+} */
+
+/* .air-conditioner-feature { 
+	min-height: 10rem; 
+	padding-top: 2.5rem; 
+	border: 1px solid; 
+
+} */
+
+.air-conditioner-feature-group { 
+	margin-top: 2.5rem;  
+
+}
+
+.air-conditioner-feature-group-heading { 
+	margin-bottom: 1.2rem; 
+	font-size: 1rem; 
+
+}
+
 .spec-group-list { 
 	display: block; 
 	height: 0; overflow: hidden;  

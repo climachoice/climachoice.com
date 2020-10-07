@@ -2,7 +2,7 @@
 layout: page 
 --- 
 
-{% assign specToExpandPos = 2 %} 
+{% assign specToExpandPos = 0 %} 
 
 
 {% include page-head.html data = page.head %} 
@@ -20,14 +20,50 @@ layout: page
 		</li>
 	{% endfor %} 
 	</ul>
-</section> -->
+</section> --> 
+
+{% assign serie = page.serie | downcase %}
 
 <section class= "section description"> 
-	{% assign serie = page.serie | downcase %}
 	{% assign description = site.data.airConditionerSeries[ serie ].description %} 
 	
 	{% include heading.html className = "section-heading" level = 2 text = "Описание" %} 
 	{% include paragraph.html text = description %} 
+</section> 
+
+<section class= "section air-conditioner-features"> 
+	{% include heading.html className = "section-heading" level = 2 text = "Функции" %} 
+
+	<section class= "air-conditioner-feature-groups"> 
+	{% for group in site.data.airConditionerFunctions %} 
+		<article class= "air-conditioner-feature-group"> 
+			<h3 class= "heading air-conditioner-feature-group-heading">{{ group.group }}</h3> 
+
+			<ul class= "entry-list air-conditioner-feature-list">
+			{% for function in group.entries %} 
+				{% assign hasFunction = false %} 
+
+				{% for functionSerie in function.series %} 
+					{% if functionSerie == page.serie %} 
+						{% assign hasFunction = true %} 
+						{% break %}
+					{% endif %} 
+				{% endfor %}
+
+				{% if hasFunction == false %} 
+					{% continue %} 
+				{% endif %} 
+
+				<li class= "entry air-conditioner-feature"> 
+					<p>{{ function.key }}</p> 
+				</li> 
+
+			{% endfor %}
+			</ul>
+		{% endfor %} 
+		</article>
+	</section>
+
 </section>
 
 <section class= "section specifications"> 
