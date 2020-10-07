@@ -3,8 +3,10 @@ className: air-conditioner-model
 model: SRK / SRC 35 ZSP-W
 serie: Standard
 type: Стенен
-head:
-- heading:
+head: 
+- subheading:
+    text: Mitsubishi Heavy Industries
+  heading:
     text: SRK / SRC 35 ZSP-W
   images:
   - src: "/assets/images/zsp.jpg"

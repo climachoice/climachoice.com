@@ -4,7 +4,9 @@ model: SRK / SRC 35 ZS-W
 serie: Premium
 type: Стенен
 head:
-- heading:
+- subheading:
+    text: Mitsubishi Heavy Industries
+  heading:
     text: SRK / SRC 35 ZS-W
   images:
   - src: "/assets/images/premium/srk-zs-s-700x700w.jpg"
