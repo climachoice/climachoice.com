@@ -55,6 +55,7 @@
 	/* margin-bottom: 1.25rem;  */
 	/* padding: 0.8rem;  */
 	/* padding-left: 1.85em; padding-right: 1.85em;   */
+	margin-bottom: 0.2rem; 
 	padding-top: 1.25em; padding-bottom: 1.25em;  
 	position: relative; 
 	background-color: var( --text-color ); 
