@@ -7,14 +7,30 @@
 .air-conditioner-model .expand-trigger { 
 	margin-bottom: 0; 
 	padding-top: 1.2rem; padding-bottom: 1.2rem; 
-	border-top: 1px solid; 
+	/* border-bottom: 1px solid;  */
 	font-size: 1rem; 
 	cursor: pointer;
 
 } 
 
+.air-conditioner-model .expandable { 
+	border-bottom: 1px solid;
+}
+
+.air-conditioner-model .expandable:first-child { 
+	border-top: 1px solid; 
+
+}
+
 .air-conditioner-model .expand-target { 
-	height: 0; overflow: hidden; 
+	height: 0; overflow: hidden;   
+
+} 
+
+.air-conditioner-model .expandable-open .expand-target { 
+	height: auto; 
+	margin-top: 1rem; margin-bottom: 2.5rem; 
+	/* margin-top: 2rem; margin-bottom: 2rem;  */
 
 }
 
@@ -97,20 +113,20 @@
 
 } 
 
-.spec:last-child .spec-heading { 
+/* .spec:last-child .spec-heading { 
 	border-bottom: 1px solid; 
 
-}
+} */
 
-.spec-open tbody { 
+/* .spec-open tbody { 
 	margin-top: 2.5rem; margin-bottom: 2.5rem; 
 
-}
+} */
 
-.spec-open .spec-group-list { 
+/* .spec-open .spec-group-list { 
 	height: auto; 
 
-} 
+}  */
 
 .spec-open .spec-heading {  
 	/* margin-bottom: 2.5rem;  */

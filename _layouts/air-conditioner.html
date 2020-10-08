@@ -2,6 +2,7 @@
 layout: page 
 --- 
 
+{% assign featureToExpandPos = 4 %} 
 {% assign specToExpandPos = 2 %} 
 
 
@@ -35,8 +36,10 @@ layout: page
 	{% include heading.html className = "section-heading" level = 2 text = "Функции" %} 
 
 	<section class= "air-conditioner-feature-groups"> 
+	{% assign pos = 0 %}
 	{% for group in site.data.airConditionerFunctions %} 
-		<article class= "air-conditioner-feature-group expandable"> 
+
+		<article class= "air-conditioner-feature-group expandable{% if pos == featureToExpandPos %}{{' expandable-open'}}{% endif %}"> 
 			<h3 class= "heading air-conditioner-feature-group-heading expand-trigger">{{ group.group }}</h3> 
 
 			<ul class= "entry-list air-conditioner-feature-list expand-target">
@@ -61,6 +64,8 @@ layout: page
 			{% endfor %}
 			</ul>
 		</article>
+
+		{% assign pos = pos | plus: 1 %}
 	{% endfor %} 
 	</section>
 
@@ -73,7 +78,7 @@ layout: page
 	<section class= "spec-set"> 
 	{% assign pos = 0 %}
 	{% for spec in page.specs.body %}  
-		<article class= "spec{% if pos == specToExpandPos %}{{' spec-open'}}{% endif %} expandable"> 
+		<article class= "spec expandable{% if pos == specToExpandPos %}{{' expandable-open'}}{% endif %}"> 
 			<h3 class= "heading spec-heading expand-trigger">{{ spec.key }}</h3> 
 
 			<table class= "spec-group-list expand-target"> 
