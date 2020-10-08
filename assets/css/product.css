@@ -4,6 +4,20 @@
 
 } 
 
+.air-conditioner-model .expand-trigger { 
+	margin-bottom: 0; 
+	padding-top: 1.2rem; padding-bottom: 1.2rem; 
+	border-top: 1px solid; 
+	font-size: 1rem; 
+	cursor: pointer;
+
+} 
+
+.air-conditioner-model .expand-target { 
+	height: 0; overflow: hidden; 
+
+}
+
 /* Removes right margin from elements in the last column */
 /* .entry:nth-child( 3n ) { 
 	margin-right: 0; 
@@ -14,10 +28,11 @@
 	margin-top: 0; 
 }  */
 
-/* .air-conditioner-feature-list { 
-	align-items: center; 
+.air-conditioner-feature-list { 
+	/* height: 0; overflow: hidden;  */
+	/* align-items: center;  */
 
-} */
+}
 
 /* .air-conditioner-feature { 
 	min-height: 10rem; 
@@ -37,15 +52,15 @@
 } */
 
 .air-conditioner-feature-group { 
-	margin-top: 2.5rem;  
+	/* margin-top: 2.5rem;   */ 
 
 }
 
 .air-conditioner-feature-group-heading { 
-	margin-bottom: 1.2rem; 
-	padding-bottom: 0.8rem; 
-	border-bottom: 1px solid; 
-	font-size: 1rem; 
+	/* margin-bottom: 1.2rem; 
+	padding-top: 1.2rem; 	
+	border-top: 1px solid; 
+	font-size: 1rem;  */
 
 } 
 
@@ -57,7 +72,7 @@
 
 .spec-group-list { 
 	display: block; 
-	height: 0; overflow: hidden;  
+	/* height: 0; overflow: hidden;   */ 
 } 
 
 .spec tbody { 
@@ -66,15 +81,19 @@
 } 
 
 .spec-heading { 
-	margin-bottom: 0rem; 
+	/* margin-bottom: 0rem; 
 	padding: 0.85rem; 
-	border-top: 1px solid;  
+	border-top: 1px solid;   */ 
+	/* margin-bottom: 1.2rem;  */
+	/* padding: 1.2rem; 	
+	border-top: 1px solid; 
+	font-size: 1rem;  */
 	background-color: var( --text-color );  
 	color: var( --text-background-color ); 
 	background-color: var( --text-background-color );  
 	color: var( --text-color );
-	font-size: 1rem; 
-	cursor: pointer; 
+	/* font-size: 1rem; 
+	cursor: pointer;  */
 
 } 
 

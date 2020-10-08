@@ -2,7 +2,7 @@
 layout: page 
 --- 
 
-{% assign specToExpandPos = 0 %} 
+{% assign specToExpandPos = 2 %} 
 
 
 {% include page-head.html data = page.head %} 
@@ -36,10 +36,10 @@ layout: page
 
 	<section class= "air-conditioner-feature-groups"> 
 	{% for group in site.data.airConditionerFunctions %} 
-		<article class= "air-conditioner-feature-group"> 
-			<h3 class= "heading air-conditioner-feature-group-heading">{{ group.group }}</h3> 
+		<article class= "air-conditioner-feature-group expandable"> 
+			<h3 class= "heading air-conditioner-feature-group-heading expand-trigger">{{ group.group }}</h3> 
 
-			<ul class= "entry-list air-conditioner-feature-list">
+			<ul class= "entry-list air-conditioner-feature-list expand-target">
 			{% for function in group.entries %} 
 				{% assign hasFunction = false %} 
 
@@ -60,23 +60,23 @@ layout: page
 
 			{% endfor %}
 			</ul>
-		{% endfor %} 
 		</article>
+	{% endfor %} 
 	</section>
 
 </section>
 
-<section class= "section specifications"> 
+<section class= "section air-conditioner-specifications"> 
 	{% include heading.html className = "section-heading" level = 2 text = "Спецификации" %} 
 	{% include text.html data = page.specs.text %} 
 
 	<section class= "spec-set"> 
 	{% assign pos = 0 %}
 	{% for spec in page.specs.body %}  
-		<article class= "spec{% if pos == specToExpandPos %}{{' spec-open'}}{% endif %}"> 
-			<h3 class= "heading spec-heading">{{ spec.key }}</h3> 
+		<article class= "spec{% if pos == specToExpandPos %}{{' spec-open'}}{% endif %} expandable"> 
+			<h3 class= "heading spec-heading expand-trigger">{{ spec.key }}</h3> 
 
-			<table class= "spec-group-list">
+			<table class= "spec-group-list expand-target"> 
 				<tbody>
 				{% for group in spec.groups %} 
 					<tr class= "spec-group"> 

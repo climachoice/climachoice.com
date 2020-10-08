@@ -1,15 +1,15 @@
-( function( specSet, classNames ) {
+( function( expandables, classNames ) {
 	const openClassName = classNames[ 0 ];
 	const closeClassName = classNames[ 1 ];
 
-	specSet.on( 'click', function( e ) {
+	expandables.on( 'click', function( e ) {
 		const target = $( e.target );
-		if ( target.is( '.spec-heading' ) ) { 
+		if ( target.is( '.expand-trigger' ) ) { 
 			e.preventDefault(); 
-			const spec = target.closest( '.spec' ); 
+			const expandable = target.closest( '.expandable' ); 
 			// On open navigation button click 'close' is removed 
 			// and 'open' is added to navigation class names
-			switchClassNames( spec, [ openClassName, closeClassName ] );
+			switchClassNames( expandable, [ openClassName, closeClassName ] ); 
 		} 
 	} );
 
@@ -23,4 +23,4 @@
 		section.toggleClass( next ); 
 	}
 
-}( $( '.air-conditioner-model .spec-set' ), [ 'spec-open', 'spec-close' ] ) );
+}( $( '.air-conditioner-features, .air-conditioner-specifications' ), [ 'expandable-open', 'expandable-close' ] ) );
