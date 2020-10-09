@@ -1,19 +1,19 @@
 {
 	"className": "air-conditioner-model", 
 	
-	"model": "", 
-	"serie": "", 
+	"model": "SRK/SRC20ZSX-W", 
+	"serie": "Diamond ZSX", 
 	"type": "Стенен", 
 
 	"head": [
 		{ 
 			"heading": { 
-				"text": "" 
+				"text": "SRK/SRC20ZSX-W" 
 			}, 
 			
 			"images": [
 				{ 
-					"src": "/assets/images/", 
+					"src": "/assets/images/diamond-ZSX/zsx-s-700x700w.jpg", 
 					"alt": ""
 				}
 			], 
@@ -21,7 +21,7 @@
 			"keyValuePairList": [ 
 				{
 					"key": "Серия", 
-					"value": "" 
+					"value": "Diamond ZSX" 
 				}, 
 
 				{
@@ -34,7 +34,7 @@
 	], 
 
 	"price": { 
-		"integrals": "", 
+		"integrals": "2 199", 
 		"fractions": "00" 
 
 	},  
@@ -47,21 +47,32 @@
 			}
 
 		], 
+
 		"images": [
 			{ 
-				"src": "/assets/images/", 
+				"src": "/assets/images/diamond-ZSX/zsx-s-700x700w.jpg", 
 				"alt": ""
 			}, 
 
 			{ 
-				"src": "/assets/images/", 
+				"src": "/assets/images/diamond-ZSX/zsx-s-1-700x700w.jpg", 
 				"alt": ""
 			}, 
 
 			{ 
-				"src": "/assets/images/", 
+				"src": "/assets/images/diamond-ZSX/zsx-s-10-700x700w.jpg", 
 				"alt": ""
-			}
+			}, 
+
+			{ 
+				"src": "/assets/images/diamond-ZSX/zsx-s-11-700x700w.jpg", 
+				"alt": ""
+			}, 
+
+			{ 
+				"src": "/assets/images/diamond-ZSX/zsx-s-7-700x700w.jpg", 
+				"alt": ""
+			} 
 		]
 	}, 
 
@@ -81,7 +92,7 @@
 						"key": "Охлаждане", 
 						"values": [ 
 							{ 
-								"value": "" 
+								"value": "0.31" 
 							}
 						]
 					}, 
@@ -90,7 +101,7 @@
 						"key": "Отопление", 
 						"values": [ 
 							{
-								"value": "" 
+								"value": "0.47" 
 							}
 						]
 					}
@@ -107,17 +118,17 @@
 						"values": [
 							{ 
 								"key": "Минимална", 
-								"value": ""
+								"value": "0.9"
 							}, 
 		
 							{ 
 								"key": "Номинална", 
-								"value": "" 
+								"value": "2.0" 
 							}, 
 
 							{ 
 								"key": "Максимална", 
-								"value": "" 
+								"value": "3.4" 
 							}
 						]
 					}, 
@@ -127,17 +138,17 @@
 						"values": [
 							{ 
 								"key": "Минимална", 
-								"value": ""
+								"value": "0.8"
 							}, 
 		
 							{ 
 								"key": "Номинална", 
-								"value": "" 
+								"value": "2.7" 
 							}, 
 
 							{ 
 								"key": "Максимална", 
-								"value": "" 
+								"value": "5.5" 
 							}
 						] 
 					}
@@ -153,7 +164,7 @@
 						"key": "Охлаждане", 
 						"values": [ 
 							{ 
-								"value": "" 
+								"value": "15" 
 							}
 						]
 					}, 
@@ -162,7 +173,7 @@
 						"key": "Отопление", 
 						"values": [ 
 							{
-								"value": "" 
+								"value": "163" 
 							}
 						]
 					}
@@ -178,7 +189,7 @@
 						"key": "Охлаждане", 
 						"values": [ 
 							{ 
-								"value": "A" 
+								"value": "A+++" 
 							} 
 						] 
 					}, 
@@ -187,7 +198,7 @@
 						"key": "Отопление", 
 						"values": [ 
 							{
-								"value": "A" 
+								"value": "A+++" 
 							}
 						]
 					} 
@@ -201,7 +212,7 @@
 						"key": "EER", 
 						"values": [ 
 							{ 
-								"value": "" 
+								"value": "6.45" 
 							}
 						]
 					}, 
@@ -210,7 +221,7 @@
 						"key": "COP", 
 						"values": [ 
 							{ 
-								"value": "" 
+								"value": "5.74" 
 							}
 						]
 					}
@@ -225,7 +236,7 @@
 						"key": "SEER", 
 						"values": [ 
 							{ 
-								"value": "" 
+								"value": "10" 
 							}
 						]
 					}, 
@@ -234,7 +245,7 @@
 						"key": "SCOP", 
 						"values": [ 
 							{ 
-								"value": "" 
+								"value": "5.20" 
 							}
 						]
 					}
@@ -250,19 +261,19 @@
 						"values": [ 
 							{ 
 								"key": "Дължина", 
-								"value": ""
+								"value": "800(+71)"
 
 							}, 
 
 							{ 
 								"key": "Ширина", 
-								"value": ""
+								"value": "290"
 
 							}, 
 
 							{ 
 								"key": "Височина", 
-								"value": ""
+								"value": "640"
 
 							}
 
@@ -274,19 +285,19 @@
 						"values": [ 
 							{ 
 								"key": "Дължина", 
-								"value": ""
+								"value": "920"
 
 							}, 
 
 							{ 
 								"key": "Ширина", 
-								"value": ""
+								"value": "220"
 
 							}, 
 
 							{ 
 								"key": "Височина", 
-								"value": ""
+								"value": "305"
 
 							}
 
@@ -304,25 +315,25 @@
 						"values": [
 							{ 
 								"key": "Високо", 
-								"value": ""
+								"value": "38"
 
 							}, 
 
 							{ 
 								"key": "Номинално", 
-								"value": ""
+								"value": "31"
 
 							}, 
 
 							{ 
 								"key": "Ниско", 
-								"value": ""
+								"value": "24"
 
 							}, 
 
 							{ 
 								"key": "Безшумно", 
-								"value": ""
+								"value": "19"
 
 							} 
 
@@ -334,25 +345,25 @@
 						"values": [ 
 							{ 
 								"key": "Високо", 
-								"value": ""
+								"value": "38"
 
 							}, 
 
 							{ 
 								"key": "Номинално", 
-								"value": ""
+								"value": "33"
 
 							}, 
 
 							{ 
 								"key": "Ниско", 
-								"value": ""
+								"value": "25"
 
 							}, 
 
 							{ 
 								"key": "Безшумно", 
-								"value": ""
+								"value": "19"
 
 							} 
 							

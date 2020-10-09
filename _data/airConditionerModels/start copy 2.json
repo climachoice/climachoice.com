@@ -2,7 +2,7 @@
 	"className": "air-conditioner-model", 
 	
 	"model": "", 
-	"serie": "", 
+	"serie": "Diamond ZSX", 
 	"type": "Стенен", 
 
 	"head": [
@@ -13,7 +13,7 @@
 			
 			"images": [
 				{ 
-					"src": "/assets/images/", 
+					"src": "/assets/images/diamond-ZSX/zsx-s-700x700w.jpg", 
 					"alt": ""
 				}
 			], 
@@ -21,7 +21,7 @@
 			"keyValuePairList": [ 
 				{
 					"key": "Серия", 
-					"value": "" 
+					"value": "Diamond ZSX" 
 				}, 
 
 				{
@@ -47,21 +47,32 @@
 			}
 
 		], 
+
 		"images": [
 			{ 
-				"src": "/assets/images/", 
+				"src": "/assets/images/diamond-ZSX/zsx-s-700x700w.jpg", 
 				"alt": ""
 			}, 
 
 			{ 
-				"src": "/assets/images/", 
+				"src": "/assets/images/diamond-ZSX/zsx-s-1-700x700w.jpg", 
 				"alt": ""
 			}, 
 
 			{ 
-				"src": "/assets/images/", 
+				"src": "/assets/images/diamond-ZSX/zsx-s-10-700x700w.jpg", 
 				"alt": ""
-			}
+			}, 
+
+			{ 
+				"src": "/assets/images/diamond-ZSX/zsx-s-11-700x700w.jpg", 
+				"alt": ""
+			}, 
+
+			{ 
+				"src": "/assets/images/diamond-ZSX/zsx-s-7-700x700w.jpg", 
+				"alt": ""
+			} 
 		]
 	}, 
 
