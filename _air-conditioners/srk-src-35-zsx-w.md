@@ -17,7 +17,7 @@ head:
   - key: Тип
     value: Стенен
 price:
-  integrals: 2 749
+  integrals: '2749'
   fractions: '00'
 description:
   heading: Описание

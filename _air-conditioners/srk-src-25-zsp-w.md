@@ -1,13 +1,13 @@
 ---
 className: air-conditioner-model
-model: SRK / SRC 35 ZSP-W
+model: SRK / SRC 25 ZSP-W
 serie: Standard
 type: Стенен
 head:
 - subheading:
     text: Mitsubishi Heavy Industries
   heading:
-    text: SRK / SRC 35 ZSP-W
+    text: SRK / SRC 25 ZSP-W
   images:
   - src: "/assets/images/standard/zsp-700x700w.jpg"
     alt: ''
@@ -17,7 +17,7 @@ head:
   - key: Тип
     value: Стенен
 price:
-  integrals: '1299'
+  integrals: '1099'
   fractions: '00'
 description:
   heading: Описание
@@ -48,10 +48,10 @@ specs:
     groups:
     - key: Охлаждане
       values:
-      - value: '0.910'
+      - value: '0.71'
     - key: Отопление
       values:
-      - value: '0.930'
+      - value: '0.69'
     units: kW
   - key: Отдавана мощност
     groups:
@@ -60,23 +60,23 @@ specs:
       - key: Минимална
         value: '0.9'
       - key: Номинална
-        value: '3.2'
+        value: '2.5'
       - key: Максимална
-        value: '3.7'
+        value: '3.1'
     - key: Отопление
       values:
       - key: Минимална
         value: '1.0'
       - key: Номинална
-        value: '3.6'
+        value: '2.8'
       - key: Максимална
-        value: '4.6'
+        value: '4.1'
     units: kW
   - key: Прогнозни годишни разходи
     groups:
     - key: Охлаждане
       values:
-      - value: '34'
+      - value: '28'
     - key: Отопление
       values:
       - value: '207'
@@ -96,21 +96,21 @@ specs:
       - value: '3.52'
     - key: COP
       values:
-      - value: '3.87'
+      - value: '4.05'
   - key: SEER/SCOP
     groups:
     - key: SEER
       values:
-      - value: '7.30'
+      - value: '6.80'
     - key: SCOP
       values:
-      - value: '4.40'
+      - value: '4.10'
   - key: Размери
     groups:
     - key: Външно тяло
       values:
       - key: Дължина
-        value: 645(+57)
+        value: '645'
       - key: Ширина
         value: '275'
       - key: Височина
@@ -130,8 +130,8 @@ specs:
       values:
       - key: Високо
         value: '45'
-      - key: Номинално
-        value: '36'
+      - key: Ном.
+        value: '34'
       - key: Ниско
         value: '23'
       - key: Безшумно
@@ -139,15 +139,15 @@ specs:
     - key: Отопление
       values:
       - key: Високо
-        value: '44'
+        value: '43'
       - key: Ном.
-        value: '36'
+        value: '34'
       - key: Ниско
-        value: '28'
+        value: '26'
       - key: Безшумно
         value: "-"
     units: dB
-  - key: Хладилен агент
+  - key: Охлаждащ агент
     groups:
     - values:
       - value: R32
