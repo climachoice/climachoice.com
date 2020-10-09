@@ -23,7 +23,7 @@ layout: page
 	</ul>
 </section> --> 
 
-{% assign serie = page.serie | downcase %}
+{% assign serie = page.serie | downcase | split: " " | join: "-" %} 
 
 <section class= "section description"> 
 	{% assign description = site.data.airConditionerSeries[ serie ].description %} 

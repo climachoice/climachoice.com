@@ -1,11 +1,13 @@
 ---
 className: air-conditioner-model
-model: SRK/SRC20ZSX-W
+model: SRK / SRC 35 ZSX-W
 serie: Diamond ZSX
 type: Стенен
 head:
-- heading:
-    text: SRK/SRC20ZSX-W
+- subheading:
+    text: Mitsubishi Heavy Industries
+  heading:
+    text: SRK / SRC 35 ZSX-W
   images:
   - src: "/assets/images/diamond-ZSX/zsx-s-700x700w.jpg"
     alt: ''
@@ -15,7 +17,7 @@ head:
   - key: Тип
     value: Стенен
 price:
-  integrals: 2 199
+  integrals: 2 749
   fractions: '00'
 description:
   heading: Описание
@@ -41,10 +43,10 @@ specs:
     groups:
     - key: Охлаждане
       values:
-      - value: '0.31'
+      - value: '0.74'
     - key: Отопление
       values:
-      - value: '0.47'
+      - value: '0.90'
     units: kW
   - key: Отдавана мощност
     groups:
@@ -53,26 +55,26 @@ specs:
       - key: Минимална
         value: '0.9'
       - key: Номинална
-        value: '2.0'
+        value: '3.5'
       - key: Максимална
-        value: '3.4'
+        value: '4.5'
     - key: Отопление
       values:
       - key: Минимална
         value: '0.8'
       - key: Номинална
-        value: '2.7'
+        value: '4.3'
       - key: Максимална
-        value: '5.5'
+        value: '6.8'
     units: kW
   - key: Прогнозни годишни разходи
     groups:
     - key: Охлаждане
       values:
-      - value: '15'
+      - value: '28'
     - key: Отопление
       values:
-      - value: '163'
+      - value: '202'
     units: лв.
   - key: Енергиен клас
     groups:
@@ -86,18 +88,18 @@ specs:
     groups:
     - key: EER
       values:
-      - value: '6.45'
+      - value: '4.73'
     - key: COP
       values:
-      - value: '5.74'
+      - value: '4.78'
   - key: SEER/SCOP
     groups:
     - key: SEER
       values:
-      - value: '10'
+      - value: '9.50'
     - key: SCOP
       values:
-      - value: '5.20'
+      - value: '5.10'
   - key: Размери
     groups:
     - key: Външно тяло
@@ -122,28 +124,28 @@ specs:
     - key: Охлаждане
       values:
       - key: Високо
-        value: '38'
+        value: '43'
       - key: Номинално
-        value: '31'
+        value: '35'
       - key: Ниско
-        value: '24'
+        value: '26'
       - key: Безшумно
         value: '19'
     - key: Отопление
       values:
       - key: Високо
-        value: '38'
+        value: '42'
       - key: Номинално
-        value: '33'
+        value: '35'
       - key: Ниско
-        value: '25'
+        value: '28'
       - key: Безшумно
         value: '19'
     units: dB
   - key: Хладилен агент
     groups:
     - values:
-      - value: R32
+      - value: R32/675
   - key: Захранване
     groups:
     - values:

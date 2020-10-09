@@ -5,7 +5,7 @@
 			{ 
 				"key": "Адаптивно управление с предсказване",  
 				"series": [ 
-					"Standard", "Premium", "Diamond"
+					"Standard", "Premium", "Diamond ZSX"
 				], 
 				"image": { 
 					"src": ""
@@ -16,7 +16,7 @@
 				"key": "Сензор за движение", 
 				"group": "Спестяване на енергия", 
 				"series": [ 
-					"Diamond"
+					"Diamond ZSX"
 				], 
 				"image": { 
 					"src": ""
@@ -27,7 +27,7 @@
 				"key": "Спира автоматично работа, когато няма засечена човешка активност в помещението за определен период от време", 
 				"group": "Спестяване на енергия", 
 				"series": [ 
-					"Diamond"
+					"Diamond ZSX"
 				], 
 				"image": { 
 					"src": ""
@@ -38,7 +38,7 @@
 				"key": "Сензор за стайна температура и влажност", 
 				"group": "Спестяване на енергия", 
 				"series": [ 
-					"Diamond"
+					"Diamond ZSX"
 				], 
 				"image": { 
 					"src": ""
@@ -65,7 +65,7 @@
 				"key": "Jet технология за безшумен, равномерен и непрекъснат въздушен поток във всички части на помещението", 
 				"group": "Въздушен поток", 
 				"series": [ 
-					"Standard", "Premium", "Diamond"
+					"Standard", "Premium", "Diamond ZSX"
 				], 
 				"image": { 
 					"src": ""
@@ -76,7 +76,7 @@
 				"key": "3D Auto – може да изберете най-подходящата охлаждаща или затопляща схема само от един бутон", 
 				"group": "Въздушен поток", 
 				"series": [ 
-					"Premium", "Diamond"
+					"Premium", "Diamond ZSX"
 				], 
 				"image": { 
 					"src": ""
@@ -87,7 +87,7 @@
 				"key": "Автоматични въздухоразпределителни клапи", 
 				"group": "Въздушен поток", 
 				"series": [ 
-					"Standard", "Premium", "Diamond"
+					"Standard", "Premium", "Diamond ZSX"
 				], 
 				"image": { 
 					"src": ""
@@ -98,7 +98,7 @@
 				"key": "Запаметяване на позицията на въздухоразпределителните клапи", 
 				"group": "Въздушен поток", 
 				"series": [ 
-					"Standard", "Premium", "Diamond"
+					"Standard", "Premium", "Diamond ZSX"
 				], 
 				"image": { 
 					"src": ""
@@ -109,7 +109,7 @@
 				"key": "Завъртане на въздухоразпределителните клапи във вертикално направление", 
 				"group": "Въздушен поток", 
 				"series": [ 
-					"Standard", "Premium", "Diamond"
+					"Standard", "Premium", "Diamond ZSX"
 				], 
 				"image": { 
 					"src": ""
@@ -120,7 +120,7 @@
 				"key": "Завъртане на въздухоразпределителните клапи в хоризонтално направление", 
 				"group": "Въздушен поток", 
 				"series": [ 
-					"Premium", "Diamond"
+					"Premium", "Diamond ZSX"
 				], 
 				"image": { 
 					"src": ""
@@ -131,7 +131,7 @@
 				"key": "Настройване на посоката на въздушния поток", 
 				"group": "Въздушен поток", 
 				"series": [ 
-					"Premium", "Diamond"
+					"Premium", "Diamond ZSX"
 				], 
 				"image": { 
 					"src": ""
@@ -147,7 +147,7 @@
 				"key": "Алерген-деактивираща система", 
 				"group": "Операции за почистване на филтри", 
 				"series": [ 
-					"Premium", "Diamond"
+					"Premium", "Diamond ZSX"
 				], 
 				"image": { 
 					"src": ""
@@ -158,7 +158,7 @@
 				"key": "Самопочистваща функция", 
 				"group": "Операции за почистване на филтри", 
 				"series": [ 
-					"Standard", "Premium", "Diamond"
+					"Standard", "Premium", "Diamond ZSX"
 				], 
 				"image": { 
 					"src": ""
@@ -169,7 +169,7 @@
 				"key": "Алерген-деактивиращ филтър", 
 				"group": "Операции за почистване на филтри", 
 				"series": [ 
-					"Premium", "Diamond"
+					"Premium", "Diamond ZSX"
 				], 
 				"image": { 
 					"src": ""
@@ -180,7 +180,7 @@
 				"key": "Запазва въздуха свеж чрез отнемане на неприятните миризми", 
 				"group": "Операции за почистване на филтри", 
 				"series": [ 
-					"Premium", "Diamond"
+					"Premium", "Diamond ZSX"
 				], 
 				"image": { 
 					"src": ""
@@ -191,7 +191,7 @@
 				"key": "Разглобяем преден панел", 
 				"group": "Операции за почистване на филтри", 
 				"series": [ 
-					"Premium", "Diamond"
+					"Premium", "Diamond ZSX"
 				], 
 				"image": { 
 					"src": ""
@@ -207,7 +207,7 @@
 				"key": "Автоматично премахва натрупания скреж и намалява времето за размразяване", 
 				"group": "Други", 
 				"series": [ 
-					"Standard", "Premium", "Diamond"
+					"Standard", "Premium", "Diamond ZSX"
 				], 
 				"image": { 
 					"src": ""
@@ -218,7 +218,7 @@
 				"key": "Самодиагностика", 
 				"group": "Други", 
 				"series": [ 
-					"Standard", "Premium", "Diamond"
+					"Standard", "Premium", "Diamond ZSX"
 				], 
 				"image": { 
 					"src": ""
@@ -229,7 +229,7 @@
 				"key": "Автоматично рестартиране", 
 				"group": "Други", 
 				"series": [ 
-					"Standard", "Premium", "Diamond"
+					"Standard", "Premium", "Diamond ZSX"
 				], 
 				"image": { 
 					"src": ""
@@ -240,7 +240,7 @@
 				"key": "Опция за включване и изключване от вътрешното тяло", 
 				"group": "Други", 
 				"series": [ 
-					"Standard", "Premium", "Diamond"
+					"Standard", "Premium", "Diamond ZSX"
 				], 
 				"image": { 
 					"src": ""
@@ -251,7 +251,7 @@
 				"key": "Wi-Fi модул (опция)", 
 				"group": "Други", 
 				"series": [ 
-					"Diamond"
+					"Diamond ZSX"
 				], 
 				"image": { 
 					"src": ""
@@ -267,7 +267,7 @@
 				"key": "Режим на изсушаване на помещението", 
 				"group": "Комфорт и удобство", 
 				"series": [ 
-					"Standard", "Premium", "Diamond"
+					"Standard", "Premium", "Diamond ZSX"
 				], 
 				"image": { 
 					"src": ""
@@ -278,7 +278,7 @@
 				"key": "Hi Power – режим за бързо постигане на желаната температура", 
 				"group": "Комфорт и удобство", 
 				"series": [ 
-					"Standard", "Premium", "Diamond"
+					"Standard", "Premium", "Diamond ZSX"
 				], 
 				"image": { 
 					"src": ""
@@ -289,7 +289,7 @@
 				"key": "Тих режим", 
 				"group": "Комфорт и удобство", 
 				"series": [ 
-					"Premium", "Diamond"
+					"Premium", "Diamond ZSX"
 				], 
 				"image": { 
 					"src": ""
@@ -300,7 +300,7 @@
 				"key": "Нощно поддържане на температурата", 
 				"group": "Комфорт и удобство", 
 				"series": [ 
-					"Premium", "Diamond"
+					"Premium", "Diamond ZSX"
 				], 
 				"image": { 
 					"src": ""
@@ -311,7 +311,7 @@
 				"key": "Седмичен таймер", 
 				"group": "Комфорт и удобство", 
 				"series": [ 
-					"Premium", "Diamond"
+					"Premium", "Diamond ZSX"
 				], 
 				"image": { 
 					"src": ""
@@ -322,7 +322,7 @@
 				"key": "Режим сън", 
 				"group": "Комфорт и удобство", 
 				"series": [ 
-					"Standard", "Premium", "Diamond"
+					"Standard", "Premium", "Diamond ZSX"
 				], 
 				"image": { 
 					"src": ""
@@ -333,7 +333,7 @@
 				"key": "Автоматично включване и изключване за период от 24 часа", 
 				"group": "Комфорт и удобство", 
 				"series": [ 
-					"Standard", "Premium", "Diamond"
+					"Standard", "Premium", "Diamond ZSX"
 				], 
 				"image": { 
 					"src": ""
@@ -344,7 +344,7 @@
 				"key": "Комфортен старт", 
 				"group": "Комфорт и удобство", 
 				"series": [ 
-					"Standard", "Premium", "Diamond"
+					"Standard", "Premium", "Diamond ZSX"
 				], 
 				"image": { 
 					"src": ""
@@ -355,7 +355,7 @@
 				"key": "Запаметен режим", 
 				"group": "Комфорт и удобство", 
 				"series": [ 
-					"Premium", "Diamond"
+					"Premium", "Diamond ZSX"
 				], 
 				"image": { 
 					"src": ""
@@ -366,7 +366,7 @@
 				"key": "Заключване за деца", 
 				"group": "Комфорт и удобство", 
 				"series": [ 
-					"Premium", "Diamond"
+					"Premium", "Diamond ZSX"
 				], 
 				"image": { 
 					"src": ""
@@ -377,7 +377,7 @@
 				"key": "Настройване на яркостта на индикаторите", 
 				"group": "Комфорт и удобство", 
 				"series": [ 
-					"Premium", "Diamond"
+					"Premium", "Diamond ZSX"
 				], 
 				"image": { 
 					"src": ""
