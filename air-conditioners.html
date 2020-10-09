@@ -4,7 +4,7 @@ title: "Нашите климатици"
 className: "all-air-conditioners-page" 
 --- 
 
-{% assign airConditioners = site.air-conditioners | sort: "price" %} 
+{% assign airConditioners = site.air-conditioners | sort: "price.integrals" %} 
 
 
 {% include page-head.html data = site.data.airConditioners.head %} 
