@@ -1,0 +1,74 @@
+.our-partners .entry, 
+.reviews .entry { 
+	padding: 2.5rem; 
+}
+
+/* Removes right margin from elements in the last column */
+.our-partners .entry:nth-child( 2n + 2 ), 
+.reviews .entry:nth-child( 2n + 2 ) { 
+	margin-right: 0; 
+} 
+
+/* Removes top margin from elements in the top row */
+.our-partners .entry:nth-child( 2 - n ), 
+.reviews .entry:nth-child( 2 - n ) { 
+	margin-top: 0; 
+}
+
+.about-us .body { 
+	display: flex; flex-direction: column; 
+	padding-top: 7rem; padding-bottom: 7rem; 
+
+}
+
+.about-us .text-content { 
+	order: 2; 
+	box-sizing: border-box; 
+	/* margin-top: 5rem; margin-bottom: 5rem;  */ 
+	margin-left: 10%; margin-right: 40%; 
+	padding: 3.5rem; 
+	position: relative; z-index: 1; 
+	background-color: var( --text-background-color ); 
+	border: 1px solid; 
+
+	text-align: left; 
+
+}
+
+.about-us .cover-image { 
+	height: 100%; 
+	position: absolute; left: 40%; right: 0%; top: 0; 
+	background-size: contain; 
+
+} 
+
+@media ( max-width: 940px ) { 
+
+	.about-us .body { 
+		padding: 0; 
+	
+	}
+
+	.about-us .text-content { 
+		margin-top: -20%; 
+		margin-left: 10%; margin-right: 10%; 
+		/* position: absolute; top: 50%;  */
+	} 
+
+	.about-us .cover-image { 
+		order: 1; 
+		height: 22rem; 
+		position: initial; 
+		background-size: contain;
+	} 
+
+}
+
+@media ( max-width: 720px ) { 
+
+	.about-us .text-content { 
+		margin-left: 0; margin-right: 0; 
+	
+	}
+
+} 

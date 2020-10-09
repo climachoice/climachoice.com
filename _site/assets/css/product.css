@@ -1,0 +1,276 @@
+.air-conditioner-feature-list { 
+	--column-count: 1; 
+	--column-gutter-x: 0rem; 
+
+} 
+
+.air-conditioner-model .expand-trigger { 
+	margin-bottom: 0; 
+	padding-top: 1.2rem; padding-bottom: 1.2rem; 
+	/* border-bottom: 1px solid;  */
+	font-size: 1rem; 
+	cursor: pointer;
+
+} 
+
+.air-conditioner-model .expandable { 
+	border-bottom: 1px solid;
+}
+
+.air-conditioner-model .expandable:first-child { 
+	border-top: 1px solid; 
+
+}
+
+.air-conditioner-model .expand-target { 
+	height: 0; overflow: hidden;   
+
+} 
+
+.air-conditioner-model .expandable-open .expand-target { 
+	height: auto; 
+	margin-top: 1rem; margin-bottom: 2.5rem; 
+	/* margin-top: 2rem; margin-bottom: 2rem;  */
+
+}
+
+/* Removes right margin from elements in the last column */
+/* .entry:nth-child( 3n ) { 
+	margin-right: 0; 
+}  */
+
+/* Removes top margin from elements in the top row */
+/* .entry:nth-child( 5 - n ) { 
+	margin-top: 0; 
+}  */
+
+.air-conditioner-feature-list { 
+	/* height: 0; overflow: hidden;  */
+	/* align-items: center;  */
+
+}
+
+/* .air-conditioner-feature { 
+	min-height: 10rem; 
+	padding-top: 2.5rem; 
+	border: 1px solid; 
+
+} */ 
+
+/* .air-conditioner-model .section-heading:before { 
+	display: none; 
+
+} */ 
+
+/* .air-conditioner-feature-list { 
+	justify-content: flex-start; 
+
+} */
+
+.air-conditioner-feature-group { 
+	/* margin-top: 2.5rem;   */ 
+
+}
+
+.air-conditioner-feature-group-heading { 
+	/* margin-bottom: 1.2rem; 
+	padding-top: 1.2rem; 	
+	border-top: 1px solid; 
+	font-size: 1rem;  */
+
+} 
+
+.air-conditioner-feature { 
+	margin-bottom: 0.7rem; 
+	/* text-align: left;  */ 	
+
+}
+
+.spec-group-list { 
+	display: block; 
+	/* height: 0; overflow: hidden;   */ 
+} 
+
+.spec tbody { 
+	display: flex; flex-direction: column; justify-content: center;  
+
+} 
+
+.spec-heading { 
+	/* margin-bottom: 0rem; 
+	padding: 0.85rem; 
+	border-top: 1px solid;   */ 
+	/* margin-bottom: 1.2rem;  */
+	/* padding: 1.2rem; 	
+	border-top: 1px solid; 
+	font-size: 1rem;  */
+	background-color: var( --text-color );  
+	color: var( --text-background-color ); 
+	background-color: var( --text-background-color );  
+	color: var( --text-color );
+	/* font-size: 1rem; 
+	cursor: pointer;  */
+
+} 
+
+/* .spec:last-child .spec-heading { 
+	border-bottom: 1px solid; 
+
+} */
+
+/* .spec-open tbody { 
+	margin-top: 2.5rem; margin-bottom: 2.5rem; 
+
+} */
+
+/* .spec-open .spec-group-list { 
+	height: auto; 
+
+}  */
+
+.spec-open .spec-heading {  
+	/* margin-bottom: 2.5rem;  */
+	/* background-color: var( --text-color );  
+	color: var( --text-background-color );   */
+
+	background-color: var( --text-background-color );  
+	color: var( --text-color ); 
+
+} 
+
+.spec-group { 
+	display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; align-items: center; 
+	/* width: 100%;  */
+	margin-bottom: 1.85rem; 
+} 
+
+/* .spec-group:nth-child( odd ) { 
+	justify-content: flex-end; 
+
+} 
+
+.spec-group:nth-child( odd ) .spec-group-head { 
+	text-align: right; 
+
+} 
+
+.spec-group:nth-child( even ) { 
+	justify-content: flex-start; 
+
+} 
+
+.spec-group:nth-child( even ) .spec-group-head { 
+	text-align: left; 
+
+} */
+
+.spec-group-head {  
+	width: 100%;  
+	margin-bottom: 0.75rem; 
+	padding: 0.4rem; 
+	/* background-color: #CCC;  */ 
+	font-family: var( --heading-font-family );  
+	font-size: 0.8rem; 
+	text-align: center; 
+	text-transform: uppercase; 
+	
+} 
+
+.spec-group-entry {  
+	display: flex; flex-direction: column; align-items: center; justify-content: center; 
+	width: 2.5em; height: 2.5em; 
+	margin-right: 0.7rem; margin-bottom: 0.7rem; 
+	/* background-color: #DDD;  */ 
+	border: 1px solid var( --text-color ); 
+	background-color: var( --text-color );  
+	color: var( --text-background-color ); 
+	font-size: 4rem; 
+
+} 
+
+.spec-group-entry .key-value-pair { 
+	margin-bottom: 0.7rem; 
+
+} 
+
+/* .spec-group-entry .key, 
+.spec-group-entry .value { 
+	margin-bottom: 0.085rem; 
+
+} */
+
+/* .spec-group-entry .key-value-pair:after {  
+	display: block; 
+	margin-top: 0.5rem; 
+	content: attr( data-units ); 
+
+} */
+
+.spec-group-entry .value {  
+	font-family: var( --heading-font-family ); 
+	font-size: 1.25rem; 
+
+} 
+
+.spec-group-entry .key, 
+.spec-group-entry .key-value-pair:after, 
+.spec-group-entry .units { 
+	padding: 0.5rem 0; 
+	/* border: 1px solid #DDD;  */
+	/* background-color: #DDD;  */
+	font-size: 0.85rem;  
+	text-transform: uppercase;  
+
+} 
+
+.spec-group-entry .key { 
+	/* border: 1px solid #DDD;  */ 
+	font-size: 0.8rem; 
+	text-transform: uppercase; 
+
+}
+
+.spec-group-entry .units { 
+	box-sizing: border-box; 
+	width: 100%; 
+	/* padding: 0.45rem 0.75rem;  */ 
+	/* border-width: 1px 0;  */ 
+	background-color: var( --text-background-color );   
+	color: var( --text-color ); 
+	/* border: 1px solid;  */
+	font-size: 1rem; 
+
+} 
+
+.spec-group-entry .power { 
+	display: inline-block; 
+	position: relative; top: -0.2rem; 
+	font-size: 0.7rem; 
+
+} 
+
+
+@media ( min-width: 621px ) { 
+
+	.spec-group-entry:last-child { 
+		margin-right: 0; 	
+	}
+
+}
+
+@media ( max-width: 620px ) { 
+
+	.spec tbody { 
+		flex-direction: row; justify-content: center; 
+	
+	} 
+	
+	.spec-group { 
+		flex-direction: column; justify-content: center; align-items: center; 
+	} 
+
+} 
+
+
+
+

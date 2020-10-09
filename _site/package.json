@@ -1,0 +1,17 @@
+{
+  "name": "foundation-jekyll",
+  "version": "0.1.0",
+  "description": "A jekyll package with basic styles and scripts to serve as a foundation for the development of static websites",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "h5avlov",
+  "license": "MIT",
+  "dependencies": {
+    "bxslider": "^4.2.14",
+    "jquery": "^3.5.1",
+    "jquery-smooth-scroll": "^2.2.0",
+    "lightslider": "^1.1.6"
+  }
+}

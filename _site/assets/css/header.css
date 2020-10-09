@@ -1,0 +1,251 @@
+/* -----------------------------------------------------------------
+	Layout
+----------------------------------------------------------------- */
+
+/* ID and main navigation horizontal centers are aligned */
+.header {    
+	flex-direction: column;  
+
+	/* Gives header content the width of the content, when header has full width */ 
+	/* max-width: none; 
+	padding-left: var( --content-push-inward ); padding-right: var( --content-push-inward );  */
+
+	/* Sizes header to match slider text box */
+	box-sizing: border-box; 
+	/* max-width: var( --max-content-width );  */ 
+	/* border-right-width: var( --text-box-border-right ); */
+	/* padding-left: var( --content-padding-left );
+	/* Takes care of header background */
+	background-clip: padding-box; 
+
+	/* height: var( --header-height ); */ 
+
+	/* Pulls slider under header */
+	/* height: var( --header-height ); margin-bottom: calc( -1 * ( var( --header-height ) + var( --header-margin-top ) ) ); */
+	/* margin-top: var( --header-margin-top );  */
+
+	/* Pulls header in front of slider */
+	position: relative; z-index: 2;  
+
+	border-left-width: 0; border-right-width: 0; 
+} 
+
+.site-header { 
+	display: flex; flex-direction: row-reverse; align-items: center; justify-content: center; 
+	/* width: 50%;  */ 
+	margin-top: var( --header-margin-top );  
+	/* margin-bottom: var( --header-margin-bottom );   */ 
+	/* position: absolute; left: 50%;   */
+
+}
+
+/* Gives distance between ID and main navigation */
+/* .header .id { 
+	margin-right: 5rem; 
+} */
+
+.site-title {
+	/* height: 4rem; line-height: 4rem;  */ 
+	margin-bottom: 0; 
+}	
+
+/* Mobile navigation background */
+/* .main-nav:after {
+	display: none; 	
+	width: 100%; height: 100%; 
+	position: fixed; left: 0; top: 0; z-index: 2; 
+	background-color: rgba( 255, 255, 255, 1 ); 
+	content: "";
+} */ 
+
+.page-head { 
+	position: relative; 
+	margin: 1.25rem; 
+
+} 
+
+.page-head .cover-image { 
+	width: 50%; height: 100%; 
+	position: absolute; left: 0; top: 0; z-index: 1; 
+
+}
+
+.quick-contact { 
+	--icon-size: 1.25rem; 
+	/* width: 50%;  */
+	/* height: 4rem;   */
+	/* position: absolute; left: 50%; right: 0; bottom: 2.75rem;  */ 
+	/* border: 1px solid;  */ 
+	/* background-color: #444;  */ 
+	/* font-size: 0.8rem;  */ 
+	text-align: center; 
+
+} 
+
+.quick-contact .key { 
+	display: none;  
+
+} 
+
+.quick-contact .value { 
+	margin-bottom: 0.2em; 
+	font-family: var( --heading-font-family ); 
+	font-size: 1.5em; 
+
+} 
+
+.quick-contact .value:before { 
+	display: block; 
+	width: var( --icon-size ); height: var( --icon-size ); line-height: var( --icon-size ); 
+	margin-left: auto; margin-right: auto; 
+	margin-bottom: 0.5em; 
+	/* border: 1px solid; border-radius: 4rem;  */ 
+	font-family: var( --icon-font-family ); 
+	font-size: 1.125em; 
+	content: var( --phone-icon ); 
+
+}
+
+.bx-controls { 
+	--bx-button-size: 0.8rem; 
+	--bx-button-current-size: calc( var( --bx-button-size ) * 1.4 ); 
+	margin-right: 1.5rem; 
+	position: absolute; right: 50%; bottom: 50%; transform: translateY( 50% ); 
+
+} 
+
+.bx-pager-item { 
+	margin-bottom: 0.2rem; 
+
+}
+
+.bx-pager-link { 
+	display: block; 
+	width: var( --bx-button-size ); height: var( --bx-button-size ); 
+	margin-left: auto; margin-right: auto; 
+	/* border: 1px solid; border-color: transparent;  */
+	border-radius: 50%; 
+	background-color: var( --text-color ); 
+	text-indent: -10000px; 
+
+} 
+
+.bx-pager-link.active { 
+	width: var( --bx-button-current-size ); height: var( --bx-button-current-size ); 
+	/* transform: scale( 1.4 );  */
+	/* border-color: var( --text-background-color ); 
+	background-color: transparent;  */
+
+}
+
+
+/* -----------------------------------------------------------------
+	Typography
+----------------------------------------------------------------- */ 
+
+.header { 
+	/* font-size: 1.8rem;  */ 
+	text-align: center; 
+} 
+
+.sell-points .text-content .heading { 
+	font-size: var( --sell-points-heading-font-size ); 
+}
+
+/* Sets site-header font size, spreading over site-title and open-nav-button */
+.header.site-header { 
+	font-size: var( --site-header-font-size ); 
+}
+
+/* Ensures overriding the default heading and button styles of site-title and open-nav-button */
+.site-title, 
+.site-header .button { 
+	font-size: inherit; 
+} 
+
+/* Sets a multiplier for inherited open-nav-button font size to give it about the same size as site title size */ 
+.site-header .button { 
+	font-size: 1.5em; 
+}
+
+.site-title, 
+.main-nav .nav-link {
+	text-transform: uppercase; 
+}
+
+
+/* -----------------------------------------------------------------
+	Color
+----------------------------------------------------------------- */ 
+
+/* .header { 
+	color: #EEE; 
+
+} */
+
+
+/* -----------------------------------------------------------------
+	Media Queries
+----------------------------------------------------------------- */
+
+/* @media ( max-width: 1060px ) and ( min-width: 841px ) {
+	.header { 
+		flex-direction: column; align-items: flex-start; 
+		margin-bottom: 2rem; 
+	}
+
+	.main-nav .nav-link {
+		padding-top: 1.575rem; 
+	}
+
+	.main-nav .nav-entry:first-child .nav-link {
+		padding-left: 0;  
+	}
+	
+}
+
+@media ( max-width: 840px ) {
+	.header { 
+		flex-direction: row; justify-content: space-between; align-items: center;
+		margin-bottom: 0; 
+	}
+
+	.header .id {
+		margin-right: 0; 
+	}
+
+	.main-nav .nav-entry-list {
+		flex-direction: column; align-items: center; justify-content: center; 
+		height: 0; overflow: hidden; 
+		position: fixed; left: 50%; top: 50%; z-index: 3; 
+		transform: translate( -50%, -50% );
+	}
+
+	.main-nav.open:after {
+		display: block; 
+	}
+
+	.main-nav.open .nav-entry-list {
+		width: auto; height: auto; 
+	}
+
+	.open-nav-button {
+		display: block; 
+	}
+
+	.main-nav.open .close-nav-button {
+		display: block; 
+		top: 0; right: 0; 
+		z-index: 3; 
+	}
+
+	.main-nav .nav-link:before {
+		background-color: #EEE;
+	}
+
+	.main-nav .nav-link {
+		padding-top: 1rem; padding-bottom: 1rem; 
+
+	}
+
+} */
