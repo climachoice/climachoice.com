@@ -68,7 +68,8 @@
 	width: auto; 
 	position: absolute; 
 	left: 50%; transform: translateX( -50% ); 
-	top: 0; margin-top: 1.25rem; 
+	top: 0; 
+	/* margin-top: 1.25rem;  */ 
 }
 
 .description .fotorama__nav.fotorama__nav--thumbs { 
