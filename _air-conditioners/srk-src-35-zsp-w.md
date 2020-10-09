@@ -9,7 +9,7 @@ head:
   heading:
     text: SRK / SRC 35 ZSP-W
   images:
-  - src: "/assets/images/zsp.jpg"
+  - src: "/assets/images/standard/zsp-700x700w.jpg"
     alt: ''
   keyValuePairList:
   - key: Серия
@@ -33,9 +33,11 @@ description:
       фосфорециращ бутон на дистанционното управление, възможност за работа в режим
       охлаждане при ниски външни температури.
   images:
-  - src: "/assets/images/zsp.jpg"
+  - src: "/assets/images/standard/zsp-700x700w.jpg"
     alt: ''
-  - src: "/assets/images/SRC45ZSP-S.jpg"
+  - src: "/assets/images/standard/zmp-s-2-700x700w.jpg"
+    alt: ''
+  - src: "/assets/images/standard/zmp-s-3-700x700w.jpg"
     alt: ''
 specs:
   heading: Спецификации

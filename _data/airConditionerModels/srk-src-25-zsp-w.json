@@ -17,7 +17,7 @@
 			
 			"images": [
 				{ 
-					"src": "/assets/images/zsp.jpg", 
+					"src": "/assets/images/standard/zsp-700x700w.jpg", 
 					"alt": ""
 				}
 			], 
@@ -70,12 +70,17 @@
 
 		"images": [
 			{ 
-				"src": "/assets/images/zsp.jpg", 
+				"src": "/assets/images/standard/zsp-700x700w.jpg", 
 				"alt": ""
 			}, 
 
 			{ 
-				"src": "/assets/images/SRC45ZSP-S.jpg", 
+				"src": "/assets/images/standard/zmp-s-2-700x700w.jpg", 
+				"alt": ""
+			}, 
+
+			{ 
+				"src": "/assets/images/standard/zmp-s-3-700x700w.jpg", 
 				"alt": ""
 			} 
 		] 

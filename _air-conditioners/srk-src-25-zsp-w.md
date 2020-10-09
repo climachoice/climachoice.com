@@ -1,15 +1,15 @@
 ---
 className: air-conditioner-model
-model: SRK / SRC 25 ZSP-W
+model: SRK / SRC 35 ZSP-W
 serie: Standard
 type: Стенен
 head:
 - subheading:
     text: Mitsubishi Heavy Industries
   heading:
-    text: SRK / SRC 25 ZSP-W
+    text: SRK / SRC 35 ZSP-W
   images:
-  - src: "/assets/images/zsp.jpg"
+  - src: "/assets/images/standard/zsp-700x700w.jpg"
     alt: ''
   keyValuePairList:
   - key: Серия
@@ -17,7 +17,7 @@ head:
   - key: Тип
     value: Стенен
 price:
-  integrals: '1099'
+  integrals: '1299'
   fractions: '00'
 description:
   heading: Описание
@@ -33,9 +33,11 @@ description:
       фосфорециращ бутон на дистанционното управление, възможност за работа в режим
       охлаждане при ниски външни температури.
   images:
-  - src: "/assets/images/zsp.jpg"
+  - src: "/assets/images/standard/zsp-700x700w.jpg"
     alt: ''
-  - src: "/assets/images/SRC45ZSP-S.jpg"
+  - src: "/assets/images/standard/zmp-s-2-700x700w.jpg"
+    alt: ''
+  - src: "/assets/images/standard/zmp-s-3-700x700w.jpg"
     alt: ''
 specs:
   heading: Спецификации
@@ -46,10 +48,10 @@ specs:
     groups:
     - key: Охлаждане
       values:
-      - value: '0.71'
+      - value: '0.910'
     - key: Отопление
       values:
-      - value: '0.69'
+      - value: '0.930'
     units: kW
   - key: Отдавана мощност
     groups:
@@ -58,18 +60,27 @@ specs:
       - key: Минимална
         value: '0.9'
       - key: Номинална
-        value: '2.5'
+        value: '3.2'
       - key: Максимална
-        value: '3.1'
+        value: '3.7'
     - key: Отопление
       values:
       - key: Минимална
         value: '1.0'
       - key: Номинална
-        value: '2.8'
+        value: '3.6'
       - key: Максимална
-        value: '4.1'
+        value: '4.6'
     units: kW
+  - key: Прогнозни годишни разходи
+    groups:
+    - key: Охлаждане
+      values:
+      - value: '34'
+    - key: Отопление
+      values:
+      - value: '207'
+    units: лв.
   - key: Енергиен клас
     groups:
     - key: Охлаждане
@@ -78,15 +89,6 @@ specs:
     - key: Отопление
       values:
       - value: A+
-  - key: Прогнозни годишни разходи
-    groups:
-    - key: Охлаждане
-      values:
-      - value: '28'
-    - key: Отопление
-      values:
-      - value: '207'
-    units: лв.
   - key: EER/COP
     groups:
     - key: EER
@@ -94,21 +96,21 @@ specs:
       - value: '3.52'
     - key: COP
       values:
-      - value: '4.05'
+      - value: '3.87'
   - key: SEER/SCOP
     groups:
     - key: SEER
       values:
-      - value: '6.80'
+      - value: '7.30'
     - key: SCOP
       values:
-      - value: '4.10'
+      - value: '4.40'
   - key: Размери
     groups:
     - key: Външно тяло
       values:
       - key: Дължина
-        value: '645'
+        value: 645(+57)
       - key: Ширина
         value: '275'
       - key: Височина
@@ -128,8 +130,8 @@ specs:
       values:
       - key: Високо
         value: '45'
-      - key: Ном.
-        value: '34'
+      - key: Номинално
+        value: '36'
       - key: Ниско
         value: '23'
       - key: Безшумно
@@ -137,15 +139,15 @@ specs:
     - key: Отопление
       values:
       - key: Високо
-        value: '43'
+        value: '44'
       - key: Ном.
-        value: '34'
+        value: '36'
       - key: Ниско
-        value: '26'
+        value: '28'
       - key: Безшумно
         value: "-"
     units: dB
-  - key: Охлаждащ агент
+  - key: Хладилен агент
     groups:
     - values:
       - value: R32

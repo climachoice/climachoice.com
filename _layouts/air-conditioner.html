@@ -39,7 +39,7 @@ layout: page
 	{% endfor %} 
 	</ul>  -->
 
-	<div class= "fotorama" data-nav="thumbs" data-fit="contain" data-arrows="false"> 
+	<div class= "fotorama" data-nav="thumbs" data-fit="contain" data-nav-position="top" data-arrows="false"> 
 	{% for image in page.description.images %} 
 		{% include image.html src = image.src %} 
 	{% endfor %}
