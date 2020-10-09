@@ -1,14 +1,14 @@
 {
 	"className": "air-conditioner-model", 
 	
-	"model": "", 
+	"model": "SRK / SRC 35 ZSX-W", 
 	"serie": "Diamond ZSX", 
 	"type": "Стенен", 
 
 	"head": [
 		{ 
 			"heading": { 
-				"text": "" 
+				"text": "SRK / SRC 35 ZSX-W" 
 			}, 
 			
 			"images": [
@@ -34,7 +34,7 @@
 	], 
 
 	"price": { 
-		"integrals": "", 
+		"integrals": "2 749", 
 		"fractions": "00" 
 
 	},  
@@ -92,7 +92,7 @@
 						"key": "Охлаждане", 
 						"values": [ 
 							{ 
-								"value": "" 
+								"value": "0.74" 
 							}
 						]
 					}, 
@@ -101,7 +101,7 @@
 						"key": "Отопление", 
 						"values": [ 
 							{
-								"value": "" 
+								"value": "0.90" 
 							}
 						]
 					}
@@ -118,17 +118,17 @@
 						"values": [
 							{ 
 								"key": "Минимална", 
-								"value": ""
+								"value": "0.9"
 							}, 
 		
 							{ 
 								"key": "Номинална", 
-								"value": "" 
+								"value": "3.5" 
 							}, 
 
 							{ 
 								"key": "Максимална", 
-								"value": "" 
+								"value": "4.5" 
 							}
 						]
 					}, 
@@ -138,17 +138,17 @@
 						"values": [
 							{ 
 								"key": "Минимална", 
-								"value": ""
+								"value": "0.8"
 							}, 
 		
 							{ 
 								"key": "Номинална", 
-								"value": "" 
+								"value": "4.3" 
 							}, 
 
 							{ 
 								"key": "Максимална", 
-								"value": "" 
+								"value": "6.8" 
 							}
 						] 
 					}
@@ -164,7 +164,7 @@
 						"key": "Охлаждане", 
 						"values": [ 
 							{ 
-								"value": "" 
+								"value": "28" 
 							}
 						]
 					}, 
@@ -173,7 +173,7 @@
 						"key": "Отопление", 
 						"values": [ 
 							{
-								"value": "" 
+								"value": "202" 
 							}
 						]
 					}
@@ -189,7 +189,7 @@
 						"key": "Охлаждане", 
 						"values": [ 
 							{ 
-								"value": "A" 
+								"value": "A+++" 
 							} 
 						] 
 					}, 
@@ -198,7 +198,7 @@
 						"key": "Отопление", 
 						"values": [ 
 							{
-								"value": "A" 
+								"value": "A+++" 
 							}
 						]
 					} 
@@ -212,7 +212,7 @@
 						"key": "EER", 
 						"values": [ 
 							{ 
-								"value": "" 
+								"value": "4.73" 
 							}
 						]
 					}, 
@@ -221,7 +221,7 @@
 						"key": "COP", 
 						"values": [ 
 							{ 
-								"value": "" 
+								"value": "4.78" 
 							}
 						]
 					}
@@ -236,7 +236,7 @@
 						"key": "SEER", 
 						"values": [ 
 							{ 
-								"value": "" 
+								"value": "9.50" 
 							}
 						]
 					}, 
@@ -245,7 +245,7 @@
 						"key": "SCOP", 
 						"values": [ 
 							{ 
-								"value": "" 
+								"value": "5.10" 
 							}
 						]
 					}
@@ -261,19 +261,19 @@
 						"values": [ 
 							{ 
 								"key": "Дължина", 
-								"value": ""
+								"value": "800(+71)"
 
 							}, 
 
 							{ 
 								"key": "Ширина", 
-								"value": ""
+								"value": "290"
 
 							}, 
 
 							{ 
 								"key": "Височина", 
-								"value": ""
+								"value": "640"
 
 							}
 
@@ -285,19 +285,19 @@
 						"values": [ 
 							{ 
 								"key": "Дължина", 
-								"value": ""
+								"value": "920"
 
 							}, 
 
 							{ 
 								"key": "Ширина", 
-								"value": ""
+								"value": "220"
 
 							}, 
 
 							{ 
 								"key": "Височина", 
-								"value": ""
+								"value": "305"
 
 							}
 
@@ -315,25 +315,25 @@
 						"values": [
 							{ 
 								"key": "Високо", 
-								"value": ""
+								"value": "43"
 
 							}, 
 
 							{ 
 								"key": "Номинално", 
-								"value": ""
+								"value": "35"
 
 							}, 
 
 							{ 
 								"key": "Ниско", 
-								"value": ""
+								"value": "26"
 
 							}, 
 
 							{ 
 								"key": "Безшумно", 
-								"value": ""
+								"value": "19"
 
 							} 
 
@@ -345,25 +345,25 @@
 						"values": [ 
 							{ 
 								"key": "Високо", 
-								"value": ""
+								"value": "42"
 
 							}, 
 
 							{ 
 								"key": "Номинално", 
-								"value": ""
+								"value": "35"
 
 							}, 
 
 							{ 
 								"key": "Ниско", 
-								"value": ""
+								"value": "28"
 
 							}, 
 
 							{ 
 								"key": "Безшумно", 
-								"value": ""
+								"value": "19"
 
 							} 
 							
@@ -380,7 +380,7 @@
 					{
 						"values": [ 
 							{
-								"value": "R32" 
+								"value": "R32/675" 
 							}
 						]
 					}
