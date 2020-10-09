@@ -23,7 +23,7 @@
 	} ); 
 
 	if ( !mainSliderLoaded ) { 
-		bxSliderLoad( $( '.page-head .image-list' ), { 
+		bxSliderLoad( $( '.air-conditioner-model .description .image-list' ), { 
 			auto: true, 
 			infiniteLoop: false, 
 			mode: "vertical", 

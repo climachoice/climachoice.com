@@ -11,8 +11,6 @@ head:
   images:
   - src: "/assets/images/zsp.jpg"
     alt: ''
-  - src: "/assets/images/SRC45ZSP-S.jpg"
-    alt: ''
   keyValuePairList:
   - key: Серия
     value: Standard
@@ -34,6 +32,11 @@ description:
   - text: Други – Back-up switch, автоматичен рестарт след възстановяване на захранването,
       фосфорециращ бутон на дистанционното управление, възможност за работа в режим
       охлаждане при ниски външни температури.
+  images:
+  - src: "/assets/images/zsp.jpg"
+    alt: ''
+  - src: "/assets/images/SRC45ZSP-S.jpg"
+    alt: ''
 specs:
   heading: Спецификации
   text:
@@ -67,15 +70,6 @@ specs:
       - key: Максимална
         value: '4.1'
     units: kW
-  - key: Прогнозни годишни разходи
-    groups:
-    - key: Охлаждане
-      values:
-      - value: '28'
-    - key: Отопление
-      values:
-      - value: '207'
-    units: лв. 
   - key: Енергиен клас
     groups:
     - key: Охлаждане
@@ -84,6 +78,15 @@ specs:
     - key: Отопление
       values:
       - value: A+
+  - key: Прогнозни годишни разходи
+    groups:
+    - key: Охлаждане
+      values:
+      - value: '28'
+    - key: Отопление
+      values:
+      - value: '207'
+    units: лв.
   - key: EER/COP
     groups:
     - key: EER

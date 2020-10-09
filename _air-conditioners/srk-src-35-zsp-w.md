@@ -3,15 +3,13 @@ className: air-conditioner-model
 model: SRK / SRC 35 ZSP-W
 serie: Standard
 type: Стенен
-head: 
+head:
 - subheading:
     text: Mitsubishi Heavy Industries
   heading:
     text: SRK / SRC 35 ZSP-W
   images:
   - src: "/assets/images/zsp.jpg"
-    alt: ''
-  - src: "/assets/images/SRC45ZSP-S.jpg"
     alt: ''
   keyValuePairList:
   - key: Серия
@@ -34,6 +32,11 @@ description:
   - text: Други – Back-up switch, автоматичен рестарт след възстановяване на захранването,
       фосфорециращ бутон на дистанционното управление, възможност за работа в режим
       охлаждане при ниски външни температури.
+  images:
+  - src: "/assets/images/zsp.jpg"
+    alt: ''
+  - src: "/assets/images/SRC45ZSP-S.jpg"
+    alt: ''
 specs:
   heading: Спецификации
   text:

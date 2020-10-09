@@ -30,6 +30,20 @@ layout: page
 	
 	{% include heading.html className = "section-heading" level = 2 text = "Описание" %} 
 	{% include paragraph.html text = description %} 
+
+	<!-- <ul class= "image-list"> 
+	{% for image in page.description.images %} 
+		<li class= "entry image-entry"> 
+			{% include cover-image.html data = image %} 
+		</li>
+	{% endfor %} 
+	</ul>  -->
+
+	<div class= "fotorama" data-nav="thumbs" data-fit="contain" data-arrows="false"> 
+	{% for image in page.description.images %} 
+		{% include image.html src = image.src %} 
+	{% endfor %}
+	</div>
 </section> 
 
 <section class= "section air-conditioner-features"> 

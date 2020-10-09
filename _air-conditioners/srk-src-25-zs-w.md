@@ -6,18 +6,10 @@ type: Стенен
 head:
 - subheading:
     text: Mitsubishi Heavy Industries
-  heading: 
+  heading:
     text: SRK / SRC 25 ZS-W
   images:
   - src: "/assets/images/premium/srk-zs-s-700x700w.jpg"
-    alt: ''
-  - src: "/assets/images/premium/srk-zs-700x700w.jpg"
-    alt: ''
-  - src: "/assets/images/premium/srk-zs-2-700x700w.jpg"
-    alt: ''
-  - src: "/assets/images/premium/srk-zs-1-700x700w.jpg"
-    alt: ''
-  - src: "/assets/images/premium/src-zs-s-700x700w.jpg"
     alt: ''
   keyValuePairList:
   - key: Серия
@@ -47,6 +39,17 @@ description:
       С много възможности за настройки, като например 'Economy' за икономия на енергия,
       седмичен таймер, който да бъде програмиран съгласно индивидуалните потребности,
       тих режим 'Silent', който може да бъде избран за през нощта и др.
+  images:
+  - src: "/assets/images/premium/srk-zs-s-700x700w.jpg"
+    alt: ''
+  - src: "/assets/images/premium/srk-zs-700x700w.jpg"
+    alt: ''
+  - src: "/assets/images/premium/srk-zs-2-700x700w.jpg"
+    alt: ''
+  - src: "/assets/images/premium/srk-zs-1-700x700w.jpg"
+    alt: ''
+  - src: "/assets/images/premium/src-zs-s-700x700w.jpg"
+    alt: ''
 specs:
   heading: Спецификации
   text:

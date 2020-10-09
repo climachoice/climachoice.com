@@ -11,8 +11,6 @@ head:
   images:
   - src: "/assets/images/zsp.jpg"
     alt: ''
-  - src: "/assets/images/SRC45ZSP-S.jpg"
-    alt: ''
   keyValuePairList:
   - key: Серия
     value: Standard
@@ -34,6 +32,11 @@ description:
   - text: Други – Back-up switch, автоматичен рестарт след възстановяване на захранването,
       фосфорециращ бутон на дистанционното управление, възможност за работа в режим
       охлаждане при ниски външни температури.
+  images:
+  - src: "/assets/images/zsp.jpg"
+    alt: ''
+  - src: "/assets/images/SRC45ZSP-S.jpg"
+    alt: ''
 specs:
   heading: Спецификации
   text:
