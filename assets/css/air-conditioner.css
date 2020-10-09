@@ -1,6 +1,11 @@
 .air-conditioner-model .head-list { 
 	display: block; 
 
+} 
+
+.air-conditioner-model .head-list .cover-image { 
+	background-size: contain; 
+
 }
 
 /* .head-list .entry { 
