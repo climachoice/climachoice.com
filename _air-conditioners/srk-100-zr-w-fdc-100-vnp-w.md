@@ -1,0 +1,154 @@
+---
+className: air-conditioner-model
+model: SRK 100 ZR-W / FDC 100 VNP-W
+serie: Diamond ZR
+type: Стенен
+head:
+- subheading:
+    text: Mitsubishi Heavy Industries
+  heading:
+    text: SRK 100 ZR-W / FDC 100 VNP-W
+  images:
+  - src: "/assets/images/diamond-ZR/srk-80zr-s-700x700w.jpg"
+    alt: ''
+  keyValuePairList:
+  - key: Серия
+    value: Diamond ZR
+  - key: Тип
+    value: Стенен
+price:
+  integrals: '4999'
+  fractions: '00'
+description:
+  heading: Описание
+  text:
+  - text: ''
+  images:
+  - src: "/assets/images/diamond-ZR/srk-80zr-s-700x700w.jpg"
+    alt: ''
+specs:
+  heading: Спецификации
+  text:
+  - text: ''
+  body:
+  - key: Консумирана мощност
+    groups:
+    - key: Охлаждане
+      values:
+      - value: '3.10'
+    - key: Отопление
+      values:
+      - value: '2.80'
+    units: kW
+  - key: Отдавана мощност
+    groups:
+    - key: Охлаждане
+      values:
+      - key: Минимална
+        value: '2.1'
+      - key: Номинална
+        value: '9.6'
+      - key: Максимална
+        value: '9.6'
+    - key: Отопление
+      values:
+      - key: Минимална
+        value: '1.7'
+      - key: Номинална
+        value: '10.0'
+      - key: Максимална
+        value: '10.4'
+    units: kW
+  - key: Прогнозни годишни разходи
+    groups:
+    - key: Охлаждане
+      values:
+      - value: "-"
+    - key: Отопление
+      values:
+      - value: "-"
+    units: лв.
+  - key: Енергиен клас
+    groups:
+    - key: Охлаждане
+      values:
+      - value: A++
+    - key: Отопление
+      values:
+      - value: A+
+  - key: EER/COP
+    groups:
+    - key: EER
+      values:
+      - value: '3.10'
+    - key: COP
+      values:
+      - value: '3.57'
+  - key: SEER/SCOP
+    groups:
+    - key: SEER
+      values:
+      - value: '6.11'
+    - key: SCOP
+      values:
+      - value: '4.14'
+  - key: Размери
+    groups:
+    - key: Външно тяло
+      values:
+      - key: Дължина
+        value: 880 (+88)
+      - key: Ширина
+        value: '340'
+      - key: Височина
+        value: '750'
+    - key: Вътрешно тяло
+      values:
+      - key: Дължина
+        value: '1197'
+      - key: Ширина
+        value: '262'
+      - key: Височина
+        value: '339'
+    units: mm
+  - key: Шум вътрешно тяло
+    groups:
+    - key: Охлаждане
+      values:
+      - key: Високо
+        value: '44'
+      - key: Номинално
+        value: '39'
+      - key: Ниско
+        value: '35'
+      - key: Безшумно
+        value: '25'
+    - key: Отопление
+      values:
+      - key: Високо
+        value: '48'
+      - key: Номинално
+        value: '43'
+      - key: Ниско
+        value: '38'
+      - key: Безшумно
+        value: '30'
+    units: dB
+  - key: Хладилен агент
+    groups:
+    - values:
+      - value: R32/675
+  - key: Захранване
+    groups:
+    - values:
+      - key: От
+        value: '220'
+      - key: До
+        value: '240'
+    units: V
+  - key: Гаранция
+    groups:
+    - values:
+      - value: '36'
+    units: месеца
+--- 
