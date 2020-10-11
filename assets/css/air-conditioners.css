@@ -1,6 +1,7 @@
 .product-list {
-	--column-count: 2; 
-	--column-gutter-x: 1.5rem; 
+	--column-count: 3; 
+	--column-gutter-x: 0rem; 
+	/* --column-gutter-y: 1.5rem;  */
 } 
 
 .product-list { 
@@ -8,12 +9,12 @@
 }
 
 /* Removes right margin from elements in the last column */
-.product-list .entry:nth-child( 2n + 2 ) { 
+.product-list .entry:nth-child( 3n ) { 
 	margin-right: 0; 
 } 
 
 /* Removes top margin from elements in the top row */
-.product-list .entry:nth-child( 2 - n ) { 
+.product-list .entry:nth-child( 3 - n ) { 
 	margin-top: 0; 
 }
 
@@ -21,7 +22,7 @@
 	/* Presentations are not given a fixed height, and their content is not centered vertically,
 	to avoid vertical disalignment of content in presentations with different text volume */ 
 	box-sizing: border-box; 
-	padding: 2.25rem; 
+	/* padding: 1.8rem;   */ 
 	/* width: var( --feature-entry-width );  */ 
 	/* padding-top: 2.75rem;   */ 
 	/* padding-left: 2rem; padding-right: 2rem; padding-bottom: 2.75rem;  */ 
@@ -35,14 +36,29 @@
 	overflow: hidden; 
 } 
 
+.product:hover { 
+	border-color: inherit; 
+
+} 
+
+/* .product:hover .cover-image { 
+	border-color: inherit; 
+
+} */ 
+
 .product-head { 
+	/* margin-bottom: 1.25rem;   */
+	/* padding: 1.5rem;  */
 	position: relative; 
 
 } 
 
 .product-head .cover-image { 
-	height: 15rem; 
-	background-color: transparent;  background-size: 100%; 
+	width: 100%; padding-top: 80%; 
+	/* height: 15rem;  */ 
+	/* margin: 10%; margin-bottom: 0;  */
+	margin-bottom: -15%; 
+	background-color: transparent;  background-size: contain; 	
 	/* border: 1px solid;  */
 
 } 
@@ -56,15 +72,53 @@
 	padding-left: 1.2rem; padding-right: 1.2rem; 
 } 
 
-.product .price { 
+.price { 
+	font-family: var( --heading-font-family ); 
+	font-size: 1.5rem; 
+
+} 
+
+.price .value { 
+	display: flex; justify-content: center; 
+
+}
+
+.price .integrals { 
+	font-size: 1em; 
+
+} 
+
+.price .fractions, 
+.price .currency { 
+	font-size: 0.5em; 
+
+} 
+
+.price .currency { 
 	display: inline-block; 
-	margin-left: 1.25rem; 
+	padding: 0.4rem; 
+	border: 1px solid; 
+	font-family: var( --text-font-family ); 
+
+} 
+
+.product .price { 
+	box-sizing: border-box; 
+	display: inline-block; 
+	margin-left: 1.5rem;  
 	padding: 0.5rem; 
-	/* position: absolute; left: 1.25rem; top: 0;    */ 
+	/* position: absolute; left: 0; top: 0;  */ 
+	position: relative; 
 	border: 1px solid;  
 	color: var( --text-color ); 
 
-}
+} 
+
+/* .product:hover .price { 
+	background-color: var( --text-color ); 
+	color: var( --text-background-color ); 
+
+}  */
 
 .product .currency { 
 	display: none; 
@@ -72,12 +126,20 @@
 } 
 
 .product .spec-overview { 
-	width: 100%; 
+	/* width: 100%;  */ 
+	/* margin-top: -1.5rem;  */
+	padding: 1.5rem; 
 	/* position: absolute; z-index: 3;  */
-	bottom: 2.25rem; 
-	background-color: var( --text-background-color ); 
+	/* bottom: 2.25rem;  */
+	/* background-color: var( --text-background-color );  */
 
-}
+} 
+
+/* .product:hover .spec-overview { 
+	background-color: var( --text-color ); 
+	color: var( --text-background-color ); 
+
+}  */
 
 .product .details-link { 
 	box-sizing: border-box; 
@@ -105,35 +167,77 @@
 } 
 
 .spec-overview { 
-	padding: 1.4rem; 
+	/* margin-left: -1.8rem;  */
+	/* padding: 1.4rem;  */ 
+	position: relative; 
 	text-align: left; 
 
 }
 
 .spec-overview > * { 
 	display: inline-block; 
-	margin-right: 1.2rem; margin-bottom: 0.75rem; 
+	margin-right: 1.2rem; margin-bottom: 0.5rem; 
 	text-transform: uppercase;  
 
 } 
 
-.spec-overview .key { 
+.spec-overview > :not( .price ) .key { 
 	font-size: 0.8rem;   
 
 }
 
-.spec-overview .value { 
+.spec-overview  > :not( .price ) .value { 
 	font-family: var( --heading-font-family ); 
-	font-size: 1.25rem; 
+	font-size: 1.075rem; 
 
 
 } 
 
 
-@media ( max-width: 580px ) {
+@media ( max-width: 740px ) {
+	.product-list {
+		--column-count: 2; 
+		/* --column-gutter-x: 0rem;  */ 
+	} 
+
+	/* Removes right margin from elements in the last column */
+	.product-list .entry:nth-child( 2n ) { 
+		margin-right: 0; 
+	} 
+
+	/* Removes top margin from elements in the top row */
+	.product-list .entry:nth-child( 2 - n ) { 
+		margin-top: 0; 
+	} 
+
+	.product-list { 
+		/* max-width: 350px;  */
+
+	}
+
+	.product-head .cover-image { 
+		/* height: 12rem;  */
+		/* background-size: contain;  */ 
+		/* margin-bottom: -20%;  */
+	
+	}
+
+}
+
+@media ( max-width: 480px ) {
 	.product-list {
 		--column-count: 1; 
 		--column-gutter-x: 0rem; 
 	} 
+
+	.product-list { 
+		max-width: 400px; 
+
+	}
+
+	/* .product-head .cover-image { 
+		margin-bottom: -25%; 
+	
+	} */ 
 
 }
