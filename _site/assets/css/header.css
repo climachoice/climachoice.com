@@ -78,6 +78,7 @@
 	/* border: 1px solid;  */ 
 	/* background-color: #444;  */ 
 	/* font-size: 0.8rem;  */ 
+	position: relative; z-index: 2; 
 	text-align: center; 
 
 } 
