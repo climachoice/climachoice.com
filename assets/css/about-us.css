@@ -62,6 +62,23 @@
 		background-size: contain;
 	} 
 
+	.our-partners .entry-list, 
+	.reviews .entry-list { 
+		--column-count: 1; 
+	}
+
+	/* Removes right margin from elements in the last column */
+	.our-partners .entry:nth-child( n ), 
+	.reviews .entry:nth-child( n ) { 
+		margin-right: 0; 
+	} 
+
+	/* Removes top margin from elements in the top row */
+	.our-partners .entry:nth-child( 1 - n ), 
+	.reviews .entry:nth-child( 1 - n ) { 
+		margin-top: 0; 
+	}
+
 }
 
 @media ( max-width: 720px ) { 

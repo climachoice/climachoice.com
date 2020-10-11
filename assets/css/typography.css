@@ -106,3 +106,13 @@ body {
 } 
 
 
+@media ( max-width: 980px ) { 
+
+	.heading:not( .subheading ) {
+		font-size: calc( var( --heading-font-size ) * 0.7 ); 
+		line-height: var( --heading-line-height ); 
+	} 
+
+}
+
+
